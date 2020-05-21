@@ -579,6 +579,18 @@ public class RegressionTest0 {
     public void test033() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test033");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
+        stackAr1.push((java.lang.Object) (-1L));
+        java.lang.Object obj4 = stackAr1.pop();
+        java.lang.String str5 = stackAr1.toString();
+        org.junit.Assert.assertEquals("'" + obj4 + "' != '" + (-1L) + "'", obj4, (-1L));
+        org.junit.Assert.assertEquals("'" + str5 + "' != '" + "[]" + "'", str5, "[]");
+    }
+
+    @Test
+    public void test034() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test034");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         java.lang.String str3 = stackAr1.toString();
@@ -591,9 +603,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test034() throws Throwable {
+    public void test035() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test034");
+            System.out.format("%n%s%n", "RegressionTest0.test035");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         boolean boolean3 = stackAr1.isFull();
@@ -609,9 +621,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test035() throws Throwable {
+    public void test036() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test035");
+            System.out.format("%n%s%n", "RegressionTest0.test036");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -629,9 +641,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test036() throws Throwable {
+    public void test037() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test036");
+            System.out.format("%n%s%n", "RegressionTest0.test037");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         java.lang.String str3 = stackAr1.toString();
@@ -666,9 +678,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test037() throws Throwable {
+    public void test038() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test037");
+            System.out.format("%n%s%n", "RegressionTest0.test038");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         boolean boolean3 = stackAr1.isFull();
@@ -684,9 +696,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test038() throws Throwable {
+    public void test039() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test038");
+            System.out.format("%n%s%n", "RegressionTest0.test039");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -697,9 +709,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test039() throws Throwable {
+    public void test040() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test039");
+            System.out.format("%n%s%n", "RegressionTest0.test040");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         stackAr1.push((java.lang.Object) (-1L));
         java.lang.Class<?> wildcardClass4 = stackAr1.getClass();
@@ -707,9 +719,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test040() throws Throwable {
+    public void test041() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test040");
+            System.out.format("%n%s%n", "RegressionTest0.test041");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -726,9 +738,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test041() throws Throwable {
+    public void test042() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test041");
+            System.out.format("%n%s%n", "RegressionTest0.test042");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -741,9 +753,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test042() throws Throwable {
+    public void test043() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test042");
+            System.out.format("%n%s%n", "RegressionTest0.test043");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         java.lang.String str3 = stackAr1.toString();
@@ -778,9 +790,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test043() throws Throwable {
+    public void test044() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test043");
+            System.out.format("%n%s%n", "RegressionTest0.test044");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -821,9 +833,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test044() throws Throwable {
+    public void test045() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test044");
+            System.out.format("%n%s%n", "RegressionTest0.test045");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -841,9 +853,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test045() throws Throwable {
+    public void test046() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test045");
+            System.out.format("%n%s%n", "RegressionTest0.test046");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         // The following exception was thrown during execution in test generation
@@ -857,9 +869,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test046() throws Throwable {
+    public void test047() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test046");
+            System.out.format("%n%s%n", "RegressionTest0.test047");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isEmpty();
         java.lang.Class<?> wildcardClass3 = stackAr1.getClass();
@@ -868,9 +880,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test047() throws Throwable {
+    public void test048() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test047");
+            System.out.format("%n%s%n", "RegressionTest0.test048");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -907,9 +919,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test048() throws Throwable {
+    public void test049() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test048");
+            System.out.format("%n%s%n", "RegressionTest0.test049");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         boolean boolean3 = stackAr1.isFull();
@@ -938,9 +950,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test049() throws Throwable {
+    public void test050() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test049");
+            System.out.format("%n%s%n", "RegressionTest0.test050");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         boolean boolean3 = stackAr1.isEmpty();
@@ -953,9 +965,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test050() throws Throwable {
+    public void test051() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test050");
+            System.out.format("%n%s%n", "RegressionTest0.test051");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         boolean boolean3 = stackAr1.isFull();
@@ -971,9 +983,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test051() throws Throwable {
+    public void test052() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test051");
+            System.out.format("%n%s%n", "RegressionTest0.test052");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -985,9 +997,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test052() throws Throwable {
+    public void test053() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test052");
+            System.out.format("%n%s%n", "RegressionTest0.test053");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         java.lang.String str3 = stackAr1.toString();
@@ -1003,9 +1015,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test053() throws Throwable {
+    public void test054() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test053");
+            System.out.format("%n%s%n", "RegressionTest0.test054");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -1042,9 +1054,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test054() throws Throwable {
+    public void test055() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test054");
+            System.out.format("%n%s%n", "RegressionTest0.test055");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         boolean boolean3 = stackAr1.isEmpty();
@@ -1053,9 +1065,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test055() throws Throwable {
+    public void test056() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test055");
+            System.out.format("%n%s%n", "RegressionTest0.test056");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -1092,9 +1104,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test056() throws Throwable {
+    public void test057() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test056");
+            System.out.format("%n%s%n", "RegressionTest0.test057");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -1105,9 +1117,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test057() throws Throwable {
+    public void test058() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test057");
+            System.out.format("%n%s%n", "RegressionTest0.test058");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -1132,9 +1144,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test058() throws Throwable {
+    public void test059() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test058");
+            System.out.format("%n%s%n", "RegressionTest0.test059");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -1155,9 +1167,19 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test059() throws Throwable {
+    public void test060() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test059");
+            System.out.format("%n%s%n", "RegressionTest0.test060");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 10);
+        boolean boolean2 = stackAr1.isFull();
+        stackAr1.push((java.lang.Object) 'a');
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+    }
+
+    @Test
+    public void test061() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test061");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean2 = stackAr0.isFull();
@@ -1173,9 +1195,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test060() throws Throwable {
+    public void test062() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test060");
+            System.out.format("%n%s%n", "RegressionTest0.test062");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 10);
         boolean boolean2 = stackAr1.isFull();
         // The following exception was thrown during execution in test generation
@@ -1189,9 +1211,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test061() throws Throwable {
+    public void test063() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test061");
+            System.out.format("%n%s%n", "RegressionTest0.test063");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isEmpty();
         // The following exception was thrown during execution in test generation
@@ -1205,9 +1227,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test062() throws Throwable {
+    public void test064() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test062");
+            System.out.format("%n%s%n", "RegressionTest0.test064");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         boolean boolean3 = stackAr1.isFull();
@@ -1242,9 +1264,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test063() throws Throwable {
+    public void test065() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test063");
+            System.out.format("%n%s%n", "RegressionTest0.test065");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -1283,9 +1305,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test064() throws Throwable {
+    public void test066() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test064");
+            System.out.format("%n%s%n", "RegressionTest0.test066");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -1300,9 +1322,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test065() throws Throwable {
+    public void test067() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test065");
+            System.out.format("%n%s%n", "RegressionTest0.test067");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -1320,9 +1342,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test066() throws Throwable {
+    public void test068() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test066");
+            System.out.format("%n%s%n", "RegressionTest0.test068");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -1344,9 +1366,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test067() throws Throwable {
+    public void test069() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test067");
+            System.out.format("%n%s%n", "RegressionTest0.test069");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -1361,9 +1383,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test068() throws Throwable {
+    public void test070() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test068");
+            System.out.format("%n%s%n", "RegressionTest0.test070");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         boolean boolean3 = stackAr1.isFull();
@@ -1440,9 +1462,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test069() throws Throwable {
+    public void test071() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test069");
+            System.out.format("%n%s%n", "RegressionTest0.test071");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) false);
@@ -1460,9 +1482,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test070() throws Throwable {
+    public void test072() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test070");
+            System.out.format("%n%s%n", "RegressionTest0.test072");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -1523,9 +1545,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test071() throws Throwable {
+    public void test073() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test071");
+            System.out.format("%n%s%n", "RegressionTest0.test073");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -1540,9 +1562,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test072() throws Throwable {
+    public void test074() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test072");
+            System.out.format("%n%s%n", "RegressionTest0.test074");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isEmpty();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
@@ -1576,9 +1598,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test073() throws Throwable {
+    public void test075() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test073");
+            System.out.format("%n%s%n", "RegressionTest0.test075");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) '4');
@@ -1614,9 +1636,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test074() throws Throwable {
+    public void test076() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test074");
+            System.out.format("%n%s%n", "RegressionTest0.test076");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -1685,9 +1707,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test075() throws Throwable {
+    public void test077() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test075");
+            System.out.format("%n%s%n", "RegressionTest0.test077");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 1);
         // The following exception was thrown during execution in test generation
         try {
@@ -1699,9 +1721,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test076() throws Throwable {
+    public void test078() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test076");
+            System.out.format("%n%s%n", "RegressionTest0.test078");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -1737,9 +1759,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test077() throws Throwable {
+    public void test079() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test077");
+            System.out.format("%n%s%n", "RegressionTest0.test079");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         java.lang.String str2 = stackAr0.toString();
@@ -1755,9 +1777,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test078() throws Throwable {
+    public void test080() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test078");
+            System.out.format("%n%s%n", "RegressionTest0.test080");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -1809,9 +1831,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test079() throws Throwable {
+    public void test081() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test079");
+            System.out.format("%n%s%n", "RegressionTest0.test081");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -1831,9 +1853,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test080() throws Throwable {
+    public void test082() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test080");
+            System.out.format("%n%s%n", "RegressionTest0.test082");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         boolean boolean3 = stackAr1.isEmpty();
@@ -1849,9 +1871,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test081() throws Throwable {
+    public void test083() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test081");
+            System.out.format("%n%s%n", "RegressionTest0.test083");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -1874,9 +1896,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test082() throws Throwable {
+    public void test084() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test082");
+            System.out.format("%n%s%n", "RegressionTest0.test084");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -1901,16 +1923,16 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test083() throws Throwable {
+    public void test085() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test083");
+            System.out.format("%n%s%n", "RegressionTest0.test085");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr(2);
     }
 
     @Test
-    public void test084() throws Throwable {
+    public void test086() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test084");
+            System.out.format("%n%s%n", "RegressionTest0.test086");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) 'a');
@@ -1935,9 +1957,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test085() throws Throwable {
+    public void test087() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test085");
+            System.out.format("%n%s%n", "RegressionTest0.test087");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -1997,9 +2019,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test086() throws Throwable {
+    public void test088() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test086");
+            System.out.format("%n%s%n", "RegressionTest0.test088");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -2017,9 +2039,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test087() throws Throwable {
+    public void test089() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test087");
+            System.out.format("%n%s%n", "RegressionTest0.test089");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         boolean boolean3 = stackAr1.isEmpty();
@@ -2030,9 +2052,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test088() throws Throwable {
+    public void test090() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test088");
+            System.out.format("%n%s%n", "RegressionTest0.test090");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean2 = stackAr0.isFull();
@@ -2048,9 +2070,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test089() throws Throwable {
+    public void test091() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test089");
+            System.out.format("%n%s%n", "RegressionTest0.test091");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
@@ -2066,9 +2088,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test090() throws Throwable {
+    public void test092() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test090");
+            System.out.format("%n%s%n", "RegressionTest0.test092");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         java.lang.String str3 = stackAr1.toString();
@@ -2087,9 +2109,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test091() throws Throwable {
+    public void test093() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test091");
+            System.out.format("%n%s%n", "RegressionTest0.test093");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -2107,9 +2129,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test092() throws Throwable {
+    public void test094() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test092");
+            System.out.format("%n%s%n", "RegressionTest0.test094");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr(0);
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
@@ -2144,9 +2166,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test093() throws Throwable {
+    public void test095() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test093");
+            System.out.format("%n%s%n", "RegressionTest0.test095");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -2168,9 +2190,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test094() throws Throwable {
+    public void test096() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test094");
+            System.out.format("%n%s%n", "RegressionTest0.test096");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         java.lang.String str3 = stackAr1.toString();
@@ -2187,9 +2209,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test095() throws Throwable {
+    public void test097() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test095");
+            System.out.format("%n%s%n", "RegressionTest0.test097");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -2210,9 +2232,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test096() throws Throwable {
+    public void test098() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test096");
+            System.out.format("%n%s%n", "RegressionTest0.test098");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr(1);
         // The following exception was thrown during execution in test generation
         try {
@@ -2224,9 +2246,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test097() throws Throwable {
+    public void test099() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test097");
+            System.out.format("%n%s%n", "RegressionTest0.test099");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -2245,18 +2267,18 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test098() throws Throwable {
+    public void test100() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test098");
+            System.out.format("%n%s%n", "RegressionTest0.test100");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr(100);
         java.lang.Class<?> wildcardClass2 = stackAr1.getClass();
         org.junit.Assert.assertNotNull(wildcardClass2);
     }
 
     @Test
-    public void test099() throws Throwable {
+    public void test101() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test099");
+            System.out.format("%n%s%n", "RegressionTest0.test101");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         int int2 = stackAr1.size();
         // The following exception was thrown during execution in test generation
@@ -2270,9 +2292,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test100() throws Throwable {
+    public void test102() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test100");
+            System.out.format("%n%s%n", "RegressionTest0.test102");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean4 = stackAr1.isEmpty();
@@ -2285,9 +2307,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test101() throws Throwable {
+    public void test103() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test101");
+            System.out.format("%n%s%n", "RegressionTest0.test103");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         stackAr0.push((java.lang.Object) 0.0f);
         java.lang.String str3 = stackAr0.toString();
@@ -2354,9 +2376,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test102() throws Throwable {
+    public void test104() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test102");
+            System.out.format("%n%s%n", "RegressionTest0.test104");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -2373,9 +2395,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test103() throws Throwable {
+    public void test105() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test103");
+            System.out.format("%n%s%n", "RegressionTest0.test105");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -2394,18 +2416,18 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test104() throws Throwable {
+    public void test106() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test104");
+            System.out.format("%n%s%n", "RegressionTest0.test106");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (byte) 10);
         java.lang.Class<?> wildcardClass2 = stackAr1.getClass();
         org.junit.Assert.assertNotNull(wildcardClass2);
     }
 
     @Test
-    public void test105() throws Throwable {
+    public void test107() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test105");
+            System.out.format("%n%s%n", "RegressionTest0.test107");
         // The following exception was thrown during execution in test generation
         try {
             org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (byte) -1);
@@ -2416,9 +2438,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test106() throws Throwable {
+    public void test108() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test106");
+            System.out.format("%n%s%n", "RegressionTest0.test108");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -2457,9 +2479,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test107() throws Throwable {
+    public void test109() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test107");
+            System.out.format("%n%s%n", "RegressionTest0.test109");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         java.lang.String str3 = stackAr1.toString();
@@ -2470,9 +2492,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test108() throws Throwable {
+    public void test110() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test108");
+            System.out.format("%n%s%n", "RegressionTest0.test110");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -2573,9 +2595,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test109() throws Throwable {
+    public void test111() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test109");
+            System.out.format("%n%s%n", "RegressionTest0.test111");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         // The following exception was thrown during execution in test generation
         try {
@@ -2587,9 +2609,29 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test110() throws Throwable {
+    public void test112() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test110");
+            System.out.format("%n%s%n", "RegressionTest0.test112");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '#');
+        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) 'a');
+        boolean boolean5 = stackAr3.equals((java.lang.Object) (-1.0f));
+        boolean boolean7 = stackAr3.equals((java.lang.Object) "");
+        org.autotest.StackAr stackAr8 = new org.autotest.StackAr();
+        boolean boolean9 = stackAr8.isFull();
+        stackAr3.push((java.lang.Object) stackAr8);
+        java.lang.Class<?> wildcardClass11 = stackAr3.getClass();
+        boolean boolean12 = stackAr1.equals((java.lang.Object) wildcardClass11);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+    }
+
+    @Test
+    public void test113() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test113");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 10);
         // The following exception was thrown during execution in test generation
         try {
@@ -2601,9 +2643,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test111() throws Throwable {
+    public void test114() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test111");
+            System.out.format("%n%s%n", "RegressionTest0.test114");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         int int3 = stackAr1.size();
@@ -2619,9 +2661,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test112() throws Throwable {
+    public void test115() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test112");
+            System.out.format("%n%s%n", "RegressionTest0.test115");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -2644,9 +2686,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test113() throws Throwable {
+    public void test116() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test113");
+            System.out.format("%n%s%n", "RegressionTest0.test116");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -2670,9 +2712,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test114() throws Throwable {
+    public void test117() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test114");
+            System.out.format("%n%s%n", "RegressionTest0.test117");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -2685,9 +2727,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test115() throws Throwable {
+    public void test118() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test115");
+            System.out.format("%n%s%n", "RegressionTest0.test118");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -2707,9 +2749,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test116() throws Throwable {
+    public void test119() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test116");
+            System.out.format("%n%s%n", "RegressionTest0.test119");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -2720,9 +2762,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test117() throws Throwable {
+    public void test120() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test117");
+            System.out.format("%n%s%n", "RegressionTest0.test120");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) 10);
@@ -2767,9 +2809,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test118() throws Throwable {
+    public void test121() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test118");
+            System.out.format("%n%s%n", "RegressionTest0.test121");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) 10);
@@ -2843,9 +2885,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test119() throws Throwable {
+    public void test122() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test119");
+            System.out.format("%n%s%n", "RegressionTest0.test122");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -2862,9 +2904,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test120() throws Throwable {
+    public void test123() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test120");
+            System.out.format("%n%s%n", "RegressionTest0.test123");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -2916,9 +2958,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test121() throws Throwable {
+    public void test124() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test121");
+            System.out.format("%n%s%n", "RegressionTest0.test124");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         int int3 = stackAr1.size();
@@ -2934,9 +2976,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test122() throws Throwable {
+    public void test125() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test122");
+            System.out.format("%n%s%n", "RegressionTest0.test125");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr();
         boolean boolean2 = stackAr1.isFull();
@@ -2953,9 +2995,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test123() throws Throwable {
+    public void test126() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test123");
+            System.out.format("%n%s%n", "RegressionTest0.test126");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -2980,9 +3022,50 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test124() throws Throwable {
+    public void test127() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test124");
+            System.out.format("%n%s%n", "RegressionTest0.test127");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
+        java.lang.String str2 = stackAr1.toString();
+        org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) (short) 0);
+        boolean boolean5 = stackAr4.isEmpty();
+        boolean boolean6 = stackAr4.isFull();
+        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
+        java.lang.String str11 = stackAr10.toString();
+        boolean boolean12 = stackAr8.equals((java.lang.Object) stackAr10);
+        org.autotest.StackAr stackAr14 = new org.autotest.StackAr((int) '4');
+        stackAr14.push((java.lang.Object) (-1L));
+        java.lang.Object obj17 = stackAr14.pop();
+        stackAr8.push((java.lang.Object) stackAr14);
+        boolean boolean19 = stackAr4.equals((java.lang.Object) stackAr8);
+        org.autotest.StackAr stackAr21 = new org.autotest.StackAr((int) '4');
+        int int22 = stackAr21.size();
+        java.lang.String str23 = stackAr21.toString();
+        int int24 = stackAr21.size();
+        boolean boolean25 = stackAr21.isEmpty();
+        boolean boolean26 = stackAr8.equals((java.lang.Object) boolean25);
+        stackAr1.push((java.lang.Object) stackAr8);
+        boolean boolean28 = stackAr1.isFull();
+        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertEquals("'" + str11 + "' != '" + "[]" + "'", str11, "[]");
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertEquals("'" + obj17 + "' != '" + (-1L) + "'", obj17, (-1L));
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
+        org.junit.Assert.assertEquals("'" + str23 + "' != '" + "[]" + "'", str23, "[]");
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
+        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + true + "'", boolean25 == true);
+        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
+        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + false + "'", boolean28 == false);
+    }
+
+    @Test
+    public void test128() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test128");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -3004,18 +3087,32 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test125() throws Throwable {
+    public void test129() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test125");
+            System.out.format("%n%s%n", "RegressionTest0.test129");
+        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
+        stackAr0.push((java.lang.Object) 0.0f);
+        int int3 = stackAr0.size();
+        int int4 = stackAr0.size();
+        boolean boolean5 = stackAr0.isEmpty();
+        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 1 + "'", int3 == 1);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 1 + "'", int4 == 1);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+    }
+
+    @Test
+    public void test130() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test130");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr(10);
         java.lang.Class<?> wildcardClass2 = stackAr1.getClass();
         org.junit.Assert.assertNotNull(wildcardClass2);
     }
 
     @Test
-    public void test126() throws Throwable {
+    public void test131() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test126");
+            System.out.format("%n%s%n", "RegressionTest0.test131");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -3032,9 +3129,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test127() throws Throwable {
+    public void test132() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test127");
+            System.out.format("%n%s%n", "RegressionTest0.test132");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         java.lang.String str3 = stackAr1.toString();
@@ -3064,9 +3161,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test128() throws Throwable {
+    public void test133() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test128");
+            System.out.format("%n%s%n", "RegressionTest0.test133");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -3093,9 +3190,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test129() throws Throwable {
+    public void test134() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test129");
+            System.out.format("%n%s%n", "RegressionTest0.test134");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -3118,9 +3215,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test130() throws Throwable {
+    public void test135() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test130");
+            System.out.format("%n%s%n", "RegressionTest0.test135");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         java.lang.String str3 = stackAr1.toString();
@@ -3157,9 +3254,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test131() throws Throwable {
+    public void test136() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test131");
+            System.out.format("%n%s%n", "RegressionTest0.test136");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         int int3 = stackAr1.size();
@@ -3172,9 +3269,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test132() throws Throwable {
+    public void test137() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test132");
+            System.out.format("%n%s%n", "RegressionTest0.test137");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -3200,9 +3297,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test133() throws Throwable {
+    public void test138() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test133");
+            System.out.format("%n%s%n", "RegressionTest0.test138");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) '4');
@@ -3240,9 +3337,23 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test134() throws Throwable {
+    public void test139() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test134");
+            System.out.format("%n%s%n", "RegressionTest0.test139");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
+        int int2 = stackAr1.size();
+        stackAr1.push((java.lang.Object) 0);
+        boolean boolean5 = stackAr1.isFull();
+        java.lang.Object obj6 = stackAr1.top();
+        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertEquals("'" + obj6 + "' != '" + 0 + "'", obj6, 0);
+    }
+
+    @Test
+    public void test140() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test140");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         // The following exception was thrown during execution in test generation
@@ -3256,9 +3367,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test135() throws Throwable {
+    public void test141() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test135");
+            System.out.format("%n%s%n", "RegressionTest0.test141");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -3282,9 +3393,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test136() throws Throwable {
+    public void test142() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test136");
+            System.out.format("%n%s%n", "RegressionTest0.test142");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -3305,9 +3416,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test137() throws Throwable {
+    public void test143() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test137");
+            System.out.format("%n%s%n", "RegressionTest0.test143");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -3360,9 +3471,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test138() throws Throwable {
+    public void test144() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test138");
+            System.out.format("%n%s%n", "RegressionTest0.test144");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -3376,9 +3487,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test139() throws Throwable {
+    public void test145() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test139");
+            System.out.format("%n%s%n", "RegressionTest0.test145");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) false);
@@ -3389,9 +3500,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test140() throws Throwable {
+    public void test146() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test140");
+            System.out.format("%n%s%n", "RegressionTest0.test146");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -3402,9 +3513,29 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test141() throws Throwable {
+    public void test147() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test141");
+            System.out.format("%n%s%n", "RegressionTest0.test147");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
+        java.lang.String str2 = stackAr1.toString();
+        org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
+        boolean boolean4 = stackAr3.isFull();
+        boolean boolean6 = stackAr3.equals((java.lang.Object) false);
+        boolean boolean7 = stackAr3.isEmpty();
+        boolean boolean8 = stackAr1.equals((java.lang.Object) stackAr3);
+        boolean boolean9 = stackAr3.isFull();
+        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+    }
+
+    @Test
+    public void test148() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test148");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -3418,9 +3549,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test142() throws Throwable {
+    public void test149() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test142");
+            System.out.format("%n%s%n", "RegressionTest0.test149");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -3439,9 +3570,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test143() throws Throwable {
+    public void test150() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test143");
+            System.out.format("%n%s%n", "RegressionTest0.test150");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         java.lang.String str3 = stackAr1.toString();
@@ -3454,9 +3585,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test144() throws Throwable {
+    public void test151() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test144");
+            System.out.format("%n%s%n", "RegressionTest0.test151");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) '4');
@@ -3499,9 +3630,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test145() throws Throwable {
+    public void test152() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test145");
+            System.out.format("%n%s%n", "RegressionTest0.test152");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -3544,9 +3675,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test146() throws Throwable {
+    public void test153() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test146");
+            System.out.format("%n%s%n", "RegressionTest0.test153");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -3570,9 +3701,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test147() throws Throwable {
+    public void test154() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test147");
+            System.out.format("%n%s%n", "RegressionTest0.test154");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) 10);
@@ -3621,9 +3752,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test148() throws Throwable {
+    public void test155() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test148");
+            System.out.format("%n%s%n", "RegressionTest0.test155");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -3642,9 +3773,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test149() throws Throwable {
+    public void test156() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test149");
+            System.out.format("%n%s%n", "RegressionTest0.test156");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         stackAr0.push((java.lang.Object) 0.0f);
         stackAr0.push((java.lang.Object) true);
@@ -3653,18 +3784,18 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test150() throws Throwable {
+    public void test157() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test150");
+            System.out.format("%n%s%n", "RegressionTest0.test157");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (byte) 1);
         java.lang.Class<?> wildcardClass2 = stackAr1.getClass();
         org.junit.Assert.assertNotNull(wildcardClass2);
     }
 
     @Test
-    public void test151() throws Throwable {
+    public void test158() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test151");
+            System.out.format("%n%s%n", "RegressionTest0.test158");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean2 = stackAr0.isFull();
@@ -3675,9 +3806,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test152() throws Throwable {
+    public void test159() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test152");
+            System.out.format("%n%s%n", "RegressionTest0.test159");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -3718,9 +3849,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test153() throws Throwable {
+    public void test160() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test153");
+            System.out.format("%n%s%n", "RegressionTest0.test160");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -3737,9 +3868,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test154() throws Throwable {
+    public void test161() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test154");
+            System.out.format("%n%s%n", "RegressionTest0.test161");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -3838,9 +3969,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test155() throws Throwable {
+    public void test162() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test155");
+            System.out.format("%n%s%n", "RegressionTest0.test162");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -3861,9 +3992,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test156() throws Throwable {
+    public void test163() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test156");
+            System.out.format("%n%s%n", "RegressionTest0.test163");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         java.lang.String str3 = stackAr1.toString();
@@ -3883,9 +4014,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test157() throws Throwable {
+    public void test164() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test157");
+            System.out.format("%n%s%n", "RegressionTest0.test164");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -3929,9 +4060,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test158() throws Throwable {
+    public void test165() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test158");
+            System.out.format("%n%s%n", "RegressionTest0.test165");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         int int1 = stackAr0.size();
         java.lang.String str2 = stackAr0.toString();
@@ -3940,9 +4071,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test159() throws Throwable {
+    public void test166() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test159");
+            System.out.format("%n%s%n", "RegressionTest0.test166");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -4003,9 +4134,51 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test160() throws Throwable {
+    public void test167() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test160");
+            System.out.format("%n%s%n", "RegressionTest0.test167");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
+        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
+        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
+        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
+        boolean boolean7 = stackAr6.isFull();
+        stackAr1.push((java.lang.Object) stackAr6);
+        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
+        java.lang.String str13 = stackAr12.toString();
+        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
+        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
+        boolean boolean16 = stackAr15.isFull();
+        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
+        java.lang.String str19 = stackAr15.toString();
+        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
+        java.lang.String str22 = stackAr15.toString();
+        stackAr12.push((java.lang.Object) stackAr15);
+        stackAr1.push((java.lang.Object) stackAr15);
+        boolean boolean25 = stackAr15.isFull();
+        boolean boolean27 = stackAr15.equals((java.lang.Object) (short) 10);
+        boolean boolean28 = stackAr15.isEmpty();
+        boolean boolean29 = stackAr15.isFull();
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
+        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
+        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + false + "'", boolean27 == false);
+        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
+        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
+    }
+
+    @Test
+    public void test168() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test168");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         java.lang.String str3 = stackAr1.toString();
@@ -4027,9 +4200,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test161() throws Throwable {
+    public void test169() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test161");
+            System.out.format("%n%s%n", "RegressionTest0.test169");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -4056,9 +4229,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test162() throws Throwable {
+    public void test170() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test162");
+            System.out.format("%n%s%n", "RegressionTest0.test170");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         java.lang.Class<?> wildcardClass2 = stackAr0.getClass();
@@ -4067,9 +4240,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test163() throws Throwable {
+    public void test171() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test163");
+            System.out.format("%n%s%n", "RegressionTest0.test171");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -4086,9 +4259,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test164() throws Throwable {
+    public void test172() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test164");
+            System.out.format("%n%s%n", "RegressionTest0.test172");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -4112,9 +4285,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test165() throws Throwable {
+    public void test173() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test165");
+            System.out.format("%n%s%n", "RegressionTest0.test173");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         boolean boolean3 = stackAr1.isFull();
@@ -4150,9 +4323,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test166() throws Throwable {
+    public void test174() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test166");
+            System.out.format("%n%s%n", "RegressionTest0.test174");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -4172,9 +4345,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test167() throws Throwable {
+    public void test175() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test167");
+            System.out.format("%n%s%n", "RegressionTest0.test175");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         // The following exception was thrown during execution in test generation
@@ -4188,18 +4361,18 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test168() throws Throwable {
+    public void test176() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test168");
+            System.out.format("%n%s%n", "RegressionTest0.test176");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.Class<?> wildcardClass2 = stackAr1.getClass();
         org.junit.Assert.assertNotNull(wildcardClass2);
     }
 
     @Test
-    public void test169() throws Throwable {
+    public void test177() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test169");
+            System.out.format("%n%s%n", "RegressionTest0.test177");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -4250,9 +4423,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test170() throws Throwable {
+    public void test178() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test170");
+            System.out.format("%n%s%n", "RegressionTest0.test178");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         java.lang.Object obj1 = null;
         boolean boolean2 = stackAr0.equals(obj1);
@@ -4260,9 +4433,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test171() throws Throwable {
+    public void test179() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test171");
+            System.out.format("%n%s%n", "RegressionTest0.test179");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -4303,9 +4476,23 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test172() throws Throwable {
+    public void test180() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test172");
+            System.out.format("%n%s%n", "RegressionTest0.test180");
+        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
+        boolean boolean1 = stackAr0.isFull();
+        boolean boolean3 = stackAr0.equals((java.lang.Object) false);
+        stackAr0.push((java.lang.Object) (byte) 100);
+        java.lang.String str6 = stackAr0.toString();
+        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertEquals("'" + str6 + "' != '" + "[100]" + "'", str6, "[100]");
+    }
+
+    @Test
+    public void test181() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test181");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) false);
@@ -4346,9 +4533,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test173() throws Throwable {
+    public void test182() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test173");
+            System.out.format("%n%s%n", "RegressionTest0.test182");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         boolean boolean3 = stackAr1.isEmpty();
@@ -4361,9 +4548,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test174() throws Throwable {
+    public void test183() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test174");
+            System.out.format("%n%s%n", "RegressionTest0.test183");
         // The following exception was thrown during execution in test generation
         try {
             org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) -1);
@@ -4374,9 +4561,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test175() throws Throwable {
+    public void test184() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test175");
+            System.out.format("%n%s%n", "RegressionTest0.test184");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -4399,9 +4586,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test176() throws Throwable {
+    public void test185() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test176");
+            System.out.format("%n%s%n", "RegressionTest0.test185");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -4502,9 +4689,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test177() throws Throwable {
+    public void test186() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test177");
+            System.out.format("%n%s%n", "RegressionTest0.test186");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         boolean boolean3 = stackAr1.isFull();
@@ -4541,9 +4728,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test178() throws Throwable {
+    public void test187() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test178");
+            System.out.format("%n%s%n", "RegressionTest0.test187");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         int int3 = stackAr1.size();
@@ -4554,9 +4741,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test179() throws Throwable {
+    public void test188() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test179");
+            System.out.format("%n%s%n", "RegressionTest0.test188");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -4611,9 +4798,25 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test180() throws Throwable {
+    public void test189() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test180");
+            System.out.format("%n%s%n", "RegressionTest0.test189");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
+        int int2 = stackAr1.size();
+        stackAr1.push((java.lang.Object) 0);
+        boolean boolean5 = stackAr1.isFull();
+        boolean boolean6 = stackAr1.isFull();
+        java.lang.String str7 = stackAr1.toString();
+        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "[0]" + "'", str7, "[0]");
+    }
+
+    @Test
+    public void test190() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test190");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) '4');
@@ -4649,9 +4852,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test181() throws Throwable {
+    public void test191() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test181");
+            System.out.format("%n%s%n", "RegressionTest0.test191");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (byte) 100);
         // The following exception was thrown during execution in test generation
         try {
@@ -4663,9 +4866,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test182() throws Throwable {
+    public void test192() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test182");
+            System.out.format("%n%s%n", "RegressionTest0.test192");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -4690,9 +4893,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test183() throws Throwable {
+    public void test193() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test183");
+            System.out.format("%n%s%n", "RegressionTest0.test193");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) false);
@@ -4705,9 +4908,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test184() throws Throwable {
+    public void test194() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test184");
+            System.out.format("%n%s%n", "RegressionTest0.test194");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -4721,9 +4924,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test185() throws Throwable {
+    public void test195() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test185");
+            System.out.format("%n%s%n", "RegressionTest0.test195");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         boolean boolean3 = stackAr1.isFull();
@@ -4736,9 +4939,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test186() throws Throwable {
+    public void test196() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test186");
+            System.out.format("%n%s%n", "RegressionTest0.test196");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -4792,9 +4995,18 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test187() throws Throwable {
+    public void test197() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test187");
+            System.out.format("%n%s%n", "RegressionTest0.test197");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (byte) 0);
+        int int2 = stackAr1.size();
+        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
+    }
+
+    @Test
+    public void test198() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test198");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 10);
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -4823,9 +5035,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test188() throws Throwable {
+    public void test199() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test188");
+            System.out.format("%n%s%n", "RegressionTest0.test199");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -4904,9 +5116,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test189() throws Throwable {
+    public void test200() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test189");
+            System.out.format("%n%s%n", "RegressionTest0.test200");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -4975,9 +5187,40 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test190() throws Throwable {
+    public void test201() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test190");
+            System.out.format("%n%s%n", "RegressionTest0.test201");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
+        boolean boolean2 = stackAr1.isFull();
+        boolean boolean3 = stackAr1.isFull();
+        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
+        java.lang.String str8 = stackAr7.toString();
+        boolean boolean9 = stackAr5.equals((java.lang.Object) stackAr7);
+        int int10 = stackAr5.size();
+        boolean boolean11 = stackAr5.isFull();
+        org.autotest.StackAr stackAr13 = new org.autotest.StackAr((int) (short) 0);
+        boolean boolean14 = stackAr13.isEmpty();
+        boolean boolean15 = stackAr13.isEmpty();
+        stackAr5.push((java.lang.Object) stackAr13);
+        boolean boolean17 = stackAr1.equals((java.lang.Object) stackAr13);
+        java.lang.String str18 = stackAr13.toString();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[]" + "'", str8, "[]");
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+        org.junit.Assert.assertEquals("'" + str18 + "' != '" + "[]" + "'", str18, "[]");
+    }
+
+    @Test
+    public void test202() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test202");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -5002,9 +5245,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test191() throws Throwable {
+    public void test203() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test191");
+            System.out.format("%n%s%n", "RegressionTest0.test203");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         boolean boolean3 = stackAr1.isFull();
@@ -5038,9 +5281,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test192() throws Throwable {
+    public void test204() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test192");
+            System.out.format("%n%s%n", "RegressionTest0.test204");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         stackAr1.push((java.lang.Object) (-1L));
         java.lang.Object obj4 = stackAr1.pop();
@@ -5062,9 +5305,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test193() throws Throwable {
+    public void test205() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test193");
+            System.out.format("%n%s%n", "RegressionTest0.test205");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -5123,9 +5366,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test194() throws Throwable {
+    public void test206() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test194");
+            System.out.format("%n%s%n", "RegressionTest0.test206");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -5153,18 +5396,18 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test195() throws Throwable {
+    public void test207() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test195");
+            System.out.format("%n%s%n", "RegressionTest0.test207");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         boolean boolean2 = stackAr1.isEmpty();
         org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
     }
 
     @Test
-    public void test196() throws Throwable {
+    public void test208() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test196");
+            System.out.format("%n%s%n", "RegressionTest0.test208");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -5187,9 +5430,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test197() throws Throwable {
+    public void test209() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test197");
+            System.out.format("%n%s%n", "RegressionTest0.test209");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         boolean boolean3 = stackAr1.isFull();
@@ -5206,9 +5449,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test198() throws Throwable {
+    public void test210() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test198");
+            System.out.format("%n%s%n", "RegressionTest0.test210");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -5273,9 +5516,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test199() throws Throwable {
+    public void test211() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test199");
+            System.out.format("%n%s%n", "RegressionTest0.test211");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (byte) 100);
         boolean boolean2 = stackAr1.isFull();
         // The following exception was thrown during execution in test generation
@@ -5289,9 +5532,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test200() throws Throwable {
+    public void test212() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test200");
+            System.out.format("%n%s%n", "RegressionTest0.test212");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         stackAr1.push((java.lang.Object) (-1L));
         java.lang.Object obj4 = stackAr1.pop();
@@ -5303,9 +5546,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test201() throws Throwable {
+    public void test213() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test201");
+            System.out.format("%n%s%n", "RegressionTest0.test213");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -5331,9 +5574,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test202() throws Throwable {
+    public void test214() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test202");
+            System.out.format("%n%s%n", "RegressionTest0.test214");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -5400,9 +5643,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test203() throws Throwable {
+    public void test215() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test203");
+            System.out.format("%n%s%n", "RegressionTest0.test215");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         boolean boolean3 = stackAr1.isFull();
@@ -5431,9 +5674,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test204() throws Throwable {
+    public void test216() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test204");
+            System.out.format("%n%s%n", "RegressionTest0.test216");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -5444,9 +5687,36 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test205() throws Throwable {
+    public void test217() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test205");
+            System.out.format("%n%s%n", "RegressionTest0.test217");
+        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
+        boolean boolean1 = stackAr0.isFull();
+        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
+        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
+        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
+        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) 'a');
+        boolean boolean10 = stackAr8.equals((java.lang.Object) (-1.0f));
+        boolean boolean12 = stackAr8.equals((java.lang.Object) "");
+        boolean boolean13 = stackAr0.equals((java.lang.Object) "");
+        boolean boolean14 = stackAr0.isFull();
+        boolean boolean15 = stackAr0.isFull();
+        int int16 = stackAr0.size();
+        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+    }
+
+    @Test
+    public void test218() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test218");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -5466,9 +5736,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test206() throws Throwable {
+    public void test219() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test206");
+            System.out.format("%n%s%n", "RegressionTest0.test219");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -5500,9 +5770,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test207() throws Throwable {
+    public void test220() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test207");
+            System.out.format("%n%s%n", "RegressionTest0.test220");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         java.lang.String str3 = stackAr1.toString();
@@ -5515,9 +5785,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test208() throws Throwable {
+    public void test221() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test208");
+            System.out.format("%n%s%n", "RegressionTest0.test221");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         stackAr0.push((java.lang.Object) 0.0f);
         stackAr0.push((java.lang.Object) true);
@@ -5528,9 +5798,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test209() throws Throwable {
+    public void test222() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test209");
+            System.out.format("%n%s%n", "RegressionTest0.test222");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -5592,9 +5862,28 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test210() throws Throwable {
+    public void test223() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test210");
+            System.out.format("%n%s%n", "RegressionTest0.test223");
+        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
+        boolean boolean1 = stackAr0.isFull();
+        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
+        java.lang.String str4 = stackAr0.toString();
+        boolean boolean6 = stackAr0.equals((java.lang.Object) 10L);
+        java.lang.String str7 = stackAr0.toString();
+        boolean boolean8 = stackAr0.isFull();
+        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "[]" + "'", str7, "[]");
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+    }
+
+    @Test
+    public void test224() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test224");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -5637,9 +5926,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test211() throws Throwable {
+    public void test225() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test211");
+            System.out.format("%n%s%n", "RegressionTest0.test225");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '#');
         org.autotest.StackAr stackAr2 = new org.autotest.StackAr();
         boolean boolean3 = stackAr2.isFull();
@@ -5662,9 +5951,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test212() throws Throwable {
+    public void test226() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test212");
+            System.out.format("%n%s%n", "RegressionTest0.test226");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         java.lang.String str3 = stackAr1.toString();
@@ -5706,9 +5995,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test213() throws Throwable {
+    public void test227() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test213");
+            System.out.format("%n%s%n", "RegressionTest0.test227");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 100);
         java.lang.String str2 = stackAr1.toString();
         // The following exception was thrown during execution in test generation
@@ -5722,9 +6011,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test214() throws Throwable {
+    public void test228() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test214");
+            System.out.format("%n%s%n", "RegressionTest0.test228");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr(0);
         boolean boolean2 = stackAr1.isEmpty();
         java.lang.Class<?> wildcardClass3 = stackAr1.getClass();
@@ -5733,9 +6022,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test215() throws Throwable {
+    public void test229() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test215");
+            System.out.format("%n%s%n", "RegressionTest0.test229");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         java.lang.String str3 = stackAr1.toString();
@@ -5748,9 +6037,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test216() throws Throwable {
+    public void test230() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test216");
+            System.out.format("%n%s%n", "RegressionTest0.test230");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 10);
         boolean boolean2 = stackAr1.isFull();
         java.lang.String str3 = stackAr1.toString();
@@ -5759,9 +6048,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test217() throws Throwable {
+    public void test231() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test217");
+            System.out.format("%n%s%n", "RegressionTest0.test231");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -5827,9 +6116,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test218() throws Throwable {
+    public void test232() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test218");
+            System.out.format("%n%s%n", "RegressionTest0.test232");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -5882,9 +6171,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test219() throws Throwable {
+    public void test233() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test219");
+            System.out.format("%n%s%n", "RegressionTest0.test233");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -5903,9 +6192,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test220() throws Throwable {
+    public void test234() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test220");
+            System.out.format("%n%s%n", "RegressionTest0.test234");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         boolean boolean3 = stackAr1.isFull();
@@ -5936,9 +6225,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test221() throws Throwable {
+    public void test235() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test221");
+            System.out.format("%n%s%n", "RegressionTest0.test235");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -6000,9 +6289,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test222() throws Throwable {
+    public void test236() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test222");
+            System.out.format("%n%s%n", "RegressionTest0.test236");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -6028,9 +6317,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test223() throws Throwable {
+    public void test237() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test223");
+            System.out.format("%n%s%n", "RegressionTest0.test237");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -6067,9 +6356,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test224() throws Throwable {
+    public void test238() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test224");
+            System.out.format("%n%s%n", "RegressionTest0.test238");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -6105,9 +6394,59 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test225() throws Throwable {
+    public void test239() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test225");
+            System.out.format("%n%s%n", "RegressionTest0.test239");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
+        boolean boolean2 = stackAr1.isFull();
+        boolean boolean3 = stackAr1.isFull();
+        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
+        java.lang.String str8 = stackAr7.toString();
+        boolean boolean9 = stackAr5.equals((java.lang.Object) stackAr7);
+        int int10 = stackAr5.size();
+        boolean boolean11 = stackAr5.isFull();
+        org.autotest.StackAr stackAr13 = new org.autotest.StackAr((int) (short) 0);
+        boolean boolean14 = stackAr13.isEmpty();
+        boolean boolean15 = stackAr13.isEmpty();
+        stackAr5.push((java.lang.Object) stackAr13);
+        boolean boolean17 = stackAr1.equals((java.lang.Object) stackAr13);
+        boolean boolean18 = stackAr13.isEmpty();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[]" + "'", str8, "[]");
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
+    }
+
+    @Test
+    public void test240() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test240");
+        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
+        stackAr0.push((java.lang.Object) 0.0f);
+        int int3 = stackAr0.size();
+        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) (short) 0);
+        boolean boolean6 = stackAr5.isEmpty();
+        boolean boolean7 = stackAr5.isEmpty();
+        boolean boolean8 = stackAr0.equals((java.lang.Object) stackAr5);
+        int int9 = stackAr0.size();
+        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 1 + "'", int3 == 1);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 1 + "'", int9 == 1);
+    }
+
+    @Test
+    public void test241() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test241");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -6130,9 +6469,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test226() throws Throwable {
+    public void test242() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test226");
+            System.out.format("%n%s%n", "RegressionTest0.test242");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -6152,9 +6491,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test227() throws Throwable {
+    public void test243() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test227");
+            System.out.format("%n%s%n", "RegressionTest0.test243");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -6178,9 +6517,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test228() throws Throwable {
+    public void test244() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test228");
+            System.out.format("%n%s%n", "RegressionTest0.test244");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -6235,9 +6574,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test229() throws Throwable {
+    public void test245() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test229");
+            System.out.format("%n%s%n", "RegressionTest0.test245");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -6248,9 +6587,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test230() throws Throwable {
+    public void test246() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test230");
+            System.out.format("%n%s%n", "RegressionTest0.test246");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean4 = stackAr1.isEmpty();
@@ -6270,9 +6609,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test231() throws Throwable {
+    public void test247() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test231");
+            System.out.format("%n%s%n", "RegressionTest0.test247");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -6287,9 +6626,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test232() throws Throwable {
+    public void test248() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test232");
+            System.out.format("%n%s%n", "RegressionTest0.test248");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -6354,9 +6693,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test233() throws Throwable {
+    public void test249() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test233");
+            System.out.format("%n%s%n", "RegressionTest0.test249");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) 10);
@@ -6429,9 +6768,29 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test234() throws Throwable {
+    public void test250() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test234");
+            System.out.format("%n%s%n", "RegressionTest0.test250");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
+        java.lang.String str2 = stackAr1.toString();
+        org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
+        boolean boolean4 = stackAr3.isFull();
+        boolean boolean6 = stackAr3.equals((java.lang.Object) false);
+        boolean boolean7 = stackAr3.isEmpty();
+        boolean boolean8 = stackAr1.equals((java.lang.Object) stackAr3);
+        boolean boolean9 = stackAr1.isFull();
+        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+    }
+
+    @Test
+    public void test251() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test251");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -6462,9 +6821,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test235() throws Throwable {
+    public void test252() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test235");
+            System.out.format("%n%s%n", "RegressionTest0.test252");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -6530,9 +6889,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test236() throws Throwable {
+    public void test253() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test236");
+            System.out.format("%n%s%n", "RegressionTest0.test253");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -6552,9 +6911,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test237() throws Throwable {
+    public void test254() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test237");
+            System.out.format("%n%s%n", "RegressionTest0.test254");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -6571,9 +6930,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test238() throws Throwable {
+    public void test255() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test238");
+            System.out.format("%n%s%n", "RegressionTest0.test255");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         stackAr1.push((java.lang.Object) (-1L));
         java.lang.Object obj4 = stackAr1.pop();
@@ -6590,9 +6949,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test239() throws Throwable {
+    public void test256() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test239");
+            System.out.format("%n%s%n", "RegressionTest0.test256");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -6619,9 +6978,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test240() throws Throwable {
+    public void test257() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test240");
+            System.out.format("%n%s%n", "RegressionTest0.test257");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -6733,9 +7092,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test241() throws Throwable {
+    public void test258() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test241");
+            System.out.format("%n%s%n", "RegressionTest0.test258");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -6765,9 +7124,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test242() throws Throwable {
+    public void test259() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test242");
+            System.out.format("%n%s%n", "RegressionTest0.test259");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -6829,9 +7188,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test243() throws Throwable {
+    public void test260() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test243");
+            System.out.format("%n%s%n", "RegressionTest0.test260");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -6887,9 +7246,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test244() throws Throwable {
+    public void test261() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test244");
+            System.out.format("%n%s%n", "RegressionTest0.test261");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -6912,9 +7271,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test245() throws Throwable {
+    public void test262() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test245");
+            System.out.format("%n%s%n", "RegressionTest0.test262");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -6952,9 +7311,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test246() throws Throwable {
+    public void test263() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test246");
+            System.out.format("%n%s%n", "RegressionTest0.test263");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         stackAr1.push((java.lang.Object) 0);
@@ -6971,9 +7330,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test247() throws Throwable {
+    public void test264() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test247");
+            System.out.format("%n%s%n", "RegressionTest0.test264");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         stackAr0.push((java.lang.Object) 0.0f);
         java.lang.String str3 = stackAr0.toString();
@@ -7005,9 +7364,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test248() throws Throwable {
+    public void test265() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test248");
+            System.out.format("%n%s%n", "RegressionTest0.test265");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         boolean boolean3 = stackAr1.isFull();
@@ -7023,9 +7382,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test249() throws Throwable {
+    public void test266() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test249");
+            System.out.format("%n%s%n", "RegressionTest0.test266");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -7086,9 +7445,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test250() throws Throwable {
+    public void test267() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test250");
+            System.out.format("%n%s%n", "RegressionTest0.test267");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -7167,9 +7526,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test251() throws Throwable {
+    public void test268() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test251");
+            System.out.format("%n%s%n", "RegressionTest0.test268");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -7195,9 +7554,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test252() throws Throwable {
+    public void test269() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test252");
+            System.out.format("%n%s%n", "RegressionTest0.test269");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         boolean boolean3 = stackAr1.isEmpty();
@@ -7232,9 +7591,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test253() throws Throwable {
+    public void test270() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test253");
+            System.out.format("%n%s%n", "RegressionTest0.test270");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         boolean boolean3 = stackAr1.isEmpty();
@@ -7269,9 +7628,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test254() throws Throwable {
+    public void test271() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test254");
+            System.out.format("%n%s%n", "RegressionTest0.test271");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -7293,9 +7652,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test255() throws Throwable {
+    public void test272() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test255");
+            System.out.format("%n%s%n", "RegressionTest0.test272");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -7311,9 +7670,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test256() throws Throwable {
+    public void test273() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test256");
+            System.out.format("%n%s%n", "RegressionTest0.test273");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         stackAr1.push((java.lang.Object) 0);
@@ -7323,9 +7682,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test257() throws Throwable {
+    public void test274() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test257");
+            System.out.format("%n%s%n", "RegressionTest0.test274");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -7351,9 +7710,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test258() throws Throwable {
+    public void test275() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test258");
+            System.out.format("%n%s%n", "RegressionTest0.test275");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -7389,9 +7748,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test259() throws Throwable {
+    public void test276() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test259");
+            System.out.format("%n%s%n", "RegressionTest0.test276");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -7416,9 +7775,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test260() throws Throwable {
+    public void test277() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test260");
+            System.out.format("%n%s%n", "RegressionTest0.test277");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isEmpty();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) 'a');
@@ -7460,9 +7819,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test261() throws Throwable {
+    public void test278() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test261");
+            System.out.format("%n%s%n", "RegressionTest0.test278");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -7531,9 +7890,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test262() throws Throwable {
+    public void test279() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test262");
+            System.out.format("%n%s%n", "RegressionTest0.test279");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         java.lang.String str3 = stackAr1.toString();
@@ -7546,9 +7905,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test263() throws Throwable {
+    public void test280() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test263");
+            System.out.format("%n%s%n", "RegressionTest0.test280");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -7564,9 +7923,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test264() throws Throwable {
+    public void test281() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test264");
+            System.out.format("%n%s%n", "RegressionTest0.test281");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         stackAr0.push((java.lang.Object) 0.0f);
         int int3 = stackAr0.size();
@@ -7594,9 +7953,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test265() throws Throwable {
+    public void test282() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test265");
+            System.out.format("%n%s%n", "RegressionTest0.test282");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -7626,9 +7985,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test266() throws Throwable {
+    public void test283() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test266");
+            System.out.format("%n%s%n", "RegressionTest0.test283");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -7656,9 +8015,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test267() throws Throwable {
+    public void test284() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test267");
+            System.out.format("%n%s%n", "RegressionTest0.test284");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -7685,9 +8044,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test268() throws Throwable {
+    public void test285() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test268");
+            System.out.format("%n%s%n", "RegressionTest0.test285");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         int int3 = stackAr1.size();
@@ -7700,9 +8059,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test269() throws Throwable {
+    public void test286() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test269");
+            System.out.format("%n%s%n", "RegressionTest0.test286");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         java.lang.String str3 = stackAr1.toString();
@@ -7743,9 +8102,39 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test270() throws Throwable {
+    public void test287() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test270");
+            System.out.format("%n%s%n", "RegressionTest0.test287");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
+        boolean boolean2 = stackAr1.isEmpty();
+        boolean boolean3 = stackAr1.isFull();
+        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
+        java.lang.String str8 = stackAr7.toString();
+        boolean boolean9 = stackAr5.equals((java.lang.Object) stackAr7);
+        org.autotest.StackAr stackAr11 = new org.autotest.StackAr((int) '4');
+        stackAr11.push((java.lang.Object) (-1L));
+        java.lang.Object obj14 = stackAr11.pop();
+        stackAr5.push((java.lang.Object) stackAr11);
+        boolean boolean16 = stackAr1.equals((java.lang.Object) stackAr5);
+        java.lang.String str17 = stackAr1.toString();
+        boolean boolean18 = stackAr1.isFull();
+        java.lang.String str19 = stackAr1.toString();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[]" + "'", str8, "[]");
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertEquals("'" + obj14 + "' != '" + (-1L) + "'", obj14, (-1L));
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertEquals("'" + str17 + "' != '" + "[]" + "'", str17, "[]");
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
+        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
+    }
+
+    @Test
+    public void test288() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test288");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -7808,9 +8197,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test271() throws Throwable {
+    public void test289() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test271");
+            System.out.format("%n%s%n", "RegressionTest0.test289");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -7846,9 +8235,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test272() throws Throwable {
+    public void test290() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test272");
+            System.out.format("%n%s%n", "RegressionTest0.test290");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         int int4 = stackAr1.size();
@@ -7868,9 +8257,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test273() throws Throwable {
+    public void test291() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test273");
+            System.out.format("%n%s%n", "RegressionTest0.test291");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -7911,9 +8300,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test274() throws Throwable {
+    public void test292() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test274");
+            System.out.format("%n%s%n", "RegressionTest0.test292");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         stackAr1.push((java.lang.Object) 0);
@@ -7925,9 +8314,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test275() throws Throwable {
+    public void test293() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test275");
+            System.out.format("%n%s%n", "RegressionTest0.test293");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -7987,9 +8376,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test276() throws Throwable {
+    public void test294() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test276");
+            System.out.format("%n%s%n", "RegressionTest0.test294");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         java.lang.String str3 = stackAr1.toString();
@@ -8091,9 +8480,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test277() throws Throwable {
+    public void test295() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test277");
+            System.out.format("%n%s%n", "RegressionTest0.test295");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         int int2 = stackAr0.size();
@@ -8104,9 +8493,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test278() throws Throwable {
+    public void test296() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test278");
+            System.out.format("%n%s%n", "RegressionTest0.test296");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -8158,9 +8547,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test279() throws Throwable {
+    public void test297() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test279");
+            System.out.format("%n%s%n", "RegressionTest0.test297");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         stackAr1.push((java.lang.Object) 0);
@@ -8178,9 +8567,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test280() throws Throwable {
+    public void test298() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test280");
+            System.out.format("%n%s%n", "RegressionTest0.test298");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -8212,9 +8601,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test281() throws Throwable {
+    public void test299() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test281");
+            System.out.format("%n%s%n", "RegressionTest0.test299");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         boolean boolean3 = stackAr1.isFull();
@@ -8243,18 +8632,18 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test282() throws Throwable {
+    public void test300() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test282");
+            System.out.format("%n%s%n", "RegressionTest0.test300");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (byte) 0);
         java.lang.Class<?> wildcardClass2 = stackAr1.getClass();
         org.junit.Assert.assertNotNull(wildcardClass2);
     }
 
     @Test
-    public void test283() throws Throwable {
+    public void test301() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test283");
+            System.out.format("%n%s%n", "RegressionTest0.test301");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -8272,9 +8661,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test284() throws Throwable {
+    public void test302() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test284");
+            System.out.format("%n%s%n", "RegressionTest0.test302");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -8369,9 +8758,79 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test285() throws Throwable {
+    public void test303() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test285");
+            System.out.format("%n%s%n", "RegressionTest0.test303");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
+        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
+        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
+        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
+        boolean boolean7 = stackAr6.isFull();
+        stackAr1.push((java.lang.Object) stackAr6);
+        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
+        java.lang.String str13 = stackAr12.toString();
+        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
+        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
+        boolean boolean16 = stackAr15.isFull();
+        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
+        java.lang.String str19 = stackAr15.toString();
+        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
+        java.lang.String str22 = stackAr15.toString();
+        stackAr12.push((java.lang.Object) stackAr15);
+        stackAr1.push((java.lang.Object) stackAr15);
+        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
+        boolean boolean27 = stackAr26.isEmpty();
+        boolean boolean28 = stackAr26.isFull();
+        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
+        java.lang.String str33 = stackAr32.toString();
+        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
+        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
+        stackAr36.push((java.lang.Object) (-1L));
+        java.lang.Object obj39 = stackAr36.pop();
+        stackAr30.push((java.lang.Object) stackAr36);
+        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
+        stackAr15.push((java.lang.Object) stackAr30);
+        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) 'a');
+        boolean boolean46 = stackAr44.equals((java.lang.Object) (-1.0f));
+        boolean boolean48 = stackAr44.equals((java.lang.Object) "");
+        org.autotest.StackAr stackAr49 = new org.autotest.StackAr();
+        boolean boolean50 = stackAr49.isFull();
+        stackAr44.push((java.lang.Object) stackAr49);
+        java.lang.Class<?> wildcardClass52 = stackAr44.getClass();
+        stackAr15.push((java.lang.Object) wildcardClass52);
+        java.lang.Object obj54 = stackAr15.pop();
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
+        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
+        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
+        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
+        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
+        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
+        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
+        org.junit.Assert.assertTrue("'" + boolean46 + "' != '" + false + "'", boolean46 == false);
+        org.junit.Assert.assertTrue("'" + boolean48 + "' != '" + false + "'", boolean48 == false);
+        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + false + "'", boolean50 == false);
+        org.junit.Assert.assertNotNull(wildcardClass52);
+        org.junit.Assert.assertNotNull(obj54);
+        org.junit.Assert.assertEquals(obj54.toString(), "class org.autotest.StackAr");
+        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj54), "class org.autotest.StackAr");
+        org.junit.Assert.assertEquals(java.util.Objects.toString(obj54), "class org.autotest.StackAr");
+    }
+
+    @Test
+    public void test304() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test304");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -8463,9 +8922,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test286() throws Throwable {
+    public void test305() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test286");
+            System.out.format("%n%s%n", "RegressionTest0.test305");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         java.lang.String str3 = stackAr1.toString();
@@ -8483,9 +8942,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test287() throws Throwable {
+    public void test306() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test287");
+            System.out.format("%n%s%n", "RegressionTest0.test306");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         stackAr1.push((java.lang.Object) 0);
@@ -8573,9 +9032,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test288() throws Throwable {
+    public void test307() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test288");
+            System.out.format("%n%s%n", "RegressionTest0.test307");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) 10);
@@ -8644,9 +9103,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test289() throws Throwable {
+    public void test308() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test289");
+            System.out.format("%n%s%n", "RegressionTest0.test308");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -8674,9 +9133,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test290() throws Throwable {
+    public void test309() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test290");
+            System.out.format("%n%s%n", "RegressionTest0.test309");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -8706,9 +9165,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test291() throws Throwable {
+    public void test310() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test291");
+            System.out.format("%n%s%n", "RegressionTest0.test310");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -8772,9 +9231,18 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test292() throws Throwable {
+    public void test311() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test292");
+            System.out.format("%n%s%n", "RegressionTest0.test311");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr(1);
+        boolean boolean2 = stackAr1.isFull();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+    }
+
+    @Test
+    public void test312() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test312");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -8793,9 +9261,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test293() throws Throwable {
+    public void test313() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test293");
+            System.out.format("%n%s%n", "RegressionTest0.test313");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         java.lang.String str3 = stackAr1.toString();
@@ -8838,9 +9306,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test294() throws Throwable {
+    public void test314() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test294");
+            System.out.format("%n%s%n", "RegressionTest0.test314");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         java.lang.String str3 = stackAr1.toString();
@@ -8930,9 +9398,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test295() throws Throwable {
+    public void test315() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test295");
+            System.out.format("%n%s%n", "RegressionTest0.test315");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -8958,9 +9426,40 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test296() throws Throwable {
+    public void test316() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test296");
+            System.out.format("%n%s%n", "RegressionTest0.test316");
+        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
+        boolean boolean1 = stackAr0.isFull();
+        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
+        java.lang.String str4 = stackAr0.toString();
+        boolean boolean5 = stackAr0.isFull();
+        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
+        java.lang.String str10 = stackAr9.toString();
+        boolean boolean11 = stackAr7.equals((java.lang.Object) stackAr9);
+        org.autotest.StackAr stackAr13 = new org.autotest.StackAr((int) '4');
+        stackAr13.push((java.lang.Object) (-1L));
+        java.lang.Object obj16 = stackAr13.pop();
+        stackAr7.push((java.lang.Object) stackAr13);
+        stackAr0.push((java.lang.Object) stackAr7);
+        int int19 = stackAr0.size();
+        int int20 = stackAr0.size();
+        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertEquals("'" + str10 + "' != '" + "[]" + "'", str10, "[]");
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
+        org.junit.Assert.assertEquals("'" + obj16 + "' != '" + (-1L) + "'", obj16, (-1L));
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 1 + "'", int19 == 1);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 1 + "'", int20 == 1);
+    }
+
+    @Test
+    public void test317() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test317");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         stackAr0.push((java.lang.Object) 0.0f);
         org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) (byte) 100);
@@ -9040,9 +9539,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test297() throws Throwable {
+    public void test318() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test297");
+            System.out.format("%n%s%n", "RegressionTest0.test318");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         java.lang.String str3 = stackAr1.toString();
@@ -9084,9 +9583,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test298() throws Throwable {
+    public void test319() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test298");
+            System.out.format("%n%s%n", "RegressionTest0.test319");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -9121,9 +9620,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test299() throws Throwable {
+    public void test320() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test299");
+            System.out.format("%n%s%n", "RegressionTest0.test320");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -9162,9 +9661,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test300() throws Throwable {
+    public void test321() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test300");
+            System.out.format("%n%s%n", "RegressionTest0.test321");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         java.lang.String str3 = stackAr1.toString();
@@ -9182,9 +9681,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test301() throws Throwable {
+    public void test322() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test301");
+            System.out.format("%n%s%n", "RegressionTest0.test322");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -9203,9 +9702,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test302() throws Throwable {
+    public void test323() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test302");
+            System.out.format("%n%s%n", "RegressionTest0.test323");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -9218,9 +9717,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test303() throws Throwable {
+    public void test324() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test303");
+            System.out.format("%n%s%n", "RegressionTest0.test324");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -9237,9 +9736,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test304() throws Throwable {
+    public void test325() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test304");
+            System.out.format("%n%s%n", "RegressionTest0.test325");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -9266,9 +9765,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test305() throws Throwable {
+    public void test326() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test305");
+            System.out.format("%n%s%n", "RegressionTest0.test326");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -9293,9 +9792,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test306() throws Throwable {
+    public void test327() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test306");
+            System.out.format("%n%s%n", "RegressionTest0.test327");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         stackAr0.push((java.lang.Object) 0.0f);
         java.lang.String str3 = stackAr0.toString();
@@ -9309,9 +9808,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test307() throws Throwable {
+    public void test328() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test307");
+            System.out.format("%n%s%n", "RegressionTest0.test328");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -9363,9 +9862,70 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test308() throws Throwable {
+    public void test329() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test308");
+            System.out.format("%n%s%n", "RegressionTest0.test329");
+        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
+        boolean boolean1 = stackAr0.isFull();
+        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
+        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
+        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
+        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) 'a');
+        boolean boolean10 = stackAr8.equals((java.lang.Object) (-1.0f));
+        boolean boolean12 = stackAr8.equals((java.lang.Object) "");
+        boolean boolean13 = stackAr0.equals((java.lang.Object) "");
+        boolean boolean14 = stackAr0.isFull();
+        boolean boolean15 = stackAr0.isFull();
+        org.autotest.StackAr stackAr17 = new org.autotest.StackAr((int) '4');
+        java.lang.String str18 = stackAr17.toString();
+        java.lang.String str19 = stackAr17.toString();
+        org.autotest.StackAr stackAr20 = new org.autotest.StackAr();
+        boolean boolean21 = stackAr20.isFull();
+        boolean boolean23 = stackAr20.equals((java.lang.Object) (byte) -1);
+        org.autotest.StackAr stackAr25 = new org.autotest.StackAr((int) '4');
+        boolean boolean26 = stackAr20.equals((java.lang.Object) '4');
+        org.autotest.StackAr stackAr28 = new org.autotest.StackAr((int) 'a');
+        boolean boolean30 = stackAr28.equals((java.lang.Object) (-1.0f));
+        boolean boolean32 = stackAr28.equals((java.lang.Object) "");
+        boolean boolean33 = stackAr20.equals((java.lang.Object) "");
+        boolean boolean34 = stackAr20.isFull();
+        boolean boolean35 = stackAr17.equals((java.lang.Object) stackAr20);
+        java.lang.Object obj36 = null;
+        stackAr20.push(obj36);
+        java.lang.Object obj38 = stackAr20.top();
+        java.lang.String str39 = stackAr20.toString();
+        int int40 = stackAr20.size();
+        boolean boolean41 = stackAr0.equals((java.lang.Object) int40);
+        boolean boolean42 = stackAr0.isEmpty();
+        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertEquals("'" + str18 + "' != '" + "[]" + "'", str18, "[]");
+        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
+        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
+        org.junit.Assert.assertTrue("'" + boolean30 + "' != '" + false + "'", boolean30 == false);
+        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
+        org.junit.Assert.assertTrue("'" + boolean33 + "' != '" + false + "'", boolean33 == false);
+        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + false + "'", boolean34 == false);
+        org.junit.Assert.assertTrue("'" + boolean35 + "' != '" + false + "'", boolean35 == false);
+        org.junit.Assert.assertNull(obj38);
+        org.junit.Assert.assertEquals("'" + str39 + "' != '" + "[null]" + "'", str39, "[null]");
+        org.junit.Assert.assertTrue("'" + int40 + "' != '" + 1 + "'", int40 == 1);
+        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
+        org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + true + "'", boolean42 == true);
+    }
+
+    @Test
+    public void test330() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test330");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -9416,9 +9976,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test309() throws Throwable {
+    public void test331() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test309");
+            System.out.format("%n%s%n", "RegressionTest0.test331");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         boolean boolean3 = stackAr1.isEmpty();
@@ -9451,9 +10011,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test310() throws Throwable {
+    public void test332() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test310");
+            System.out.format("%n%s%n", "RegressionTest0.test332");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -9476,9 +10036,33 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test311() throws Throwable {
+    public void test333() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test311");
+            System.out.format("%n%s%n", "RegressionTest0.test333");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
+        java.lang.String str4 = stackAr3.toString();
+        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
+        int int6 = stackAr1.size();
+        boolean boolean7 = stackAr1.isFull();
+        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
+        int int10 = stackAr9.size();
+        boolean boolean11 = stackAr9.isEmpty();
+        int int12 = stackAr9.size();
+        stackAr1.push((java.lang.Object) int12);
+        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+    }
+
+    @Test
+    public void test334() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test334");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         java.lang.String str3 = stackAr1.toString();
@@ -9515,9 +10099,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test312() throws Throwable {
+    public void test335() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test312");
+            System.out.format("%n%s%n", "RegressionTest0.test335");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -9572,9 +10156,37 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test313() throws Throwable {
+    public void test336() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test313");
+            System.out.format("%n%s%n", "RegressionTest0.test336");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
+        java.lang.String str4 = stackAr3.toString();
+        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
+        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
+        boolean boolean7 = stackAr6.isFull();
+        boolean boolean9 = stackAr6.equals((java.lang.Object) (byte) -1);
+        java.lang.String str10 = stackAr6.toString();
+        boolean boolean12 = stackAr6.equals((java.lang.Object) 10L);
+        java.lang.String str13 = stackAr6.toString();
+        stackAr3.push((java.lang.Object) stackAr6);
+        int int15 = stackAr3.size();
+        java.lang.String str16 = stackAr3.toString();
+        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertEquals("'" + str10 + "' != '" + "[]" + "'", str10, "[]");
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 1 + "'", int15 == 1);
+        org.junit.Assert.assertEquals("'" + str16 + "' != '" + "[[]]" + "'", str16, "[[]]");
+    }
+
+    @Test
+    public void test337() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test337");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         int int3 = stackAr1.size();
@@ -9639,9 +10251,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test314() throws Throwable {
+    public void test338() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test314");
+            System.out.format("%n%s%n", "RegressionTest0.test338");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -9668,9 +10280,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test315() throws Throwable {
+    public void test339() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test315");
+            System.out.format("%n%s%n", "RegressionTest0.test339");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -9767,9 +10379,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test316() throws Throwable {
+    public void test340() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test316");
+            System.out.format("%n%s%n", "RegressionTest0.test340");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -9797,9 +10409,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test317() throws Throwable {
+    public void test341() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test317");
+            System.out.format("%n%s%n", "RegressionTest0.test341");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -9823,9 +10435,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test318() throws Throwable {
+    public void test342() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test318");
+            System.out.format("%n%s%n", "RegressionTest0.test342");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         stackAr0.push((java.lang.Object) 0.0f);
         org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) (byte) 100);
@@ -9908,9 +10520,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test319() throws Throwable {
+    public void test343() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test319");
+            System.out.format("%n%s%n", "RegressionTest0.test343");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         boolean boolean3 = stackAr1.isFull();
@@ -9944,9 +10556,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test320() throws Throwable {
+    public void test344() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test320");
+            System.out.format("%n%s%n", "RegressionTest0.test344");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         stackAr1.push((java.lang.Object) 0);
@@ -9991,9 +10603,35 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test321() throws Throwable {
+    public void test345() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test321");
+            System.out.format("%n%s%n", "RegressionTest0.test345");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
+        java.lang.String str4 = stackAr3.toString();
+        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
+        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
+        boolean boolean7 = stackAr6.isFull();
+        boolean boolean9 = stackAr6.equals((java.lang.Object) (byte) -1);
+        java.lang.String str10 = stackAr6.toString();
+        boolean boolean12 = stackAr6.equals((java.lang.Object) 10L);
+        java.lang.String str13 = stackAr6.toString();
+        stackAr3.push((java.lang.Object) stackAr6);
+        java.lang.String str15 = stackAr6.toString();
+        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertEquals("'" + str10 + "' != '" + "[]" + "'", str10, "[]");
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
+        org.junit.Assert.assertEquals("'" + str15 + "' != '" + "[]" + "'", str15, "[]");
+    }
+
+    @Test
+    public void test346() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test346");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean2 = stackAr1.isFull();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -10010,9 +10648,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test322() throws Throwable {
+    public void test347() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test322");
+            System.out.format("%n%s%n", "RegressionTest0.test347");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -10051,9 +10689,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test323() throws Throwable {
+    public void test348() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test323");
+            System.out.format("%n%s%n", "RegressionTest0.test348");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         stackAr1.push((java.lang.Object) 0);
@@ -10065,9 +10703,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test324() throws Throwable {
+    public void test349() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test324");
+            System.out.format("%n%s%n", "RegressionTest0.test349");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -10089,9 +10727,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test325() throws Throwable {
+    public void test350() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test325");
+            System.out.format("%n%s%n", "RegressionTest0.test350");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         boolean boolean3 = stackAr1.isEmpty();
@@ -10102,9 +10740,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test326() throws Throwable {
+    public void test351() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test326");
+            System.out.format("%n%s%n", "RegressionTest0.test351");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isEmpty();
         boolean boolean2 = stackAr0.isEmpty();
@@ -10113,9 +10751,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test327() throws Throwable {
+    public void test352() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test327");
+            System.out.format("%n%s%n", "RegressionTest0.test352");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -10160,9 +10798,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test328() throws Throwable {
+    public void test353() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test328");
+            System.out.format("%n%s%n", "RegressionTest0.test353");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         stackAr1.push((java.lang.Object) 0);
@@ -10176,9 +10814,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test329() throws Throwable {
+    public void test354() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test329");
+            System.out.format("%n%s%n", "RegressionTest0.test354");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -10210,9 +10848,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test330() throws Throwable {
+    public void test355() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test330");
+            System.out.format("%n%s%n", "RegressionTest0.test355");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -10240,9 +10878,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test331() throws Throwable {
+    public void test356() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test331");
+            System.out.format("%n%s%n", "RegressionTest0.test356");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         stackAr1.push((java.lang.Object) 0);
@@ -10254,9 +10892,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test332() throws Throwable {
+    public void test357() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test332");
+            System.out.format("%n%s%n", "RegressionTest0.test357");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         boolean boolean1 = stackAr0.isFull();
         boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
@@ -10281,9 +10919,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test333() throws Throwable {
+    public void test358() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test333");
+            System.out.format("%n%s%n", "RegressionTest0.test358");
         org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
         stackAr0.push((java.lang.Object) 0.0f);
         int int3 = stackAr0.size();
@@ -10295,9 +10933,79 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test334() throws Throwable {
+    public void test359() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test334");
+            System.out.format("%n%s%n", "RegressionTest0.test359");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
+        boolean boolean2 = stackAr1.isFull();
+        int int3 = stackAr1.size();
+        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
+        stackAr4.push((java.lang.Object) 0.0f);
+        int int7 = stackAr4.size();
+        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) (short) 0);
+        boolean boolean10 = stackAr9.isEmpty();
+        boolean boolean11 = stackAr9.isEmpty();
+        boolean boolean12 = stackAr4.equals((java.lang.Object) stackAr9);
+        org.autotest.StackAr stackAr14 = new org.autotest.StackAr((int) '4');
+        java.lang.String str15 = stackAr14.toString();
+        java.lang.String str16 = stackAr14.toString();
+        org.autotest.StackAr stackAr17 = new org.autotest.StackAr();
+        boolean boolean18 = stackAr17.isFull();
+        boolean boolean20 = stackAr17.equals((java.lang.Object) (byte) -1);
+        org.autotest.StackAr stackAr22 = new org.autotest.StackAr((int) '4');
+        boolean boolean23 = stackAr17.equals((java.lang.Object) '4');
+        org.autotest.StackAr stackAr25 = new org.autotest.StackAr((int) 'a');
+        boolean boolean27 = stackAr25.equals((java.lang.Object) (-1.0f));
+        boolean boolean29 = stackAr25.equals((java.lang.Object) "");
+        boolean boolean30 = stackAr17.equals((java.lang.Object) "");
+        boolean boolean31 = stackAr17.isFull();
+        boolean boolean32 = stackAr14.equals((java.lang.Object) stackAr17);
+        java.lang.Object obj33 = null;
+        stackAr17.push(obj33);
+        java.lang.Object obj35 = stackAr17.top();
+        java.lang.Object obj36 = stackAr17.pop();
+        org.autotest.StackAr stackAr38 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr40 = new org.autotest.StackAr((int) '4');
+        java.lang.String str41 = stackAr40.toString();
+        boolean boolean42 = stackAr38.equals((java.lang.Object) stackAr40);
+        boolean boolean43 = stackAr38.isEmpty();
+        boolean boolean44 = stackAr17.equals((java.lang.Object) boolean43);
+        boolean boolean45 = stackAr4.equals((java.lang.Object) stackAr17);
+        stackAr1.push((java.lang.Object) stackAr17);
+        org.autotest.StackAr stackAr48 = new org.autotest.StackAr((int) 'a');
+        boolean boolean49 = stackAr48.isFull();
+        boolean boolean50 = stackAr1.equals((java.lang.Object) stackAr48);
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 0 + "'", int3 == 0);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 1 + "'", int7 == 1);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertEquals("'" + str15 + "' != '" + "[]" + "'", str15, "[]");
+        org.junit.Assert.assertEquals("'" + str16 + "' != '" + "[]" + "'", str16, "[]");
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
+        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + false + "'", boolean27 == false);
+        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
+        org.junit.Assert.assertTrue("'" + boolean30 + "' != '" + false + "'", boolean30 == false);
+        org.junit.Assert.assertTrue("'" + boolean31 + "' != '" + false + "'", boolean31 == false);
+        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
+        org.junit.Assert.assertNull(obj35);
+        org.junit.Assert.assertNull(obj36);
+        org.junit.Assert.assertEquals("'" + str41 + "' != '" + "[]" + "'", str41, "[]");
+        org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + true + "'", boolean42 == true);
+        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + true + "'", boolean43 == true);
+        org.junit.Assert.assertTrue("'" + boolean44 + "' != '" + false + "'", boolean44 == false);
+        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + false + "'", boolean45 == false);
+        org.junit.Assert.assertTrue("'" + boolean49 + "' != '" + false + "'", boolean49 == false);
+        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + false + "'", boolean50 == false);
+    }
+
+    @Test
+    public void test360() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test360");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         stackAr1.push((java.lang.Object) 0);
@@ -10307,18 +11015,33 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test335() throws Throwable {
+    public void test361() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test335");
+            System.out.format("%n%s%n", "RegressionTest0.test361");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr(0);
         java.lang.String str2 = stackAr1.toString();
         org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
     }
 
     @Test
-    public void test336() throws Throwable {
+    public void test362() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test336");
+            System.out.format("%n%s%n", "RegressionTest0.test362");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
+        java.lang.String str4 = stackAr3.toString();
+        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
+        stackAr3.push((java.lang.Object) (-1));
+        boolean boolean8 = stackAr3.isFull();
+        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+    }
+
+    @Test
+    public void test363() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test363");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -10349,9 +11072,51 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test337() throws Throwable {
+    public void test364() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test337");
+            System.out.format("%n%s%n", "RegressionTest0.test364");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
+        java.lang.String str2 = stackAr1.toString();
+        java.lang.String str3 = stackAr1.toString();
+        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
+        boolean boolean5 = stackAr4.isFull();
+        boolean boolean7 = stackAr4.equals((java.lang.Object) (byte) -1);
+        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
+        boolean boolean10 = stackAr4.equals((java.lang.Object) '4');
+        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
+        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
+        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
+        boolean boolean17 = stackAr4.equals((java.lang.Object) "");
+        boolean boolean18 = stackAr4.isFull();
+        boolean boolean19 = stackAr1.equals((java.lang.Object) stackAr4);
+        java.lang.Object obj20 = null;
+        stackAr4.push(obj20);
+        java.lang.Object obj22 = stackAr4.top();
+        java.lang.Object obj23 = stackAr4.top();
+        org.autotest.StackAr stackAr24 = new org.autotest.StackAr();
+        stackAr24.push((java.lang.Object) 0.0f);
+        stackAr24.push((java.lang.Object) true);
+        stackAr4.push((java.lang.Object) stackAr24);
+        java.lang.String str30 = stackAr4.toString();
+        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
+        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(obj22);
+        org.junit.Assert.assertNull(obj23);
+        org.junit.Assert.assertEquals("'" + str30 + "' != '" + "[null,[0.0,true]]" + "'", str30, "[null,[0.0,true]]");
+    }
+
+    @Test
+    public void test365() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test365");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -10397,9 +11162,93 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test338() throws Throwable {
+    public void test366() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test338");
+            System.out.format("%n%s%n", "RegressionTest0.test366");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
+        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
+        java.lang.String str4 = stackAr3.toString();
+        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
+        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
+        stackAr7.push((java.lang.Object) (-1L));
+        java.lang.Object obj10 = stackAr7.pop();
+        stackAr1.push((java.lang.Object) stackAr7);
+        boolean boolean12 = stackAr7.isEmpty();
+        org.autotest.StackAr stackAr14 = new org.autotest.StackAr((int) '4');
+        java.lang.String str15 = stackAr14.toString();
+        java.lang.String str16 = stackAr14.toString();
+        org.autotest.StackAr stackAr17 = new org.autotest.StackAr();
+        boolean boolean18 = stackAr17.isFull();
+        boolean boolean20 = stackAr17.equals((java.lang.Object) (byte) -1);
+        org.autotest.StackAr stackAr22 = new org.autotest.StackAr((int) '4');
+        boolean boolean23 = stackAr17.equals((java.lang.Object) '4');
+        org.autotest.StackAr stackAr25 = new org.autotest.StackAr((int) 'a');
+        boolean boolean27 = stackAr25.equals((java.lang.Object) (-1.0f));
+        boolean boolean29 = stackAr25.equals((java.lang.Object) "");
+        boolean boolean30 = stackAr17.equals((java.lang.Object) "");
+        boolean boolean31 = stackAr17.isFull();
+        boolean boolean32 = stackAr14.equals((java.lang.Object) stackAr17);
+        int int33 = stackAr17.size();
+        boolean boolean34 = stackAr17.isEmpty();
+        boolean boolean35 = stackAr17.isEmpty();
+        org.autotest.StackAr stackAr37 = new org.autotest.StackAr((int) '4');
+        int int38 = stackAr37.size();
+        stackAr37.push((java.lang.Object) 0);
+        boolean boolean41 = stackAr37.isFull();
+        stackAr17.push((java.lang.Object) stackAr37);
+        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) '4');
+        stackAr44.push((java.lang.Object) (-1L));
+        java.lang.Object obj47 = stackAr44.pop();
+        stackAr44.push((java.lang.Object) (-1));
+        boolean boolean50 = stackAr44.isEmpty();
+        org.autotest.StackAr stackAr52 = new org.autotest.StackAr((int) 'a');
+        boolean boolean54 = stackAr52.equals((java.lang.Object) (-1.0f));
+        boolean boolean56 = stackAr52.equals((java.lang.Object) "");
+        org.autotest.StackAr stackAr57 = new org.autotest.StackAr();
+        boolean boolean58 = stackAr57.isFull();
+        stackAr52.push((java.lang.Object) stackAr57);
+        boolean boolean60 = stackAr52.isFull();
+        java.lang.Object obj61 = stackAr52.pop();
+        boolean boolean62 = stackAr44.equals(obj61);
+        stackAr17.push(obj61);
+        boolean boolean64 = stackAr7.equals(obj61);
+        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertEquals("'" + obj10 + "' != '" + (-1L) + "'", obj10, (-1L));
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertEquals("'" + str15 + "' != '" + "[]" + "'", str15, "[]");
+        org.junit.Assert.assertEquals("'" + str16 + "' != '" + "[]" + "'", str16, "[]");
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
+        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + false + "'", boolean27 == false);
+        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
+        org.junit.Assert.assertTrue("'" + boolean30 + "' != '" + false + "'", boolean30 == false);
+        org.junit.Assert.assertTrue("'" + boolean31 + "' != '" + false + "'", boolean31 == false);
+        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
+        org.junit.Assert.assertTrue("'" + int33 + "' != '" + 0 + "'", int33 == 0);
+        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
+        org.junit.Assert.assertTrue("'" + boolean35 + "' != '" + true + "'", boolean35 == true);
+        org.junit.Assert.assertTrue("'" + int38 + "' != '" + 0 + "'", int38 == 0);
+        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
+        org.junit.Assert.assertEquals("'" + obj47 + "' != '" + (-1L) + "'", obj47, (-1L));
+        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + false + "'", boolean50 == false);
+        org.junit.Assert.assertTrue("'" + boolean54 + "' != '" + false + "'", boolean54 == false);
+        org.junit.Assert.assertTrue("'" + boolean56 + "' != '" + false + "'", boolean56 == false);
+        org.junit.Assert.assertTrue("'" + boolean58 + "' != '" + false + "'", boolean58 == false);
+        org.junit.Assert.assertTrue("'" + boolean60 + "' != '" + false + "'", boolean60 == false);
+        org.junit.Assert.assertNotNull(obj61);
+        org.junit.Assert.assertEquals(obj61.toString(), "[]");
+        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj61), "[]");
+        org.junit.Assert.assertEquals(java.util.Objects.toString(obj61), "[]");
+        org.junit.Assert.assertTrue("'" + boolean62 + "' != '" + false + "'", boolean62 == false);
+        org.junit.Assert.assertTrue("'" + boolean64 + "' != '" + false + "'", boolean64 == false);
+    }
+
+    @Test
+    public void test367() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test367");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         stackAr1.push((java.lang.Object) 0);
@@ -10410,9 +11259,49 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test339() throws Throwable {
+    public void test368() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test339");
+            System.out.format("%n%s%n", "RegressionTest0.test368");
+        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
+        boolean boolean1 = stackAr0.isFull();
+        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
+        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
+        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
+        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) 'a');
+        boolean boolean10 = stackAr8.equals((java.lang.Object) (-1.0f));
+        boolean boolean12 = stackAr8.equals((java.lang.Object) "");
+        boolean boolean13 = stackAr0.equals((java.lang.Object) "");
+        boolean boolean14 = stackAr0.isFull();
+        org.autotest.StackAr stackAr16 = new org.autotest.StackAr((int) 'a');
+        boolean boolean17 = stackAr16.isFull();
+        org.autotest.StackAr stackAr18 = new org.autotest.StackAr();
+        boolean boolean19 = stackAr18.isFull();
+        boolean boolean21 = stackAr18.equals((java.lang.Object) (byte) -1);
+        stackAr16.push((java.lang.Object) boolean21);
+        boolean boolean23 = stackAr16.isEmpty();
+        java.lang.Object obj24 = stackAr16.top();
+        java.lang.Object obj25 = stackAr16.top();
+        boolean boolean26 = stackAr0.equals(obj25);
+        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
+        org.junit.Assert.assertEquals("'" + obj24 + "' != '" + false + "'", obj24, false);
+        org.junit.Assert.assertEquals("'" + obj25 + "' != '" + false + "'", obj25, false);
+        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
+    }
+
+    @Test
+    public void test369() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test369");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr(0);
         boolean boolean2 = stackAr1.isEmpty();
         int int3 = stackAr1.size();
@@ -10421,9 +11310,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test340() throws Throwable {
+    public void test370() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test340");
+            System.out.format("%n%s%n", "RegressionTest0.test370");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
         java.lang.String str4 = stackAr3.toString();
@@ -10539,9 +11428,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test341() throws Throwable {
+    public void test371() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test341");
+            System.out.format("%n%s%n", "RegressionTest0.test371");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isFull();
         boolean boolean3 = stackAr1.isEmpty();
@@ -10565,9 +11454,24 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test342() throws Throwable {
+    public void test372() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test342");
+            System.out.format("%n%s%n", "RegressionTest0.test372");
+        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
+        int int2 = stackAr1.size();
+        java.lang.String str3 = stackAr1.toString();
+        boolean boolean4 = stackAr1.isFull();
+        boolean boolean5 = stackAr1.isFull();
+        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
+        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+    }
+
+    @Test
+    public void test373() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test373");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
@@ -10590,9 +11494,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test343() throws Throwable {
+    public void test374() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test343");
+            System.out.format("%n%s%n", "RegressionTest0.test374");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         java.lang.String str2 = stackAr1.toString();
         java.lang.String str3 = stackAr1.toString();
@@ -10646,9 +11550,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test344() throws Throwable {
+    public void test375() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test344");
+            System.out.format("%n%s%n", "RegressionTest0.test375");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
         int int2 = stackAr1.size();
         java.lang.String str3 = stackAr1.toString();
@@ -10659,9 +11563,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test345() throws Throwable {
+    public void test376() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test345");
+            System.out.format("%n%s%n", "RegressionTest0.test376");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         int int2 = stackAr1.size();
         int int3 = stackAr1.size();
@@ -10670,9 +11574,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test346() throws Throwable {
+    public void test377() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test346");
+            System.out.format("%n%s%n", "RegressionTest0.test377");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
         boolean boolean2 = stackAr1.isEmpty();
         int int3 = stackAr1.size();
@@ -10696,2441 +11600,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test347() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test347");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean2 = stackAr1.isFull();
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
-        boolean boolean4 = stackAr3.isFull();
-        boolean boolean6 = stackAr3.equals((java.lang.Object) (byte) -1);
-        stackAr1.push((java.lang.Object) boolean6);
-        boolean boolean8 = stackAr1.isEmpty();
-        java.lang.Object obj9 = stackAr1.top();
-        boolean boolean11 = stackAr1.equals((java.lang.Object) (-1L));
-        java.lang.Object obj12 = stackAr1.pop();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertEquals("'" + obj9 + "' != '" + false + "'", obj9, false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertEquals("'" + obj12 + "' != '" + false + "'", obj12, false);
-    }
-
-    @Test
-    public void test348() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test348");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean2 = stackAr1.isFull();
-        boolean boolean3 = stackAr1.isEmpty();
-        int int4 = stackAr1.size();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr();
-        boolean boolean6 = stackAr5.isFull();
-        boolean boolean8 = stackAr5.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        boolean boolean11 = stackAr5.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr13 = new org.autotest.StackAr((int) 'a');
-        boolean boolean15 = stackAr13.equals((java.lang.Object) (-1.0f));
-        boolean boolean17 = stackAr13.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr5.equals((java.lang.Object) "");
-        boolean boolean19 = stackAr5.isFull();
-        boolean boolean20 = stackAr5.isFull();
-        java.lang.String str21 = stackAr5.toString();
-        stackAr1.push((java.lang.Object) stackAr5);
-        java.lang.Object obj23 = stackAr1.top();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertEquals("'" + str21 + "' != '" + "[]" + "'", str21, "[]");
-        org.junit.Assert.assertNotNull(obj23);
-        org.junit.Assert.assertEquals(obj23.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj23), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj23), "[]");
-    }
-
-    @Test
-    public void test349() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test349");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean2 = stackAr1.isFull();
-        boolean boolean3 = stackAr1.isFull();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
-        java.lang.String str8 = stackAr7.toString();
-        boolean boolean9 = stackAr5.equals((java.lang.Object) stackAr7);
-        int int10 = stackAr5.size();
-        boolean boolean11 = stackAr5.isFull();
-        org.autotest.StackAr stackAr13 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean14 = stackAr13.isEmpty();
-        boolean boolean15 = stackAr13.isEmpty();
-        stackAr5.push((java.lang.Object) stackAr13);
-        boolean boolean17 = stackAr1.equals((java.lang.Object) stackAr13);
-        java.lang.String str18 = stackAr13.toString();
-        int int19 = stackAr13.size();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
-        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[]" + "'", str8, "[]");
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
-        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
-        org.junit.Assert.assertEquals("'" + str18 + "' != '" + "[]" + "'", str18, "[]");
-        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
-    }
-
-    @Test
-    public void test350() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test350");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
-        boolean boolean4 = stackAr3.isFull();
-        boolean boolean6 = stackAr3.equals((java.lang.Object) false);
-        boolean boolean7 = stackAr3.isEmpty();
-        boolean boolean8 = stackAr1.equals((java.lang.Object) stackAr3);
-        boolean boolean9 = stackAr3.isFull();
-        org.autotest.StackAr stackAr11 = new org.autotest.StackAr((int) 'a');
-        boolean boolean13 = stackAr11.equals((java.lang.Object) (-1.0f));
-        boolean boolean15 = stackAr11.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr16 = new org.autotest.StackAr();
-        boolean boolean17 = stackAr16.isFull();
-        stackAr11.push((java.lang.Object) stackAr16);
-        org.autotest.StackAr stackAr20 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr22 = new org.autotest.StackAr((int) '4');
-        java.lang.String str23 = stackAr22.toString();
-        boolean boolean24 = stackAr20.equals((java.lang.Object) stackAr22);
-        org.autotest.StackAr stackAr25 = new org.autotest.StackAr();
-        boolean boolean26 = stackAr25.isFull();
-        boolean boolean28 = stackAr25.equals((java.lang.Object) (byte) -1);
-        java.lang.String str29 = stackAr25.toString();
-        boolean boolean31 = stackAr25.equals((java.lang.Object) 10L);
-        java.lang.String str32 = stackAr25.toString();
-        stackAr22.push((java.lang.Object) stackAr25);
-        stackAr11.push((java.lang.Object) stackAr25);
-        boolean boolean35 = stackAr25.isFull();
-        boolean boolean37 = stackAr25.equals((java.lang.Object) (short) 10);
-        boolean boolean38 = stackAr25.isEmpty();
-        boolean boolean39 = stackAr25.isFull();
-        stackAr3.push((java.lang.Object) boolean39);
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertEquals("'" + str23 + "' != '" + "[]" + "'", str23, "[]");
-        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + true + "'", boolean24 == true);
-        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + false + "'", boolean28 == false);
-        org.junit.Assert.assertEquals("'" + str29 + "' != '" + "[]" + "'", str29, "[]");
-        org.junit.Assert.assertTrue("'" + boolean31 + "' != '" + false + "'", boolean31 == false);
-        org.junit.Assert.assertEquals("'" + str32 + "' != '" + "[]" + "'", str32, "[]");
-        org.junit.Assert.assertTrue("'" + boolean35 + "' != '" + false + "'", boolean35 == false);
-        org.junit.Assert.assertTrue("'" + boolean37 + "' != '" + false + "'", boolean37 == false);
-        org.junit.Assert.assertTrue("'" + boolean38 + "' != '" + true + "'", boolean38 == true);
-        org.junit.Assert.assertTrue("'" + boolean39 + "' != '" + false + "'", boolean39 == false);
-    }
-
-    @Test
-    public void test351() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test351");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
-        java.lang.String str4 = stackAr3.toString();
-        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
-        stackAr7.push((java.lang.Object) (-1L));
-        java.lang.Object obj10 = stackAr7.pop();
-        stackAr1.push((java.lang.Object) stackAr7);
-        boolean boolean12 = stackAr1.isEmpty();
-        boolean boolean14 = stackAr1.equals((java.lang.Object) "[[]]");
-        boolean boolean15 = stackAr1.isFull();
-        int int16 = stackAr1.size();
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertEquals("'" + obj10 + "' != '" + (-1L) + "'", obj10, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
-        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 1 + "'", int16 == 1);
-    }
-
-    @Test
-    public void test352() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test352");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
-        boolean boolean4 = stackAr3.isFull();
-        boolean boolean6 = stackAr3.equals((java.lang.Object) false);
-        boolean boolean7 = stackAr3.isEmpty();
-        boolean boolean8 = stackAr1.equals((java.lang.Object) stackAr3);
-        boolean boolean9 = stackAr1.isFull();
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj10 = stackAr1.top();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-    }
-
-    @Test
-    public void test353() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test353");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        int int2 = stackAr1.size();
-        stackAr1.push((java.lang.Object) 0);
-        java.lang.String str5 = stackAr1.toString();
-        boolean boolean6 = stackAr1.isEmpty();
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertEquals("'" + str5 + "' != '" + "[0]" + "'", str5, "[0]");
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-    }
-
-    @Test
-    public void test354() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test354");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        java.lang.String str3 = stackAr1.toString();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        boolean boolean5 = stackAr4.isFull();
-        boolean boolean7 = stackAr4.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        boolean boolean10 = stackAr4.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        boolean boolean17 = stackAr4.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr4.isFull();
-        boolean boolean19 = stackAr1.equals((java.lang.Object) stackAr4);
-        int int20 = stackAr4.size();
-        boolean boolean21 = stackAr4.isEmpty();
-        boolean boolean22 = stackAr4.isEmpty();
-        boolean boolean23 = stackAr4.isEmpty();
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + true + "'", boolean21 == true);
-        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + true + "'", boolean22 == true);
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + true + "'", boolean23 == true);
-    }
-
-    @Test
-    public void test355() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test355");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr();
-        boolean boolean2 = stackAr1.isFull();
-        boolean boolean4 = stackAr1.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr((int) '4');
-        boolean boolean7 = stackAr1.equals((java.lang.Object) '4');
-        boolean boolean8 = stackAr0.equals((java.lang.Object) '4');
-        java.lang.String str9 = stackAr0.toString();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertEquals("'" + str9 + "' != '" + "[]" + "'", str9, "[]");
-    }
-
-    @Test
-    public void test356() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test356");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj7 = stackAr0.pop();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-    }
-
-    @Test
-    public void test357() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test357");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        java.lang.String str3 = stackAr1.toString();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        boolean boolean5 = stackAr4.isFull();
-        boolean boolean7 = stackAr4.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        boolean boolean10 = stackAr4.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        boolean boolean17 = stackAr4.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr4.isFull();
-        boolean boolean19 = stackAr1.equals((java.lang.Object) stackAr4);
-        java.lang.Object obj20 = null;
-        stackAr4.push(obj20);
-        java.lang.Object obj22 = stackAr4.top();
-        java.lang.Object obj23 = stackAr4.pop();
-        java.lang.String str24 = stackAr4.toString();
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertNull(obj22);
-        org.junit.Assert.assertNull(obj23);
-        org.junit.Assert.assertEquals("'" + str24 + "' != '" + "[]" + "'", str24, "[]");
-    }
-
-    @Test
-    public void test358() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test358");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) 'a');
-        boolean boolean11 = stackAr10.isFull();
-        boolean boolean12 = stackAr10.isEmpty();
-        int int13 = stackAr10.size();
-        boolean boolean14 = stackAr6.equals((java.lang.Object) int13);
-        org.autotest.StackAr stackAr16 = new org.autotest.StackAr((int) 'a');
-        boolean boolean18 = stackAr16.equals((java.lang.Object) (-1.0f));
-        boolean boolean20 = stackAr16.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr21 = new org.autotest.StackAr();
-        boolean boolean22 = stackAr21.isFull();
-        stackAr16.push((java.lang.Object) stackAr21);
-        java.lang.Class<?> wildcardClass24 = stackAr16.getClass();
-        boolean boolean25 = stackAr6.equals((java.lang.Object) stackAr16);
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj26 = stackAr6.pop();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
-        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
-        org.junit.Assert.assertNotNull(wildcardClass24);
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
-    }
-
-    @Test
-    public void test359() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test359");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) 'a');
-        boolean boolean46 = stackAr44.equals((java.lang.Object) (-1.0f));
-        boolean boolean48 = stackAr44.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr49 = new org.autotest.StackAr();
-        boolean boolean50 = stackAr49.isFull();
-        stackAr44.push((java.lang.Object) stackAr49);
-        java.lang.Class<?> wildcardClass52 = stackAr44.getClass();
-        stackAr15.push((java.lang.Object) wildcardClass52);
-        java.lang.Object obj54 = stackAr15.pop();
-        java.lang.Class<?> wildcardClass55 = stackAr15.getClass();
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean46 + "' != '" + false + "'", boolean46 == false);
-        org.junit.Assert.assertTrue("'" + boolean48 + "' != '" + false + "'", boolean48 == false);
-        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + false + "'", boolean50 == false);
-        org.junit.Assert.assertNotNull(wildcardClass52);
-        org.junit.Assert.assertNotNull(obj54);
-        org.junit.Assert.assertEquals(obj54.toString(), "class org.autotest.StackAr");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj54), "class org.autotest.StackAr");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj54), "class org.autotest.StackAr");
-        org.junit.Assert.assertNotNull(wildcardClass55);
-    }
-
-    @Test
-    public void test360() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test360");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) 'a');
-        boolean boolean10 = stackAr8.equals((java.lang.Object) (-1.0f));
-        boolean boolean12 = stackAr8.equals((java.lang.Object) "");
-        boolean boolean13 = stackAr0.equals((java.lang.Object) "");
-        boolean boolean14 = stackAr0.isFull();
-        boolean boolean15 = stackAr0.isFull();
-        org.autotest.StackAr stackAr17 = new org.autotest.StackAr((int) '4');
-        java.lang.String str18 = stackAr17.toString();
-        java.lang.String str19 = stackAr17.toString();
-        org.autotest.StackAr stackAr20 = new org.autotest.StackAr();
-        boolean boolean21 = stackAr20.isFull();
-        boolean boolean23 = stackAr20.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr25 = new org.autotest.StackAr((int) '4');
-        boolean boolean26 = stackAr20.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr28 = new org.autotest.StackAr((int) 'a');
-        boolean boolean30 = stackAr28.equals((java.lang.Object) (-1.0f));
-        boolean boolean32 = stackAr28.equals((java.lang.Object) "");
-        boolean boolean33 = stackAr20.equals((java.lang.Object) "");
-        boolean boolean34 = stackAr20.isFull();
-        boolean boolean35 = stackAr17.equals((java.lang.Object) stackAr20);
-        java.lang.Object obj36 = null;
-        stackAr20.push(obj36);
-        java.lang.Object obj38 = stackAr20.top();
-        java.lang.String str39 = stackAr20.toString();
-        int int40 = stackAr20.size();
-        boolean boolean41 = stackAr0.equals((java.lang.Object) int40);
-        boolean boolean42 = stackAr0.isEmpty();
-        boolean boolean43 = stackAr0.isEmpty();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
-        org.junit.Assert.assertEquals("'" + str18 + "' != '" + "[]" + "'", str18, "[]");
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
-        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
-        org.junit.Assert.assertTrue("'" + boolean30 + "' != '" + false + "'", boolean30 == false);
-        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
-        org.junit.Assert.assertTrue("'" + boolean33 + "' != '" + false + "'", boolean33 == false);
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + false + "'", boolean34 == false);
-        org.junit.Assert.assertTrue("'" + boolean35 + "' != '" + false + "'", boolean35 == false);
-        org.junit.Assert.assertNull(obj38);
-        org.junit.Assert.assertEquals("'" + str39 + "' != '" + "[null]" + "'", str39, "[null]");
-        org.junit.Assert.assertTrue("'" + int40 + "' != '" + 1 + "'", int40 == 1);
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + true + "'", boolean42 == true);
-        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + true + "'", boolean43 == true);
-    }
-
-    @Test
-    public void test361() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test361");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        stackAr1.push((java.lang.Object) (-1L));
-        java.lang.Object obj4 = stackAr1.pop();
-        stackAr1.push((java.lang.Object) (-1));
-        boolean boolean7 = stackAr1.isEmpty();
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) 'a');
-        boolean boolean11 = stackAr9.equals((java.lang.Object) (-1.0f));
-        boolean boolean13 = stackAr9.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr14 = new org.autotest.StackAr();
-        boolean boolean15 = stackAr14.isFull();
-        stackAr9.push((java.lang.Object) stackAr14);
-        boolean boolean17 = stackAr9.isFull();
-        java.lang.Object obj18 = stackAr9.pop();
-        boolean boolean19 = stackAr1.equals(obj18);
-        java.lang.Class<?> wildcardClass20 = stackAr1.getClass();
-        org.junit.Assert.assertEquals("'" + obj4 + "' != '" + (-1L) + "'", obj4, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertNotNull(obj18);
-        org.junit.Assert.assertEquals(obj18.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj18), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj18), "[]");
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertNotNull(wildcardClass20);
-    }
-
-    @Test
-    public void test362() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test362");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean45 = stackAr44.isFull();
-        int int46 = stackAr44.size();
-        int int47 = stackAr44.size();
-        stackAr30.push((java.lang.Object) stackAr44);
-        org.autotest.StackAr stackAr49 = new org.autotest.StackAr();
-        boolean boolean50 = stackAr49.isEmpty();
-        boolean boolean51 = stackAr30.equals((java.lang.Object) stackAr49);
-        boolean boolean52 = stackAr30.isEmpty();
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + true + "'", boolean45 == true);
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + 0 + "'", int46 == 0);
-        org.junit.Assert.assertTrue("'" + int47 + "' != '" + 0 + "'", int47 == 0);
-        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + true + "'", boolean50 == true);
-        org.junit.Assert.assertTrue("'" + boolean51 + "' != '" + false + "'", boolean51 == false);
-        org.junit.Assert.assertTrue("'" + boolean52 + "' != '" + false + "'", boolean52 == false);
-    }
-
-    @Test
-    public void test363() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test363");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        stackAr0.push((java.lang.Object) 0.0f);
-        int int3 = stackAr0.size();
-        java.lang.Object obj4 = stackAr0.top();
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) '4');
-        java.lang.String str9 = stackAr8.toString();
-        boolean boolean10 = stackAr6.equals((java.lang.Object) stackAr8);
-        boolean boolean11 = stackAr6.isEmpty();
-        stackAr0.push((java.lang.Object) stackAr6);
-        java.lang.String str13 = stackAr0.toString();
-        java.lang.Object obj14 = stackAr0.top();
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 1 + "'", int3 == 1);
-        org.junit.Assert.assertEquals("'" + obj4 + "' != '" + 0.0f + "'", obj4, 0.0f);
-        org.junit.Assert.assertEquals("'" + str9 + "' != '" + "[]" + "'", str9, "[]");
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[0.0,[]]" + "'", str13, "[0.0,[]]");
-        org.junit.Assert.assertNotNull(obj14);
-        org.junit.Assert.assertEquals(obj14.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj14), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj14), "[]");
-    }
-
-    @Test
-    public void test364() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test364");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (byte) 0);
-        int int2 = stackAr1.size();
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj3 = stackAr1.top();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-    }
-
-    @Test
-    public void test365() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test365");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean2 = stackAr1.isFull();
-        int int3 = stackAr1.size();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        stackAr4.push((java.lang.Object) 0.0f);
-        int int7 = stackAr4.size();
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean10 = stackAr9.isEmpty();
-        boolean boolean11 = stackAr9.isEmpty();
-        boolean boolean12 = stackAr4.equals((java.lang.Object) stackAr9);
-        org.autotest.StackAr stackAr14 = new org.autotest.StackAr((int) '4');
-        java.lang.String str15 = stackAr14.toString();
-        java.lang.String str16 = stackAr14.toString();
-        org.autotest.StackAr stackAr17 = new org.autotest.StackAr();
-        boolean boolean18 = stackAr17.isFull();
-        boolean boolean20 = stackAr17.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr22 = new org.autotest.StackAr((int) '4');
-        boolean boolean23 = stackAr17.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr25 = new org.autotest.StackAr((int) 'a');
-        boolean boolean27 = stackAr25.equals((java.lang.Object) (-1.0f));
-        boolean boolean29 = stackAr25.equals((java.lang.Object) "");
-        boolean boolean30 = stackAr17.equals((java.lang.Object) "");
-        boolean boolean31 = stackAr17.isFull();
-        boolean boolean32 = stackAr14.equals((java.lang.Object) stackAr17);
-        java.lang.Object obj33 = null;
-        stackAr17.push(obj33);
-        java.lang.Object obj35 = stackAr17.top();
-        java.lang.Object obj36 = stackAr17.pop();
-        org.autotest.StackAr stackAr38 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr40 = new org.autotest.StackAr((int) '4');
-        java.lang.String str41 = stackAr40.toString();
-        boolean boolean42 = stackAr38.equals((java.lang.Object) stackAr40);
-        boolean boolean43 = stackAr38.isEmpty();
-        boolean boolean44 = stackAr17.equals((java.lang.Object) boolean43);
-        boolean boolean45 = stackAr4.equals((java.lang.Object) stackAr17);
-        stackAr1.push((java.lang.Object) stackAr17);
-        org.autotest.StackAr stackAr48 = new org.autotest.StackAr((int) 'a');
-        boolean boolean49 = stackAr48.isFull();
-        boolean boolean50 = stackAr1.equals((java.lang.Object) stackAr48);
-        java.lang.Class<?> wildcardClass51 = stackAr1.getClass();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 0 + "'", int3 == 0);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 1 + "'", int7 == 1);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertEquals("'" + str15 + "' != '" + "[]" + "'", str15, "[]");
-        org.junit.Assert.assertEquals("'" + str16 + "' != '" + "[]" + "'", str16, "[]");
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + false + "'", boolean27 == false);
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertTrue("'" + boolean30 + "' != '" + false + "'", boolean30 == false);
-        org.junit.Assert.assertTrue("'" + boolean31 + "' != '" + false + "'", boolean31 == false);
-        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
-        org.junit.Assert.assertNull(obj35);
-        org.junit.Assert.assertNull(obj36);
-        org.junit.Assert.assertEquals("'" + str41 + "' != '" + "[]" + "'", str41, "[]");
-        org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + true + "'", boolean42 == true);
-        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + true + "'", boolean43 == true);
-        org.junit.Assert.assertTrue("'" + boolean44 + "' != '" + false + "'", boolean44 == false);
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + false + "'", boolean45 == false);
-        org.junit.Assert.assertTrue("'" + boolean49 + "' != '" + false + "'", boolean49 == false);
-        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + false + "'", boolean50 == false);
-        org.junit.Assert.assertNotNull(wildcardClass51);
-    }
-
-    @Test
-    public void test366() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test366");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
-        java.lang.String str4 = stackAr3.toString();
-        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        boolean boolean9 = stackAr6.equals((java.lang.Object) (byte) -1);
-        java.lang.String str10 = stackAr6.toString();
-        boolean boolean12 = stackAr6.equals((java.lang.Object) 10L);
-        java.lang.String str13 = stackAr6.toString();
-        stackAr3.push((java.lang.Object) stackAr6);
-        int int15 = stackAr3.size();
-        java.lang.String str16 = stackAr3.toString();
-        boolean boolean17 = stackAr3.isFull();
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertEquals("'" + str10 + "' != '" + "[]" + "'", str10, "[]");
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 1 + "'", int15 == 1);
-        org.junit.Assert.assertEquals("'" + str16 + "' != '" + "[[]]" + "'", str16, "[[]]");
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-    }
-
-    @Test
-    public void test367() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test367");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        java.lang.String str3 = stackAr1.toString();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        boolean boolean5 = stackAr4.isFull();
-        boolean boolean7 = stackAr4.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        boolean boolean10 = stackAr4.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        boolean boolean17 = stackAr4.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr4.isFull();
-        boolean boolean19 = stackAr1.equals((java.lang.Object) stackAr4);
-        java.lang.Object obj20 = null;
-        stackAr4.push(obj20);
-        java.lang.Object obj22 = stackAr4.top();
-        java.lang.Object obj23 = stackAr4.top();
-        org.autotest.StackAr stackAr24 = new org.autotest.StackAr();
-        stackAr24.push((java.lang.Object) 0.0f);
-        stackAr24.push((java.lang.Object) true);
-        stackAr4.push((java.lang.Object) stackAr24);
-        int int30 = stackAr24.size();
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertNull(obj22);
-        org.junit.Assert.assertNull(obj23);
-        org.junit.Assert.assertTrue("'" + int30 + "' != '" + 2 + "'", int30 == 2);
-    }
-
-    @Test
-    public void test368() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test368");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        int int2 = stackAr1.size();
-        java.lang.String str3 = stackAr1.toString();
-        boolean boolean4 = stackAr1.isFull();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr();
-        stackAr5.push((java.lang.Object) 0.0f);
-        int int8 = stackAr5.size();
-        java.lang.Object obj9 = stackAr5.top();
-        org.autotest.StackAr stackAr11 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr13 = new org.autotest.StackAr((int) '4');
-        java.lang.String str14 = stackAr13.toString();
-        boolean boolean15 = stackAr11.equals((java.lang.Object) stackAr13);
-        boolean boolean16 = stackAr11.isEmpty();
-        stackAr5.push((java.lang.Object) stackAr11);
-        boolean boolean18 = stackAr1.equals((java.lang.Object) stackAr5);
-        org.autotest.StackAr stackAr20 = new org.autotest.StackAr((int) 'a');
-        boolean boolean21 = stackAr20.isFull();
-        org.autotest.StackAr stackAr22 = new org.autotest.StackAr();
-        boolean boolean23 = stackAr22.isFull();
-        boolean boolean25 = stackAr22.equals((java.lang.Object) (byte) -1);
-        stackAr20.push((java.lang.Object) boolean25);
-        org.autotest.StackAr stackAr27 = new org.autotest.StackAr();
-        boolean boolean28 = stackAr27.isFull();
-        boolean boolean30 = stackAr27.equals((java.lang.Object) (byte) -1);
-        java.lang.String str31 = stackAr27.toString();
-        boolean boolean33 = stackAr27.equals((java.lang.Object) 10L);
-        java.lang.String str34 = stackAr27.toString();
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) 'a');
-        boolean boolean38 = stackAr36.equals((java.lang.Object) (-1.0f));
-        boolean boolean40 = stackAr36.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr41 = new org.autotest.StackAr();
-        boolean boolean42 = stackAr41.isFull();
-        stackAr36.push((java.lang.Object) stackAr41);
-        org.autotest.StackAr stackAr45 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr47 = new org.autotest.StackAr((int) '4');
-        java.lang.String str48 = stackAr47.toString();
-        boolean boolean49 = stackAr45.equals((java.lang.Object) stackAr47);
-        org.autotest.StackAr stackAr50 = new org.autotest.StackAr();
-        boolean boolean51 = stackAr50.isFull();
-        boolean boolean53 = stackAr50.equals((java.lang.Object) (byte) -1);
-        java.lang.String str54 = stackAr50.toString();
-        boolean boolean56 = stackAr50.equals((java.lang.Object) 10L);
-        java.lang.String str57 = stackAr50.toString();
-        stackAr47.push((java.lang.Object) stackAr50);
-        stackAr36.push((java.lang.Object) stackAr50);
-        boolean boolean60 = stackAr27.equals((java.lang.Object) stackAr50);
-        boolean boolean61 = stackAr20.equals((java.lang.Object) stackAr50);
-        org.autotest.StackAr stackAr63 = new org.autotest.StackAr((int) 'a');
-        boolean boolean65 = stackAr63.equals((java.lang.Object) (-1.0f));
-        boolean boolean67 = stackAr63.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr68 = new org.autotest.StackAr();
-        boolean boolean69 = stackAr68.isFull();
-        stackAr63.push((java.lang.Object) stackAr68);
-        boolean boolean71 = stackAr63.isFull();
-        java.lang.Object obj72 = stackAr63.pop();
-        stackAr50.push((java.lang.Object) stackAr63);
-        java.lang.Object obj74 = stackAr50.top();
-        boolean boolean75 = stackAr1.equals(obj74);
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
-        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 1 + "'", int8 == 1);
-        org.junit.Assert.assertEquals("'" + obj9 + "' != '" + 0.0f + "'", obj9, 0.0f);
-        org.junit.Assert.assertEquals("'" + str14 + "' != '" + "[]" + "'", str14, "[]");
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + true + "'", boolean16 == true);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + false + "'", boolean28 == false);
-        org.junit.Assert.assertTrue("'" + boolean30 + "' != '" + false + "'", boolean30 == false);
-        org.junit.Assert.assertEquals("'" + str31 + "' != '" + "[]" + "'", str31, "[]");
-        org.junit.Assert.assertTrue("'" + boolean33 + "' != '" + false + "'", boolean33 == false);
-        org.junit.Assert.assertEquals("'" + str34 + "' != '" + "[]" + "'", str34, "[]");
-        org.junit.Assert.assertTrue("'" + boolean38 + "' != '" + false + "'", boolean38 == false);
-        org.junit.Assert.assertTrue("'" + boolean40 + "' != '" + false + "'", boolean40 == false);
-        org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + false + "'", boolean42 == false);
-        org.junit.Assert.assertEquals("'" + str48 + "' != '" + "[]" + "'", str48, "[]");
-        org.junit.Assert.assertTrue("'" + boolean49 + "' != '" + true + "'", boolean49 == true);
-        org.junit.Assert.assertTrue("'" + boolean51 + "' != '" + false + "'", boolean51 == false);
-        org.junit.Assert.assertTrue("'" + boolean53 + "' != '" + false + "'", boolean53 == false);
-        org.junit.Assert.assertEquals("'" + str54 + "' != '" + "[]" + "'", str54, "[]");
-        org.junit.Assert.assertTrue("'" + boolean56 + "' != '" + false + "'", boolean56 == false);
-        org.junit.Assert.assertEquals("'" + str57 + "' != '" + "[]" + "'", str57, "[]");
-        org.junit.Assert.assertTrue("'" + boolean60 + "' != '" + true + "'", boolean60 == true);
-        org.junit.Assert.assertTrue("'" + boolean61 + "' != '" + false + "'", boolean61 == false);
-        org.junit.Assert.assertTrue("'" + boolean65 + "' != '" + false + "'", boolean65 == false);
-        org.junit.Assert.assertTrue("'" + boolean67 + "' != '" + false + "'", boolean67 == false);
-        org.junit.Assert.assertTrue("'" + boolean69 + "' != '" + false + "'", boolean69 == false);
-        org.junit.Assert.assertTrue("'" + boolean71 + "' != '" + false + "'", boolean71 == false);
-        org.junit.Assert.assertNotNull(obj72);
-        org.junit.Assert.assertEquals(obj72.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj72), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj72), "[]");
-        org.junit.Assert.assertNotNull(obj74);
-        org.junit.Assert.assertEquals(obj74.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj74), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj74), "[]");
-        org.junit.Assert.assertTrue("'" + boolean75 + "' != '" + false + "'", boolean75 == false);
-    }
-
-    @Test
-    public void test369() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test369");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean2 = stackAr1.isFull();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) '4');
-        java.lang.String str5 = stackAr4.toString();
-        java.lang.String str6 = stackAr4.toString();
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr();
-        boolean boolean8 = stackAr7.isFull();
-        boolean boolean10 = stackAr7.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        boolean boolean13 = stackAr7.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr((int) 'a');
-        boolean boolean17 = stackAr15.equals((java.lang.Object) (-1.0f));
-        boolean boolean19 = stackAr15.equals((java.lang.Object) "");
-        boolean boolean20 = stackAr7.equals((java.lang.Object) "");
-        boolean boolean21 = stackAr7.isFull();
-        boolean boolean22 = stackAr4.equals((java.lang.Object) stackAr7);
-        int int23 = stackAr7.size();
-        stackAr1.push((java.lang.Object) int23);
-        int int25 = stackAr1.size();
-        java.lang.Object obj26 = stackAr1.top();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertEquals("'" + str5 + "' != '" + "[]" + "'", str5, "[]");
-        org.junit.Assert.assertEquals("'" + str6 + "' != '" + "[]" + "'", str6, "[]");
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
-        org.junit.Assert.assertTrue("'" + int23 + "' != '" + 0 + "'", int23 == 0);
-        org.junit.Assert.assertTrue("'" + int25 + "' != '" + 1 + "'", int25 == 1);
-        org.junit.Assert.assertEquals("'" + obj26 + "' != '" + 0 + "'", obj26, 0);
-    }
-
-    @Test
-    public void test370() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test370");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        int int2 = stackAr1.size();
-        java.lang.String str3 = stackAr1.toString();
-        boolean boolean4 = stackAr1.isFull();
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean7 = stackAr6.isFull();
-        java.lang.String str8 = stackAr6.toString();
-        int int9 = stackAr6.size();
-        boolean boolean10 = stackAr1.equals((java.lang.Object) int9);
-        org.autotest.StackAr stackAr11 = new org.autotest.StackAr();
-        boolean boolean12 = stackAr11.isFull();
-        boolean boolean14 = stackAr11.equals((java.lang.Object) (byte) -1);
-        stackAr1.push((java.lang.Object) stackAr11);
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
-        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[]" + "'", str8, "[]");
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-    }
-
-    @Test
-    public void test371() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test371");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        int int6 = stackAr5.size();
-        stackAr5.push((java.lang.Object) 0);
-        boolean boolean9 = stackAr5.isFull();
-        boolean boolean10 = stackAr5.isFull();
-        java.lang.String str11 = stackAr5.toString();
-        boolean boolean12 = stackAr1.equals((java.lang.Object) str11);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertEquals("'" + str11 + "' != '" + "[0]" + "'", str11, "[0]");
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-    }
-
-    @Test
-    public void test372() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test372");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr(100);
-        boolean boolean2 = stackAr1.isEmpty();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) '4');
-        int int5 = stackAr4.size();
-        boolean boolean6 = stackAr4.isEmpty();
-        boolean boolean7 = stackAr1.equals((java.lang.Object) stackAr4);
-        boolean boolean8 = stackAr4.isFull();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-    }
-
-    @Test
-    public void test373() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test373");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 100);
-        boolean boolean2 = stackAr1.isFull();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-    }
-
-    @Test
-    public void test374() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test374");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) 'a');
-        boolean boolean10 = stackAr8.equals((java.lang.Object) (-1.0f));
-        boolean boolean12 = stackAr8.equals((java.lang.Object) "");
-        boolean boolean13 = stackAr0.equals((java.lang.Object) "");
-        boolean boolean14 = stackAr0.isFull();
-        org.autotest.StackAr stackAr16 = new org.autotest.StackAr((int) 'a');
-        boolean boolean17 = stackAr16.isFull();
-        org.autotest.StackAr stackAr18 = new org.autotest.StackAr();
-        boolean boolean19 = stackAr18.isFull();
-        boolean boolean21 = stackAr18.equals((java.lang.Object) (byte) -1);
-        stackAr16.push((java.lang.Object) boolean21);
-        boolean boolean23 = stackAr16.isEmpty();
-        java.lang.Object obj24 = stackAr16.top();
-        java.lang.Object obj25 = stackAr16.top();
-        boolean boolean26 = stackAr0.equals(obj25);
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj27 = stackAr0.pop();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
-        org.junit.Assert.assertEquals("'" + obj24 + "' != '" + false + "'", obj24, false);
-        org.junit.Assert.assertEquals("'" + obj25 + "' != '" + false + "'", obj25, false);
-        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
-    }
-
-    @Test
-    public void test375() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test375");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        java.lang.String str3 = stackAr1.toString();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        boolean boolean5 = stackAr4.isFull();
-        boolean boolean7 = stackAr4.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        boolean boolean10 = stackAr4.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        boolean boolean17 = stackAr4.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr4.isFull();
-        boolean boolean19 = stackAr1.equals((java.lang.Object) stackAr4);
-        java.lang.Object obj20 = null;
-        stackAr4.push(obj20);
-        java.lang.Object obj22 = stackAr4.top();
-        java.lang.Object obj23 = stackAr4.pop();
-        org.autotest.StackAr stackAr25 = new org.autotest.StackAr((int) '4');
-        java.lang.String str26 = stackAr25.toString();
-        java.lang.String str27 = stackAr25.toString();
-        org.autotest.StackAr stackAr28 = new org.autotest.StackAr();
-        boolean boolean29 = stackAr28.isFull();
-        boolean boolean31 = stackAr28.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr33 = new org.autotest.StackAr((int) '4');
-        boolean boolean34 = stackAr28.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) 'a');
-        boolean boolean38 = stackAr36.equals((java.lang.Object) (-1.0f));
-        boolean boolean40 = stackAr36.equals((java.lang.Object) "");
-        boolean boolean41 = stackAr28.equals((java.lang.Object) "");
-        boolean boolean42 = stackAr28.isFull();
-        boolean boolean43 = stackAr25.equals((java.lang.Object) stackAr28);
-        int int44 = stackAr28.size();
-        boolean boolean45 = stackAr28.isEmpty();
-        boolean boolean46 = stackAr28.isEmpty();
-        org.autotest.StackAr stackAr48 = new org.autotest.StackAr((int) '4');
-        int int49 = stackAr48.size();
-        stackAr48.push((java.lang.Object) 0);
-        boolean boolean52 = stackAr48.isFull();
-        stackAr28.push((java.lang.Object) stackAr48);
-        boolean boolean54 = stackAr4.equals((java.lang.Object) stackAr48);
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertNull(obj22);
-        org.junit.Assert.assertNull(obj23);
-        org.junit.Assert.assertEquals("'" + str26 + "' != '" + "[]" + "'", str26, "[]");
-        org.junit.Assert.assertEquals("'" + str27 + "' != '" + "[]" + "'", str27, "[]");
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertTrue("'" + boolean31 + "' != '" + false + "'", boolean31 == false);
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + false + "'", boolean34 == false);
-        org.junit.Assert.assertTrue("'" + boolean38 + "' != '" + false + "'", boolean38 == false);
-        org.junit.Assert.assertTrue("'" + boolean40 + "' != '" + false + "'", boolean40 == false);
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + false + "'", boolean42 == false);
-        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + false + "'", boolean43 == false);
-        org.junit.Assert.assertTrue("'" + int44 + "' != '" + 0 + "'", int44 == 0);
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + true + "'", boolean45 == true);
-        org.junit.Assert.assertTrue("'" + boolean46 + "' != '" + true + "'", boolean46 == true);
-        org.junit.Assert.assertTrue("'" + int49 + "' != '" + 0 + "'", int49 == 0);
-        org.junit.Assert.assertTrue("'" + boolean52 + "' != '" + false + "'", boolean52 == false);
-        org.junit.Assert.assertTrue("'" + boolean54 + "' != '" + false + "'", boolean54 == false);
-    }
-
-    @Test
-    public void test376() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test376");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
-        java.lang.String str4 = stackAr3.toString();
-        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        boolean boolean9 = stackAr6.equals((java.lang.Object) (byte) -1);
-        java.lang.String str10 = stackAr6.toString();
-        boolean boolean12 = stackAr6.equals((java.lang.Object) 10L);
-        java.lang.String str13 = stackAr6.toString();
-        stackAr3.push((java.lang.Object) stackAr6);
-        java.lang.String str15 = stackAr6.toString();
-        boolean boolean16 = stackAr6.isFull();
-        org.autotest.StackAr stackAr18 = new org.autotest.StackAr(10);
-        stackAr6.push((java.lang.Object) stackAr18);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertEquals("'" + str10 + "' != '" + "[]" + "'", str10, "[]");
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertEquals("'" + str15 + "' != '" + "[]" + "'", str15, "[]");
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-    }
-
-    @Test
-    public void test377() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test377");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        stackAr1.push((java.lang.Object) (-1L));
-        java.lang.Object obj4 = stackAr1.pop();
-        java.lang.String str5 = stackAr1.toString();
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj6 = stackAr1.pop();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertEquals("'" + obj4 + "' != '" + (-1L) + "'", obj4, (-1L));
-        org.junit.Assert.assertEquals("'" + str5 + "' != '" + "[]" + "'", str5, "[]");
-    }
-
-    @Test
     public void test378() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test378");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 10);
-        boolean boolean2 = stackAr1.isFull();
-        stackAr1.push((java.lang.Object) 'a');
-        java.lang.Object obj5 = stackAr1.pop();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertEquals("'" + obj5 + "' != '" + 'a' + "'", obj5, 'a');
-    }
-
-    @Test
-    public void test379() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test379");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean45 = stackAr44.isFull();
-        int int46 = stackAr44.size();
-        int int47 = stackAr44.size();
-        stackAr30.push((java.lang.Object) stackAr44);
-        org.autotest.StackAr stackAr49 = new org.autotest.StackAr();
-        boolean boolean50 = stackAr49.isEmpty();
-        boolean boolean51 = stackAr30.equals((java.lang.Object) stackAr49);
-        boolean boolean52 = stackAr30.isFull();
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + true + "'", boolean45 == true);
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + 0 + "'", int46 == 0);
-        org.junit.Assert.assertTrue("'" + int47 + "' != '" + 0 + "'", int47 == 0);
-        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + true + "'", boolean50 == true);
-        org.junit.Assert.assertTrue("'" + boolean51 + "' != '" + false + "'", boolean51 == false);
-        org.junit.Assert.assertTrue("'" + boolean52 + "' != '" + false + "'", boolean52 == false);
-    }
-
-    @Test
-    public void test380() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test380");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean2 = stackAr1.isEmpty();
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj3 = stackAr1.pop();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-    }
-
-    @Test
-    public void test381() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test381");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean45 = stackAr44.isFull();
-        int int46 = stackAr44.size();
-        int int47 = stackAr44.size();
-        stackAr30.push((java.lang.Object) stackAr44);
-        org.autotest.StackAr stackAr50 = new org.autotest.StackAr((int) '4');
-        java.lang.String str51 = stackAr50.toString();
-        stackAr50.push((java.lang.Object) 0);
-        stackAr30.push((java.lang.Object) 0);
-        java.lang.Object obj55 = stackAr30.top();
-        boolean boolean56 = stackAr30.isFull();
-        org.autotest.StackAr stackAr58 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr60 = new org.autotest.StackAr((int) '4');
-        java.lang.String str61 = stackAr60.toString();
-        boolean boolean62 = stackAr58.equals((java.lang.Object) stackAr60);
-        org.autotest.StackAr stackAr64 = new org.autotest.StackAr((int) '4');
-        stackAr64.push((java.lang.Object) (-1L));
-        java.lang.Object obj67 = stackAr64.pop();
-        stackAr58.push((java.lang.Object) stackAr64);
-        boolean boolean69 = stackAr58.isEmpty();
-        boolean boolean71 = stackAr58.equals((java.lang.Object) "[[]]");
-        java.lang.Object obj72 = stackAr58.pop();
-        boolean boolean73 = stackAr30.equals((java.lang.Object) stackAr58);
-        java.lang.Object obj74 = stackAr30.top();
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + true + "'", boolean45 == true);
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + 0 + "'", int46 == 0);
-        org.junit.Assert.assertTrue("'" + int47 + "' != '" + 0 + "'", int47 == 0);
-        org.junit.Assert.assertEquals("'" + str51 + "' != '" + "[]" + "'", str51, "[]");
-        org.junit.Assert.assertEquals("'" + obj55 + "' != '" + 0 + "'", obj55, 0);
-        org.junit.Assert.assertTrue("'" + boolean56 + "' != '" + false + "'", boolean56 == false);
-        org.junit.Assert.assertEquals("'" + str61 + "' != '" + "[]" + "'", str61, "[]");
-        org.junit.Assert.assertTrue("'" + boolean62 + "' != '" + true + "'", boolean62 == true);
-        org.junit.Assert.assertEquals("'" + obj67 + "' != '" + (-1L) + "'", obj67, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean69 + "' != '" + false + "'", boolean69 == false);
-        org.junit.Assert.assertTrue("'" + boolean71 + "' != '" + false + "'", boolean71 == false);
-        org.junit.Assert.assertNotNull(obj72);
-        org.junit.Assert.assertEquals(obj72.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj72), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj72), "[]");
-        org.junit.Assert.assertTrue("'" + boolean73 + "' != '" + false + "'", boolean73 == false);
-        org.junit.Assert.assertEquals("'" + obj74 + "' != '" + 0 + "'", obj74, 0);
-    }
-
-    @Test
-    public void test382() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test382");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        java.lang.String str3 = stackAr1.toString();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        boolean boolean5 = stackAr4.isFull();
-        boolean boolean7 = stackAr4.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        boolean boolean10 = stackAr4.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        boolean boolean17 = stackAr4.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr4.isFull();
-        boolean boolean19 = stackAr1.equals((java.lang.Object) stackAr4);
-        java.lang.Object obj20 = null;
-        stackAr4.push(obj20);
-        java.lang.Object obj22 = stackAr4.top();
-        java.lang.Object obj23 = stackAr4.top();
-        org.autotest.StackAr stackAr24 = new org.autotest.StackAr();
-        stackAr24.push((java.lang.Object) 0.0f);
-        stackAr24.push((java.lang.Object) true);
-        stackAr4.push((java.lang.Object) stackAr24);
-        java.lang.String str30 = stackAr4.toString();
-        java.lang.Object obj31 = stackAr4.top();
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertNull(obj22);
-        org.junit.Assert.assertNull(obj23);
-        org.junit.Assert.assertEquals("'" + str30 + "' != '" + "[null,[0.0,true]]" + "'", str30, "[null,[0.0,true]]");
-        org.junit.Assert.assertNotNull(obj31);
-        org.junit.Assert.assertEquals(obj31.toString(), "[0.0,true]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj31), "[0.0,true]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj31), "[0.0,true]");
-    }
-
-    @Test
-    public void test383() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test383");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean2 = stackAr1.isFull();
-        java.lang.String str3 = stackAr1.toString();
-        boolean boolean4 = stackAr1.isEmpty();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
-    }
-
-    @Test
-    public void test384() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test384");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        java.lang.String str4 = stackAr0.toString();
-        boolean boolean5 = stackAr0.isFull();
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        java.lang.String str10 = stackAr9.toString();
-        boolean boolean11 = stackAr7.equals((java.lang.Object) stackAr9);
-        org.autotest.StackAr stackAr13 = new org.autotest.StackAr((int) '4');
-        stackAr13.push((java.lang.Object) (-1L));
-        java.lang.Object obj16 = stackAr13.pop();
-        stackAr7.push((java.lang.Object) stackAr13);
-        stackAr0.push((java.lang.Object) stackAr7);
-        int int19 = stackAr0.size();
-        int int20 = stackAr0.size();
-        java.lang.String str21 = stackAr0.toString();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertEquals("'" + str10 + "' != '" + "[]" + "'", str10, "[]");
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
-        org.junit.Assert.assertEquals("'" + obj16 + "' != '" + (-1L) + "'", obj16, (-1L));
-        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 1 + "'", int19 == 1);
-        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 1 + "'", int20 == 1);
-        org.junit.Assert.assertEquals("'" + str21 + "' != '" + "[[[]]]" + "'", str21, "[[[]]]");
-    }
-
-    @Test
-    public void test385() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test385");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        java.lang.String str4 = stackAr0.toString();
-        boolean boolean6 = stackAr0.equals((java.lang.Object) 10L);
-        java.lang.String str7 = stackAr0.toString();
-        boolean boolean9 = stackAr0.equals((java.lang.Object) (byte) 0);
-        boolean boolean10 = stackAr0.isFull();
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr17 = new org.autotest.StackAr();
-        boolean boolean18 = stackAr17.isFull();
-        stackAr12.push((java.lang.Object) stackAr17);
-        org.autotest.StackAr stackAr21 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr23 = new org.autotest.StackAr((int) '4');
-        java.lang.String str24 = stackAr23.toString();
-        boolean boolean25 = stackAr21.equals((java.lang.Object) stackAr23);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr();
-        boolean boolean27 = stackAr26.isFull();
-        boolean boolean29 = stackAr26.equals((java.lang.Object) (byte) -1);
-        java.lang.String str30 = stackAr26.toString();
-        boolean boolean32 = stackAr26.equals((java.lang.Object) 10L);
-        java.lang.String str33 = stackAr26.toString();
-        stackAr23.push((java.lang.Object) stackAr26);
-        stackAr12.push((java.lang.Object) stackAr26);
-        org.autotest.StackAr stackAr37 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean38 = stackAr37.isEmpty();
-        boolean boolean39 = stackAr37.isFull();
-        org.autotest.StackAr stackAr41 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr43 = new org.autotest.StackAr((int) '4');
-        java.lang.String str44 = stackAr43.toString();
-        boolean boolean45 = stackAr41.equals((java.lang.Object) stackAr43);
-        org.autotest.StackAr stackAr47 = new org.autotest.StackAr((int) '4');
-        stackAr47.push((java.lang.Object) (-1L));
-        java.lang.Object obj50 = stackAr47.pop();
-        stackAr41.push((java.lang.Object) stackAr47);
-        boolean boolean52 = stackAr37.equals((java.lang.Object) stackAr41);
-        stackAr26.push((java.lang.Object) stackAr41);
-        org.autotest.StackAr stackAr55 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean56 = stackAr55.isFull();
-        int int57 = stackAr55.size();
-        int int58 = stackAr55.size();
-        stackAr41.push((java.lang.Object) stackAr55);
-        org.autotest.StackAr stackAr61 = new org.autotest.StackAr((int) '4');
-        java.lang.String str62 = stackAr61.toString();
-        stackAr61.push((java.lang.Object) 0);
-        stackAr41.push((java.lang.Object) 0);
-        java.lang.Object obj66 = stackAr41.top();
-        stackAr0.push(obj66);
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "[]" + "'", str7, "[]");
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str24 + "' != '" + "[]" + "'", str24, "[]");
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + true + "'", boolean25 == true);
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + false + "'", boolean27 == false);
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertEquals("'" + str30 + "' != '" + "[]" + "'", str30, "[]");
-        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean38 + "' != '" + true + "'", boolean38 == true);
-        org.junit.Assert.assertTrue("'" + boolean39 + "' != '" + true + "'", boolean39 == true);
-        org.junit.Assert.assertEquals("'" + str44 + "' != '" + "[]" + "'", str44, "[]");
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + true + "'", boolean45 == true);
-        org.junit.Assert.assertEquals("'" + obj50 + "' != '" + (-1L) + "'", obj50, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean52 + "' != '" + false + "'", boolean52 == false);
-        org.junit.Assert.assertTrue("'" + boolean56 + "' != '" + true + "'", boolean56 == true);
-        org.junit.Assert.assertTrue("'" + int57 + "' != '" + 0 + "'", int57 == 0);
-        org.junit.Assert.assertTrue("'" + int58 + "' != '" + 0 + "'", int58 == 0);
-        org.junit.Assert.assertEquals("'" + str62 + "' != '" + "[]" + "'", str62, "[]");
-        org.junit.Assert.assertEquals("'" + obj66 + "' != '" + 0 + "'", obj66, 0);
-    }
-
-    @Test
-    public void test386() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test386");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        boolean boolean43 = stackAr15.isEmpty();
-        java.lang.Object obj44 = stackAr15.pop();
-        java.lang.String str45 = stackAr15.toString();
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj46 = stackAr15.top();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + false + "'", boolean43 == false);
-        org.junit.Assert.assertNotNull(obj44);
-        org.junit.Assert.assertEquals(obj44.toString(), "[[]]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj44), "[[]]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj44), "[[]]");
-        org.junit.Assert.assertEquals("'" + str45 + "' != '" + "[]" + "'", str45, "[]");
-    }
-
-    @Test
-    public void test387() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test387");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) false);
-        stackAr0.push((java.lang.Object) (byte) 100);
-        boolean boolean7 = stackAr0.equals((java.lang.Object) 100L);
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-    }
-
-    @Test
-    public void test388() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test388");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
-        java.lang.String str4 = stackAr3.toString();
-        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
-        int int6 = stackAr1.size();
-        boolean boolean7 = stackAr1.isFull();
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        int int10 = stackAr9.size();
-        boolean boolean11 = stackAr9.isEmpty();
-        int int12 = stackAr9.size();
-        stackAr1.push((java.lang.Object) int12);
-        java.lang.Object obj14 = stackAr1.top();
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
-        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
-        org.junit.Assert.assertEquals("'" + obj14 + "' != '" + 0 + "'", obj14, 0);
-    }
-
-    @Test
-    public void test389() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test389");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
-        boolean boolean4 = stackAr3.isFull();
-        boolean boolean6 = stackAr3.equals((java.lang.Object) false);
-        boolean boolean7 = stackAr3.isEmpty();
-        boolean boolean8 = stackAr1.equals((java.lang.Object) stackAr3);
-        boolean boolean9 = stackAr1.isFull();
-        boolean boolean10 = stackAr1.isEmpty();
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
-    }
-
-    @Test
-    public void test390() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test390");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) 'a');
-        boolean boolean10 = stackAr8.equals((java.lang.Object) (-1.0f));
-        boolean boolean12 = stackAr8.equals((java.lang.Object) "");
-        boolean boolean13 = stackAr0.equals((java.lang.Object) "");
-        java.lang.String str14 = stackAr0.toString();
-        java.lang.Class<?> wildcardClass15 = stackAr0.getClass();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertEquals("'" + str14 + "' != '" + "[]" + "'", str14, "[]");
-        org.junit.Assert.assertNotNull(wildcardClass15);
-    }
-
-    @Test
-    public void test391() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test391");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
-        java.lang.Class<?> wildcardClass7 = stackAr0.getClass();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertNotNull(wildcardClass7);
-    }
-
-    @Test
-    public void test392() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test392");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr(1);
-        boolean boolean2 = stackAr1.isFull();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr((int) '4');
-        java.lang.String str7 = stackAr6.toString();
-        boolean boolean8 = stackAr4.equals((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        stackAr10.push((java.lang.Object) (-1L));
-        java.lang.Object obj13 = stackAr10.pop();
-        stackAr4.push((java.lang.Object) stackAr10);
-        stackAr1.push((java.lang.Object) stackAr10);
-        java.lang.Class<?> wildcardClass16 = stackAr1.getClass();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "[]" + "'", str7, "[]");
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
-        org.junit.Assert.assertEquals("'" + obj13 + "' != '" + (-1L) + "'", obj13, (-1L));
-        org.junit.Assert.assertNotNull(wildcardClass16);
-    }
-
-    @Test
-    public void test393() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test393");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr(0);
-        boolean boolean2 = stackAr1.isEmpty();
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj3 = stackAr1.top();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-    }
-
-    @Test
-    public void test394() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test394");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        java.lang.String str3 = stackAr1.toString();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        boolean boolean5 = stackAr4.isFull();
-        boolean boolean7 = stackAr4.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        boolean boolean10 = stackAr4.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        boolean boolean17 = stackAr4.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr4.isFull();
-        boolean boolean19 = stackAr1.equals((java.lang.Object) stackAr4);
-        java.lang.Object obj20 = null;
-        stackAr4.push(obj20);
-        java.lang.Object obj22 = stackAr4.top();
-        java.lang.String str23 = stackAr4.toString();
-        int int24 = stackAr4.size();
-        java.lang.String str25 = stackAr4.toString();
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertNull(obj22);
-        org.junit.Assert.assertEquals("'" + str23 + "' != '" + "[null]" + "'", str23, "[null]");
-        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 1 + "'", int24 == 1);
-        org.junit.Assert.assertEquals("'" + str25 + "' != '" + "[null]" + "'", str25, "[null]");
-    }
-
-    @Test
-    public void test395() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test395");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        stackAr0.push((java.lang.Object) 0.0f);
-        java.lang.String str3 = stackAr0.toString();
-        boolean boolean4 = stackAr0.isEmpty();
-        int int5 = stackAr0.size();
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[0.0]" + "'", str3, "[0.0]");
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
-        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 1 + "'", int5 == 1);
-    }
-
-    @Test
-    public void test396() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test396");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        java.lang.String str3 = stackAr1.toString();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        boolean boolean5 = stackAr4.isFull();
-        boolean boolean7 = stackAr4.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        boolean boolean10 = stackAr4.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        boolean boolean17 = stackAr4.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr4.isFull();
-        boolean boolean19 = stackAr1.equals((java.lang.Object) stackAr4);
-        java.lang.Object obj20 = null;
-        stackAr4.push(obj20);
-        org.autotest.StackAr stackAr23 = new org.autotest.StackAr(0);
-        boolean boolean24 = stackAr4.equals((java.lang.Object) 0);
-        boolean boolean25 = stackAr4.isEmpty();
-        java.lang.Object obj26 = stackAr4.top();
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
-        org.junit.Assert.assertNull(obj26);
-    }
-
-    @Test
-    public void test397() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test397");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) 'a');
-        boolean boolean46 = stackAr44.equals((java.lang.Object) (-1.0f));
-        boolean boolean48 = stackAr44.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr49 = new org.autotest.StackAr();
-        boolean boolean50 = stackAr49.isFull();
-        stackAr44.push((java.lang.Object) stackAr49);
-        java.lang.Class<?> wildcardClass52 = stackAr44.getClass();
-        stackAr15.push((java.lang.Object) wildcardClass52);
-        java.lang.Object obj54 = stackAr15.pop();
-        boolean boolean55 = stackAr15.isEmpty();
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean46 + "' != '" + false + "'", boolean46 == false);
-        org.junit.Assert.assertTrue("'" + boolean48 + "' != '" + false + "'", boolean48 == false);
-        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + false + "'", boolean50 == false);
-        org.junit.Assert.assertNotNull(wildcardClass52);
-        org.junit.Assert.assertNotNull(obj54);
-        org.junit.Assert.assertEquals(obj54.toString(), "class org.autotest.StackAr");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj54), "class org.autotest.StackAr");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj54), "class org.autotest.StackAr");
-        org.junit.Assert.assertTrue("'" + boolean55 + "' != '" + false + "'", boolean55 == false);
-    }
-
-    @Test
-    public void test398() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test398");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        java.lang.String str3 = stackAr1.toString();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        boolean boolean5 = stackAr4.isFull();
-        boolean boolean7 = stackAr4.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        boolean boolean10 = stackAr4.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        boolean boolean17 = stackAr4.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr4.isFull();
-        boolean boolean19 = stackAr1.equals((java.lang.Object) stackAr4);
-        java.lang.Object obj20 = null;
-        stackAr4.push(obj20);
-        java.lang.Object obj22 = stackAr4.top();
-        java.lang.String str23 = stackAr4.toString();
-        int int24 = stackAr4.size();
-        boolean boolean25 = stackAr4.isEmpty();
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertNull(obj22);
-        org.junit.Assert.assertEquals("'" + str23 + "' != '" + "[null]" + "'", str23, "[null]");
-        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 1 + "'", int24 == 1);
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
-    }
-
-    @Test
-    public void test399() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test399");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean45 = stackAr44.isFull();
-        int int46 = stackAr44.size();
-        int int47 = stackAr44.size();
-        stackAr30.push((java.lang.Object) stackAr44);
-        org.autotest.StackAr stackAr50 = new org.autotest.StackAr((int) '4');
-        java.lang.String str51 = stackAr50.toString();
-        stackAr50.push((java.lang.Object) 0);
-        stackAr30.push((java.lang.Object) 0);
-        java.lang.Object obj55 = stackAr30.top();
-        boolean boolean56 = stackAr30.isFull();
-        org.autotest.StackAr stackAr58 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr60 = new org.autotest.StackAr((int) '4');
-        java.lang.String str61 = stackAr60.toString();
-        boolean boolean62 = stackAr58.equals((java.lang.Object) stackAr60);
-        org.autotest.StackAr stackAr64 = new org.autotest.StackAr((int) '4');
-        stackAr64.push((java.lang.Object) (-1L));
-        java.lang.Object obj67 = stackAr64.pop();
-        stackAr58.push((java.lang.Object) stackAr64);
-        boolean boolean69 = stackAr58.isEmpty();
-        boolean boolean71 = stackAr58.equals((java.lang.Object) "[[]]");
-        java.lang.Object obj72 = stackAr58.pop();
-        boolean boolean73 = stackAr30.equals((java.lang.Object) stackAr58);
-        org.autotest.StackAr stackAr75 = new org.autotest.StackAr((int) '4');
-        java.lang.String str76 = stackAr75.toString();
-        java.lang.String str77 = stackAr75.toString();
-        boolean boolean78 = stackAr75.isEmpty();
-        boolean boolean79 = stackAr30.equals((java.lang.Object) stackAr75);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + true + "'", boolean45 == true);
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + 0 + "'", int46 == 0);
-        org.junit.Assert.assertTrue("'" + int47 + "' != '" + 0 + "'", int47 == 0);
-        org.junit.Assert.assertEquals("'" + str51 + "' != '" + "[]" + "'", str51, "[]");
-        org.junit.Assert.assertEquals("'" + obj55 + "' != '" + 0 + "'", obj55, 0);
-        org.junit.Assert.assertTrue("'" + boolean56 + "' != '" + false + "'", boolean56 == false);
-        org.junit.Assert.assertEquals("'" + str61 + "' != '" + "[]" + "'", str61, "[]");
-        org.junit.Assert.assertTrue("'" + boolean62 + "' != '" + true + "'", boolean62 == true);
-        org.junit.Assert.assertEquals("'" + obj67 + "' != '" + (-1L) + "'", obj67, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean69 + "' != '" + false + "'", boolean69 == false);
-        org.junit.Assert.assertTrue("'" + boolean71 + "' != '" + false + "'", boolean71 == false);
-        org.junit.Assert.assertNotNull(obj72);
-        org.junit.Assert.assertEquals(obj72.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj72), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj72), "[]");
-        org.junit.Assert.assertTrue("'" + boolean73 + "' != '" + false + "'", boolean73 == false);
-        org.junit.Assert.assertEquals("'" + str76 + "' != '" + "[]" + "'", str76, "[]");
-        org.junit.Assert.assertEquals("'" + str77 + "' != '" + "[]" + "'", str77, "[]");
-        org.junit.Assert.assertTrue("'" + boolean78 + "' != '" + true + "'", boolean78 == true);
-        org.junit.Assert.assertTrue("'" + boolean79 + "' != '" + false + "'", boolean79 == false);
-    }
-
-    @Test
-    public void test400() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test400");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean2 = stackAr1.isFull();
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
-        boolean boolean4 = stackAr3.isFull();
-        boolean boolean6 = stackAr3.equals((java.lang.Object) (byte) -1);
-        stackAr1.push((java.lang.Object) boolean6);
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr();
-        boolean boolean9 = stackAr8.isFull();
-        boolean boolean11 = stackAr8.equals((java.lang.Object) (byte) -1);
-        java.lang.String str12 = stackAr8.toString();
-        boolean boolean14 = stackAr8.equals((java.lang.Object) 10L);
-        java.lang.String str15 = stackAr8.toString();
-        org.autotest.StackAr stackAr17 = new org.autotest.StackAr((int) 'a');
-        boolean boolean19 = stackAr17.equals((java.lang.Object) (-1.0f));
-        boolean boolean21 = stackAr17.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr22 = new org.autotest.StackAr();
-        boolean boolean23 = stackAr22.isFull();
-        stackAr17.push((java.lang.Object) stackAr22);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr28 = new org.autotest.StackAr((int) '4');
-        java.lang.String str29 = stackAr28.toString();
-        boolean boolean30 = stackAr26.equals((java.lang.Object) stackAr28);
-        org.autotest.StackAr stackAr31 = new org.autotest.StackAr();
-        boolean boolean32 = stackAr31.isFull();
-        boolean boolean34 = stackAr31.equals((java.lang.Object) (byte) -1);
-        java.lang.String str35 = stackAr31.toString();
-        boolean boolean37 = stackAr31.equals((java.lang.Object) 10L);
-        java.lang.String str38 = stackAr31.toString();
-        stackAr28.push((java.lang.Object) stackAr31);
-        stackAr17.push((java.lang.Object) stackAr31);
-        boolean boolean41 = stackAr8.equals((java.lang.Object) stackAr31);
-        boolean boolean42 = stackAr1.equals((java.lang.Object) stackAr31);
-        boolean boolean43 = stackAr31.isFull();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertEquals("'" + str12 + "' != '" + "[]" + "'", str12, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertEquals("'" + str15 + "' != '" + "[]" + "'", str15, "[]");
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
-        org.junit.Assert.assertEquals("'" + str29 + "' != '" + "[]" + "'", str29, "[]");
-        org.junit.Assert.assertTrue("'" + boolean30 + "' != '" + true + "'", boolean30 == true);
-        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + false + "'", boolean34 == false);
-        org.junit.Assert.assertEquals("'" + str35 + "' != '" + "[]" + "'", str35, "[]");
-        org.junit.Assert.assertTrue("'" + boolean37 + "' != '" + false + "'", boolean37 == false);
-        org.junit.Assert.assertEquals("'" + str38 + "' != '" + "[]" + "'", str38, "[]");
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + true + "'", boolean41 == true);
-        org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + false + "'", boolean42 == false);
-        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + false + "'", boolean43 == false);
-    }
-
-    @Test
-    public void test401() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test401");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean2 = stackAr1.isEmpty();
-        boolean boolean3 = stackAr1.isFull();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
-        java.lang.String str8 = stackAr7.toString();
-        boolean boolean9 = stackAr5.equals((java.lang.Object) stackAr7);
-        org.autotest.StackAr stackAr11 = new org.autotest.StackAr((int) '4');
-        stackAr11.push((java.lang.Object) (-1L));
-        java.lang.Object obj14 = stackAr11.pop();
-        stackAr5.push((java.lang.Object) stackAr11);
-        boolean boolean16 = stackAr1.equals((java.lang.Object) stackAr5);
-        java.lang.String str17 = stackAr1.toString();
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj18 = stackAr1.top();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
-        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[]" + "'", str8, "[]");
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
-        org.junit.Assert.assertEquals("'" + obj14 + "' != '" + (-1L) + "'", obj14, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertEquals("'" + str17 + "' != '" + "[]" + "'", str17, "[]");
-    }
-
-    @Test
-    public void test402() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test402");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        boolean boolean43 = stackAr15.isEmpty();
-        java.lang.Object obj44 = stackAr15.pop();
-        java.lang.String str45 = stackAr15.toString();
-        int int46 = stackAr15.size();
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + false + "'", boolean43 == false);
-        org.junit.Assert.assertNotNull(obj44);
-        org.junit.Assert.assertEquals(obj44.toString(), "[[]]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj44), "[[]]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj44), "[[]]");
-        org.junit.Assert.assertEquals("'" + str45 + "' != '" + "[]" + "'", str45, "[]");
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + 0 + "'", int46 == 0);
-    }
-
-    @Test
-    public void test403() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test403");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) 'a');
-        boolean boolean10 = stackAr8.equals((java.lang.Object) (-1.0f));
-        boolean boolean12 = stackAr8.equals((java.lang.Object) "");
-        boolean boolean13 = stackAr0.equals((java.lang.Object) "");
-        boolean boolean14 = stackAr0.isFull();
-        org.autotest.StackAr stackAr16 = new org.autotest.StackAr((int) '4');
-        java.lang.String str17 = stackAr16.toString();
-        java.lang.String str18 = stackAr16.toString();
-        org.autotest.StackAr stackAr19 = new org.autotest.StackAr();
-        boolean boolean20 = stackAr19.isFull();
-        boolean boolean22 = stackAr19.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr24 = new org.autotest.StackAr((int) '4');
-        boolean boolean25 = stackAr19.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr27 = new org.autotest.StackAr((int) 'a');
-        boolean boolean29 = stackAr27.equals((java.lang.Object) (-1.0f));
-        boolean boolean31 = stackAr27.equals((java.lang.Object) "");
-        boolean boolean32 = stackAr19.equals((java.lang.Object) "");
-        boolean boolean33 = stackAr19.isFull();
-        boolean boolean34 = stackAr16.equals((java.lang.Object) stackAr19);
-        java.lang.Object obj35 = null;
-        stackAr19.push(obj35);
-        java.lang.Object obj37 = stackAr19.top();
-        java.lang.String str38 = stackAr19.toString();
-        boolean boolean39 = stackAr0.equals((java.lang.Object) stackAr19);
-        java.lang.Class<?> wildcardClass40 = stackAr0.getClass();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertEquals("'" + str17 + "' != '" + "[]" + "'", str17, "[]");
-        org.junit.Assert.assertEquals("'" + str18 + "' != '" + "[]" + "'", str18, "[]");
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertTrue("'" + boolean31 + "' != '" + false + "'", boolean31 == false);
-        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
-        org.junit.Assert.assertTrue("'" + boolean33 + "' != '" + false + "'", boolean33 == false);
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + false + "'", boolean34 == false);
-        org.junit.Assert.assertNull(obj37);
-        org.junit.Assert.assertEquals("'" + str38 + "' != '" + "[null]" + "'", str38, "[null]");
-        org.junit.Assert.assertTrue("'" + boolean39 + "' != '" + false + "'", boolean39 == false);
-        org.junit.Assert.assertNotNull(wildcardClass40);
-    }
-
-    @Test
-    public void test404() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test404");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
-        java.lang.String str4 = stackAr3.toString();
-        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
-        boolean boolean7 = stackAr3.equals((java.lang.Object) "[]");
-        java.lang.String str8 = stackAr3.toString();
-        java.lang.Class<?> wildcardClass9 = stackAr3.getClass();
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[]" + "'", str8, "[]");
-        org.junit.Assert.assertNotNull(wildcardClass9);
-    }
-
-    @Test
-    public void test405() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test405");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean2 = stackAr1.isEmpty();
-        int int3 = stackAr1.size();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) 'a');
-        boolean boolean7 = stackAr5.equals((java.lang.Object) (-1.0f));
-        int int8 = stackAr5.size();
-        boolean boolean10 = stackAr5.equals((java.lang.Object) (byte) 100);
-        boolean boolean11 = stackAr5.isFull();
-        int int12 = stackAr5.size();
-        boolean boolean13 = stackAr1.equals((java.lang.Object) stackAr5);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr17 = new org.autotest.StackAr((int) '4');
-        java.lang.String str18 = stackAr17.toString();
-        boolean boolean19 = stackAr15.equals((java.lang.Object) stackAr17);
-        stackAr5.push((java.lang.Object) boolean19);
-        java.lang.String str21 = stackAr5.toString();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 0 + "'", int3 == 0);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 0 + "'", int8 == 0);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertEquals("'" + str18 + "' != '" + "[]" + "'", str18, "[]");
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
-        org.junit.Assert.assertEquals("'" + str21 + "' != '" + "[true]" + "'", str21, "[true]");
-    }
-
-    @Test
-    public void test406() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test406");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 10);
-        boolean boolean2 = stackAr1.isFull();
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj3 = stackAr1.pop();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-    }
-
-    @Test
-    public void test407() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test407");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) 10);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        java.lang.String str6 = stackAr5.toString();
-        java.lang.String str7 = stackAr5.toString();
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr();
-        boolean boolean9 = stackAr8.isFull();
-        boolean boolean11 = stackAr8.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr13 = new org.autotest.StackAr((int) '4');
-        boolean boolean14 = stackAr8.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr16 = new org.autotest.StackAr((int) 'a');
-        boolean boolean18 = stackAr16.equals((java.lang.Object) (-1.0f));
-        boolean boolean20 = stackAr16.equals((java.lang.Object) "");
-        boolean boolean21 = stackAr8.equals((java.lang.Object) "");
-        boolean boolean22 = stackAr8.isFull();
-        boolean boolean23 = stackAr5.equals((java.lang.Object) stackAr8);
-        java.lang.Object obj24 = null;
-        stackAr8.push(obj24);
-        java.lang.Object obj26 = stackAr8.top();
-        java.lang.String str27 = stackAr8.toString();
-        java.lang.Object obj28 = stackAr8.pop();
-        boolean boolean29 = stackAr0.equals(obj28);
-        java.lang.String str30 = stackAr0.toString();
-        org.autotest.StackAr stackAr31 = new org.autotest.StackAr();
-        stackAr31.push((java.lang.Object) 0.0f);
-        java.lang.String str34 = stackAr31.toString();
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) 'a');
-        boolean boolean38 = stackAr36.equals((java.lang.Object) (-1.0f));
-        boolean boolean40 = stackAr36.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr41 = new org.autotest.StackAr();
-        boolean boolean42 = stackAr41.isFull();
-        stackAr36.push((java.lang.Object) stackAr41);
-        boolean boolean44 = stackAr36.isFull();
-        java.lang.Object obj45 = stackAr36.pop();
-        stackAr31.push((java.lang.Object) stackAr36);
-        stackAr0.push((java.lang.Object) stackAr36);
-        boolean boolean48 = stackAr36.isFull();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str6 + "' != '" + "[]" + "'", str6, "[]");
-        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "[]" + "'", str7, "[]");
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
-        org.junit.Assert.assertNull(obj26);
-        org.junit.Assert.assertEquals("'" + str27 + "' != '" + "[null]" + "'", str27, "[null]");
-        org.junit.Assert.assertNull(obj28);
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertEquals("'" + str30 + "' != '" + "[]" + "'", str30, "[]");
-        org.junit.Assert.assertEquals("'" + str34 + "' != '" + "[0.0]" + "'", str34, "[0.0]");
-        org.junit.Assert.assertTrue("'" + boolean38 + "' != '" + false + "'", boolean38 == false);
-        org.junit.Assert.assertTrue("'" + boolean40 + "' != '" + false + "'", boolean40 == false);
-        org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + false + "'", boolean42 == false);
-        org.junit.Assert.assertTrue("'" + boolean44 + "' != '" + false + "'", boolean44 == false);
-        org.junit.Assert.assertNotNull(obj45);
-        org.junit.Assert.assertEquals(obj45.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj45), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj45), "[]");
-        org.junit.Assert.assertTrue("'" + boolean48 + "' != '" + false + "'", boolean48 == false);
-    }
-
-    @Test
-    public void test408() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test408");
         org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
         boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
         boolean boolean5 = stackAr1.equals((java.lang.Object) "");
@@ -13139,2625 +11611,11 @@ public class RegressionTest0 {
         stackAr1.push((java.lang.Object) stackAr6);
         java.lang.String str9 = stackAr1.toString();
         boolean boolean10 = stackAr1.isEmpty();
-        java.lang.Object obj11 = stackAr1.top();
         org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
         org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
         org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
         org.junit.Assert.assertEquals("'" + str9 + "' != '" + "[[]]" + "'", str9, "[[]]");
         org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertNotNull(obj11);
-        org.junit.Assert.assertEquals(obj11.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj11), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj11), "[]");
-    }
-
-    @Test
-    public void test409() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test409");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr(1);
-        boolean boolean2 = stackAr1.isFull();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr((int) '4');
-        java.lang.String str7 = stackAr6.toString();
-        boolean boolean8 = stackAr4.equals((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        stackAr10.push((java.lang.Object) (-1L));
-        java.lang.Object obj13 = stackAr10.pop();
-        stackAr4.push((java.lang.Object) stackAr10);
-        stackAr1.push((java.lang.Object) stackAr10);
-        org.autotest.StackAr stackAr17 = new org.autotest.StackAr((int) 'a');
-        boolean boolean19 = stackAr17.equals((java.lang.Object) (-1.0f));
-        org.autotest.StackAr stackAr21 = new org.autotest.StackAr((int) '4');
-        int int22 = stackAr21.size();
-        java.lang.String str23 = stackAr21.toString();
-        boolean boolean24 = stackAr17.equals((java.lang.Object) str23);
-        // The following exception was thrown during execution in test generation
-        try {
-            stackAr1.push((java.lang.Object) boolean24);
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "[]" + "'", str7, "[]");
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
-        org.junit.Assert.assertEquals("'" + obj13 + "' != '" + (-1L) + "'", obj13, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
-        org.junit.Assert.assertEquals("'" + str23 + "' != '" + "[]" + "'", str23, "[]");
-        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
-    }
-
-    @Test
-    public void test410() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test410");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        stackAr0.push((java.lang.Object) 0.0f);
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) (byte) 100);
-        boolean boolean5 = stackAr4.isFull();
-        boolean boolean6 = stackAr4.isEmpty();
-        boolean boolean7 = stackAr0.equals((java.lang.Object) stackAr4);
-        java.lang.String str8 = stackAr0.toString();
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[0.0]" + "'", str8, "[0.0]");
-    }
-
-    @Test
-    public void test411() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test411");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean45 = stackAr44.isFull();
-        int int46 = stackAr44.size();
-        int int47 = stackAr44.size();
-        stackAr30.push((java.lang.Object) stackAr44);
-        boolean boolean49 = stackAr30.isEmpty();
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + true + "'", boolean45 == true);
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + 0 + "'", int46 == 0);
-        org.junit.Assert.assertTrue("'" + int47 + "' != '" + 0 + "'", int47 == 0);
-        org.junit.Assert.assertTrue("'" + boolean49 + "' != '" + false + "'", boolean49 == false);
-    }
-
-    @Test
-    public void test412() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test412");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        java.lang.String str4 = stackAr0.toString();
-        boolean boolean6 = stackAr0.equals((java.lang.Object) 10L);
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr();
-        boolean boolean8 = stackAr7.isFull();
-        int int9 = stackAr7.size();
-        boolean boolean10 = stackAr7.isEmpty();
-        stackAr0.push((java.lang.Object) stackAr7);
-        java.lang.Class<?> wildcardClass12 = stackAr7.getClass();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
-        org.junit.Assert.assertNotNull(wildcardClass12);
-    }
-
-    @Test
-    public void test413() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test413");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
-        java.lang.String str4 = stackAr3.toString();
-        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        boolean boolean9 = stackAr6.equals((java.lang.Object) (byte) -1);
-        java.lang.String str10 = stackAr6.toString();
-        boolean boolean12 = stackAr6.equals((java.lang.Object) 10L);
-        java.lang.String str13 = stackAr6.toString();
-        stackAr3.push((java.lang.Object) stackAr6);
-        stackAr3.push((java.lang.Object) (short) 100);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertEquals("'" + str10 + "' != '" + "[]" + "'", str10, "[]");
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-    }
-
-    @Test
-    public void test414() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test414");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        java.lang.String str2 = stackAr1.toString();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean5 = stackAr4.isEmpty();
-        boolean boolean6 = stackAr4.isFull();
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        java.lang.String str11 = stackAr10.toString();
-        boolean boolean12 = stackAr8.equals((java.lang.Object) stackAr10);
-        org.autotest.StackAr stackAr14 = new org.autotest.StackAr((int) '4');
-        stackAr14.push((java.lang.Object) (-1L));
-        java.lang.Object obj17 = stackAr14.pop();
-        stackAr8.push((java.lang.Object) stackAr14);
-        boolean boolean19 = stackAr4.equals((java.lang.Object) stackAr8);
-        org.autotest.StackAr stackAr21 = new org.autotest.StackAr((int) '4');
-        int int22 = stackAr21.size();
-        java.lang.String str23 = stackAr21.toString();
-        int int24 = stackAr21.size();
-        boolean boolean25 = stackAr21.isEmpty();
-        boolean boolean26 = stackAr8.equals((java.lang.Object) boolean25);
-        stackAr1.push((java.lang.Object) stackAr8);
-        boolean boolean28 = stackAr1.isFull();
-        int int29 = stackAr1.size();
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
-        org.junit.Assert.assertEquals("'" + str11 + "' != '" + "[]" + "'", str11, "[]");
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
-        org.junit.Assert.assertEquals("'" + obj17 + "' != '" + (-1L) + "'", obj17, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
-        org.junit.Assert.assertEquals("'" + str23 + "' != '" + "[]" + "'", str23, "[]");
-        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + true + "'", boolean25 == true);
-        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + false + "'", boolean28 == false);
-        org.junit.Assert.assertTrue("'" + int29 + "' != '" + 1 + "'", int29 == 1);
-    }
-
-    @Test
-    public void test415() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test415");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        java.lang.String str4 = stackAr0.toString();
-        boolean boolean5 = stackAr0.isEmpty();
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) 'a');
-        boolean boolean9 = stackAr7.equals((java.lang.Object) (-1.0f));
-        boolean boolean10 = stackAr7.isEmpty();
-        boolean boolean11 = stackAr0.equals((java.lang.Object) stackAr7);
-        boolean boolean12 = stackAr0.isFull();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-    }
-
-    @Test
-    public void test416() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test416");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean2 = stackAr1.isFull();
-        java.lang.String str3 = stackAr1.toString();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        boolean boolean5 = stackAr4.isFull();
-        boolean boolean7 = stackAr4.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        boolean boolean10 = stackAr4.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        boolean boolean17 = stackAr4.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr4.isFull();
-        boolean boolean19 = stackAr4.isFull();
-        int int20 = stackAr4.size();
-        // The following exception was thrown during execution in test generation
-        try {
-            stackAr1.push((java.lang.Object) int20);
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
-    }
-
-    @Test
-    public void test417() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test417");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr(100);
-        boolean boolean2 = stackAr1.isEmpty();
-        boolean boolean3 = stackAr1.isEmpty();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
-    }
-
-    @Test
-    public void test418() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test418");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
-        java.lang.String str4 = stackAr3.toString();
-        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
-        stackAr7.push((java.lang.Object) (-1L));
-        java.lang.Object obj10 = stackAr7.pop();
-        stackAr1.push((java.lang.Object) stackAr7);
-        boolean boolean12 = stackAr7.isEmpty();
-        org.autotest.StackAr stackAr14 = new org.autotest.StackAr((int) '4');
-        java.lang.String str15 = stackAr14.toString();
-        java.lang.String str16 = stackAr14.toString();
-        org.autotest.StackAr stackAr17 = new org.autotest.StackAr();
-        boolean boolean18 = stackAr17.isFull();
-        boolean boolean20 = stackAr17.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr22 = new org.autotest.StackAr((int) '4');
-        boolean boolean23 = stackAr17.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr25 = new org.autotest.StackAr((int) 'a');
-        boolean boolean27 = stackAr25.equals((java.lang.Object) (-1.0f));
-        boolean boolean29 = stackAr25.equals((java.lang.Object) "");
-        boolean boolean30 = stackAr17.equals((java.lang.Object) "");
-        boolean boolean31 = stackAr17.isFull();
-        boolean boolean32 = stackAr14.equals((java.lang.Object) stackAr17);
-        int int33 = stackAr17.size();
-        boolean boolean34 = stackAr17.isEmpty();
-        boolean boolean35 = stackAr17.isEmpty();
-        org.autotest.StackAr stackAr37 = new org.autotest.StackAr((int) '4');
-        int int38 = stackAr37.size();
-        stackAr37.push((java.lang.Object) 0);
-        boolean boolean41 = stackAr37.isFull();
-        stackAr17.push((java.lang.Object) stackAr37);
-        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) '4');
-        stackAr44.push((java.lang.Object) (-1L));
-        java.lang.Object obj47 = stackAr44.pop();
-        stackAr44.push((java.lang.Object) (-1));
-        boolean boolean50 = stackAr44.isEmpty();
-        org.autotest.StackAr stackAr52 = new org.autotest.StackAr((int) 'a');
-        boolean boolean54 = stackAr52.equals((java.lang.Object) (-1.0f));
-        boolean boolean56 = stackAr52.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr57 = new org.autotest.StackAr();
-        boolean boolean58 = stackAr57.isFull();
-        stackAr52.push((java.lang.Object) stackAr57);
-        boolean boolean60 = stackAr52.isFull();
-        java.lang.Object obj61 = stackAr52.pop();
-        boolean boolean62 = stackAr44.equals(obj61);
-        stackAr17.push(obj61);
-        boolean boolean64 = stackAr7.equals(obj61);
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj65 = stackAr7.top();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertEquals("'" + obj10 + "' != '" + (-1L) + "'", obj10, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
-        org.junit.Assert.assertEquals("'" + str15 + "' != '" + "[]" + "'", str15, "[]");
-        org.junit.Assert.assertEquals("'" + str16 + "' != '" + "[]" + "'", str16, "[]");
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + false + "'", boolean27 == false);
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertTrue("'" + boolean30 + "' != '" + false + "'", boolean30 == false);
-        org.junit.Assert.assertTrue("'" + boolean31 + "' != '" + false + "'", boolean31 == false);
-        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
-        org.junit.Assert.assertTrue("'" + int33 + "' != '" + 0 + "'", int33 == 0);
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertTrue("'" + boolean35 + "' != '" + true + "'", boolean35 == true);
-        org.junit.Assert.assertTrue("'" + int38 + "' != '" + 0 + "'", int38 == 0);
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertEquals("'" + obj47 + "' != '" + (-1L) + "'", obj47, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + false + "'", boolean50 == false);
-        org.junit.Assert.assertTrue("'" + boolean54 + "' != '" + false + "'", boolean54 == false);
-        org.junit.Assert.assertTrue("'" + boolean56 + "' != '" + false + "'", boolean56 == false);
-        org.junit.Assert.assertTrue("'" + boolean58 + "' != '" + false + "'", boolean58 == false);
-        org.junit.Assert.assertTrue("'" + boolean60 + "' != '" + false + "'", boolean60 == false);
-        org.junit.Assert.assertNotNull(obj61);
-        org.junit.Assert.assertEquals(obj61.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj61), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj61), "[]");
-        org.junit.Assert.assertTrue("'" + boolean62 + "' != '" + false + "'", boolean62 == false);
-        org.junit.Assert.assertTrue("'" + boolean64 + "' != '" + false + "'", boolean64 == false);
-    }
-
-    @Test
-    public void test419() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test419");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean2 = stackAr1.isFull();
-        boolean boolean3 = stackAr1.isEmpty();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) 'a');
-        boolean boolean7 = stackAr5.equals((java.lang.Object) (-1.0f));
-        boolean boolean9 = stackAr5.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr();
-        boolean boolean11 = stackAr10.isFull();
-        stackAr5.push((java.lang.Object) stackAr10);
-        java.lang.String str13 = stackAr5.toString();
-        boolean boolean14 = stackAr1.equals((java.lang.Object) stackAr5);
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[[]]" + "'", str13, "[[]]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-    }
-
-    @Test
-    public void test420() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test420");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) 'a');
-        boolean boolean10 = stackAr8.equals((java.lang.Object) (-1.0f));
-        boolean boolean12 = stackAr8.equals((java.lang.Object) "");
-        boolean boolean13 = stackAr0.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr((int) '#');
-        boolean boolean16 = stackAr0.equals((java.lang.Object) '#');
-        int int17 = stackAr0.size();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
-    }
-
-    @Test
-    public void test421() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test421");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) 'a');
-        boolean boolean10 = stackAr8.equals((java.lang.Object) (-1.0f));
-        boolean boolean12 = stackAr8.equals((java.lang.Object) "");
-        boolean boolean13 = stackAr0.equals((java.lang.Object) "");
-        boolean boolean14 = stackAr0.isFull();
-        org.autotest.StackAr stackAr16 = new org.autotest.StackAr((int) '4');
-        java.lang.String str17 = stackAr16.toString();
-        java.lang.String str18 = stackAr16.toString();
-        org.autotest.StackAr stackAr19 = new org.autotest.StackAr();
-        boolean boolean20 = stackAr19.isFull();
-        boolean boolean22 = stackAr19.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr24 = new org.autotest.StackAr((int) '4');
-        boolean boolean25 = stackAr19.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr27 = new org.autotest.StackAr((int) 'a');
-        boolean boolean29 = stackAr27.equals((java.lang.Object) (-1.0f));
-        boolean boolean31 = stackAr27.equals((java.lang.Object) "");
-        boolean boolean32 = stackAr19.equals((java.lang.Object) "");
-        boolean boolean33 = stackAr19.isFull();
-        boolean boolean34 = stackAr16.equals((java.lang.Object) stackAr19);
-        java.lang.Object obj35 = null;
-        stackAr19.push(obj35);
-        java.lang.Object obj37 = stackAr19.top();
-        java.lang.String str38 = stackAr19.toString();
-        boolean boolean39 = stackAr0.equals((java.lang.Object) stackAr19);
-        org.autotest.StackAr stackAr41 = new org.autotest.StackAr((int) 'a');
-        java.lang.String str42 = stackAr41.toString();
-        boolean boolean43 = stackAr41.isEmpty();
-        boolean boolean44 = stackAr0.equals((java.lang.Object) stackAr41);
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj45 = stackAr0.pop();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertEquals("'" + str17 + "' != '" + "[]" + "'", str17, "[]");
-        org.junit.Assert.assertEquals("'" + str18 + "' != '" + "[]" + "'", str18, "[]");
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertTrue("'" + boolean31 + "' != '" + false + "'", boolean31 == false);
-        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
-        org.junit.Assert.assertTrue("'" + boolean33 + "' != '" + false + "'", boolean33 == false);
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + false + "'", boolean34 == false);
-        org.junit.Assert.assertNull(obj37);
-        org.junit.Assert.assertEquals("'" + str38 + "' != '" + "[null]" + "'", str38, "[null]");
-        org.junit.Assert.assertTrue("'" + boolean39 + "' != '" + false + "'", boolean39 == false);
-        org.junit.Assert.assertEquals("'" + str42 + "' != '" + "[]" + "'", str42, "[]");
-        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + true + "'", boolean43 == true);
-        org.junit.Assert.assertTrue("'" + boolean44 + "' != '" + false + "'", boolean44 == false);
-    }
-
-    @Test
-    public void test422() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test422");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
-        java.lang.String str4 = stackAr3.toString();
-        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
-        stackAr7.push((java.lang.Object) (-1L));
-        java.lang.Object obj10 = stackAr7.pop();
-        stackAr1.push((java.lang.Object) stackAr7);
-        boolean boolean12 = stackAr1.isEmpty();
-        org.autotest.StackAr stackAr13 = new org.autotest.StackAr();
-        boolean boolean14 = stackAr13.isFull();
-        boolean boolean16 = stackAr13.equals((java.lang.Object) (byte) -1);
-        java.lang.String str17 = stackAr13.toString();
-        boolean boolean19 = stackAr13.equals((java.lang.Object) 10L);
-        java.lang.String str20 = stackAr13.toString();
-        org.autotest.StackAr stackAr22 = new org.autotest.StackAr((int) 'a');
-        boolean boolean24 = stackAr22.equals((java.lang.Object) (-1.0f));
-        boolean boolean26 = stackAr22.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr27 = new org.autotest.StackAr();
-        boolean boolean28 = stackAr27.isFull();
-        stackAr22.push((java.lang.Object) stackAr27);
-        org.autotest.StackAr stackAr31 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr33 = new org.autotest.StackAr((int) '4');
-        java.lang.String str34 = stackAr33.toString();
-        boolean boolean35 = stackAr31.equals((java.lang.Object) stackAr33);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr();
-        boolean boolean37 = stackAr36.isFull();
-        boolean boolean39 = stackAr36.equals((java.lang.Object) (byte) -1);
-        java.lang.String str40 = stackAr36.toString();
-        boolean boolean42 = stackAr36.equals((java.lang.Object) 10L);
-        java.lang.String str43 = stackAr36.toString();
-        stackAr33.push((java.lang.Object) stackAr36);
-        stackAr22.push((java.lang.Object) stackAr36);
-        boolean boolean46 = stackAr13.equals((java.lang.Object) stackAr36);
-        boolean boolean47 = stackAr1.equals((java.lang.Object) stackAr13);
-        org.autotest.StackAr stackAr49 = new org.autotest.StackAr((int) '4');
-        stackAr49.push((java.lang.Object) (-1L));
-        java.lang.Object obj52 = stackAr49.pop();
-        stackAr49.push((java.lang.Object) (-1));
-        stackAr1.push((java.lang.Object) (-1));
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertEquals("'" + obj10 + "' != '" + (-1L) + "'", obj10, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertEquals("'" + str17 + "' != '" + "[]" + "'", str17, "[]");
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertEquals("'" + str20 + "' != '" + "[]" + "'", str20, "[]");
-        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
-        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + false + "'", boolean28 == false);
-        org.junit.Assert.assertEquals("'" + str34 + "' != '" + "[]" + "'", str34, "[]");
-        org.junit.Assert.assertTrue("'" + boolean35 + "' != '" + true + "'", boolean35 == true);
-        org.junit.Assert.assertTrue("'" + boolean37 + "' != '" + false + "'", boolean37 == false);
-        org.junit.Assert.assertTrue("'" + boolean39 + "' != '" + false + "'", boolean39 == false);
-        org.junit.Assert.assertEquals("'" + str40 + "' != '" + "[]" + "'", str40, "[]");
-        org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + false + "'", boolean42 == false);
-        org.junit.Assert.assertEquals("'" + str43 + "' != '" + "[]" + "'", str43, "[]");
-        org.junit.Assert.assertTrue("'" + boolean46 + "' != '" + true + "'", boolean46 == true);
-        org.junit.Assert.assertTrue("'" + boolean47 + "' != '" + false + "'", boolean47 == false);
-        org.junit.Assert.assertEquals("'" + obj52 + "' != '" + (-1L) + "'", obj52, (-1L));
-    }
-
-    @Test
-    public void test423() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test423");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '#');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) 'a');
-        boolean boolean5 = stackAr3.equals((java.lang.Object) (-1.0f));
-        boolean boolean7 = stackAr3.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr();
-        boolean boolean9 = stackAr8.isFull();
-        stackAr3.push((java.lang.Object) stackAr8);
-        java.lang.Class<?> wildcardClass11 = stackAr3.getClass();
-        boolean boolean12 = stackAr1.equals((java.lang.Object) wildcardClass11);
-        boolean boolean13 = stackAr1.isFull();
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertNotNull(wildcardClass11);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-    }
-
-    @Test
-    public void test424() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test424");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        java.lang.String str4 = stackAr0.toString();
-        boolean boolean6 = stackAr0.equals((java.lang.Object) 10L);
-        java.lang.String str7 = stackAr0.toString();
-        boolean boolean8 = stackAr0.isFull();
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean11 = stackAr10.isEmpty();
-        boolean boolean12 = stackAr10.isFull();
-        org.autotest.StackAr stackAr14 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr16 = new org.autotest.StackAr((int) '4');
-        java.lang.String str17 = stackAr16.toString();
-        boolean boolean18 = stackAr14.equals((java.lang.Object) stackAr16);
-        org.autotest.StackAr stackAr20 = new org.autotest.StackAr((int) '4');
-        stackAr20.push((java.lang.Object) (-1L));
-        java.lang.Object obj23 = stackAr20.pop();
-        stackAr14.push((java.lang.Object) stackAr20);
-        boolean boolean25 = stackAr10.equals((java.lang.Object) stackAr14);
-        java.lang.Object obj26 = stackAr14.pop();
-        stackAr0.push((java.lang.Object) stackAr14);
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "[]" + "'", str7, "[]");
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
-        org.junit.Assert.assertEquals("'" + str17 + "' != '" + "[]" + "'", str17, "[]");
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
-        org.junit.Assert.assertEquals("'" + obj23 + "' != '" + (-1L) + "'", obj23, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
-        org.junit.Assert.assertNotNull(obj26);
-        org.junit.Assert.assertEquals(obj26.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj26), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj26), "[]");
-    }
-
-    @Test
-    public void test425() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test425");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        java.lang.String str4 = stackAr0.toString();
-        boolean boolean6 = stackAr0.equals((java.lang.Object) 10L);
-        java.lang.String str7 = stackAr0.toString();
-        boolean boolean9 = stackAr0.equals((java.lang.Object) (byte) 0);
-        boolean boolean10 = stackAr0.isFull();
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '#');
-        stackAr0.push((java.lang.Object) stackAr12);
-        boolean boolean14 = stackAr0.isFull();
-        java.lang.Object obj15 = stackAr0.pop();
-        java.lang.Class<?> wildcardClass16 = stackAr0.getClass();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "[]" + "'", str7, "[]");
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertNotNull(obj15);
-        org.junit.Assert.assertEquals(obj15.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj15), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj15), "[]");
-        org.junit.Assert.assertNotNull(wildcardClass16);
-    }
-
-    @Test
-    public void test426() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test426");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        int int2 = stackAr1.size();
-        stackAr1.push((java.lang.Object) 0);
-        boolean boolean5 = stackAr1.isFull();
-        java.lang.Object obj6 = stackAr1.top();
-        java.lang.Object obj7 = stackAr1.pop();
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertEquals("'" + obj6 + "' != '" + 0 + "'", obj6, 0);
-        org.junit.Assert.assertEquals("'" + obj7 + "' != '" + 0 + "'", obj7, 0);
-    }
-
-    @Test
-    public void test427() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test427");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) 'a');
-        boolean boolean10 = stackAr8.equals((java.lang.Object) (-1.0f));
-        boolean boolean12 = stackAr8.equals((java.lang.Object) "");
-        boolean boolean13 = stackAr0.equals((java.lang.Object) "");
-        boolean boolean14 = stackAr0.isFull();
-        org.autotest.StackAr stackAr16 = new org.autotest.StackAr((int) '4');
-        java.lang.String str17 = stackAr16.toString();
-        java.lang.String str18 = stackAr16.toString();
-        org.autotest.StackAr stackAr19 = new org.autotest.StackAr();
-        boolean boolean20 = stackAr19.isFull();
-        boolean boolean22 = stackAr19.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr24 = new org.autotest.StackAr((int) '4');
-        boolean boolean25 = stackAr19.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr27 = new org.autotest.StackAr((int) 'a');
-        boolean boolean29 = stackAr27.equals((java.lang.Object) (-1.0f));
-        boolean boolean31 = stackAr27.equals((java.lang.Object) "");
-        boolean boolean32 = stackAr19.equals((java.lang.Object) "");
-        boolean boolean33 = stackAr19.isFull();
-        boolean boolean34 = stackAr16.equals((java.lang.Object) stackAr19);
-        java.lang.Object obj35 = null;
-        stackAr19.push(obj35);
-        java.lang.Object obj37 = stackAr19.top();
-        java.lang.String str38 = stackAr19.toString();
-        boolean boolean39 = stackAr0.equals((java.lang.Object) stackAr19);
-        org.autotest.StackAr stackAr41 = new org.autotest.StackAr((int) 'a');
-        java.lang.String str42 = stackAr41.toString();
-        boolean boolean43 = stackAr41.isEmpty();
-        boolean boolean44 = stackAr0.equals((java.lang.Object) stackAr41);
-        org.autotest.StackAr stackAr46 = new org.autotest.StackAr((int) 'a');
-        boolean boolean48 = stackAr46.equals((java.lang.Object) (-1.0f));
-        boolean boolean50 = stackAr46.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr51 = new org.autotest.StackAr();
-        boolean boolean52 = stackAr51.isFull();
-        stackAr46.push((java.lang.Object) stackAr51);
-        boolean boolean54 = stackAr46.isFull();
-        java.lang.Object obj55 = stackAr46.pop();
-        stackAr41.push(obj55);
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertEquals("'" + str17 + "' != '" + "[]" + "'", str17, "[]");
-        org.junit.Assert.assertEquals("'" + str18 + "' != '" + "[]" + "'", str18, "[]");
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertTrue("'" + boolean31 + "' != '" + false + "'", boolean31 == false);
-        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
-        org.junit.Assert.assertTrue("'" + boolean33 + "' != '" + false + "'", boolean33 == false);
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + false + "'", boolean34 == false);
-        org.junit.Assert.assertNull(obj37);
-        org.junit.Assert.assertEquals("'" + str38 + "' != '" + "[null]" + "'", str38, "[null]");
-        org.junit.Assert.assertTrue("'" + boolean39 + "' != '" + false + "'", boolean39 == false);
-        org.junit.Assert.assertEquals("'" + str42 + "' != '" + "[]" + "'", str42, "[]");
-        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + true + "'", boolean43 == true);
-        org.junit.Assert.assertTrue("'" + boolean44 + "' != '" + false + "'", boolean44 == false);
-        org.junit.Assert.assertTrue("'" + boolean48 + "' != '" + false + "'", boolean48 == false);
-        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + false + "'", boolean50 == false);
-        org.junit.Assert.assertTrue("'" + boolean52 + "' != '" + false + "'", boolean52 == false);
-        org.junit.Assert.assertTrue("'" + boolean54 + "' != '" + false + "'", boolean54 == false);
-        org.junit.Assert.assertNotNull(obj55);
-        org.junit.Assert.assertEquals(obj55.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj55), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj55), "[]");
-    }
-
-    @Test
-    public void test428() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test428");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        boolean boolean43 = stackAr15.isEmpty();
-        java.lang.Object obj44 = stackAr15.pop();
-        int int45 = stackAr15.size();
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + false + "'", boolean43 == false);
-        org.junit.Assert.assertNotNull(obj44);
-        org.junit.Assert.assertEquals(obj44.toString(), "[[]]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj44), "[[]]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj44), "[[]]");
-        org.junit.Assert.assertTrue("'" + int45 + "' != '" + 0 + "'", int45 == 0);
-    }
-
-    @Test
-    public void test429() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test429");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) 'a');
-        boolean boolean10 = stackAr8.equals((java.lang.Object) (-1.0f));
-        boolean boolean12 = stackAr8.equals((java.lang.Object) "");
-        boolean boolean13 = stackAr0.equals((java.lang.Object) "");
-        java.lang.String str14 = stackAr0.toString();
-        boolean boolean15 = stackAr0.isFull();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertEquals("'" + str14 + "' != '" + "[]" + "'", str14, "[]");
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
-    }
-
-    @Test
-    public void test430() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test430");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        java.lang.String str3 = stackAr1.toString();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        boolean boolean5 = stackAr4.isFull();
-        boolean boolean7 = stackAr4.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        boolean boolean10 = stackAr4.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        boolean boolean17 = stackAr4.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr4.isFull();
-        boolean boolean19 = stackAr1.equals((java.lang.Object) stackAr4);
-        int int20 = stackAr4.size();
-        boolean boolean21 = stackAr4.isEmpty();
-        boolean boolean22 = stackAr4.isEmpty();
-        org.autotest.StackAr stackAr24 = new org.autotest.StackAr((int) '4');
-        int int25 = stackAr24.size();
-        stackAr24.push((java.lang.Object) 0);
-        boolean boolean28 = stackAr24.isFull();
-        stackAr4.push((java.lang.Object) stackAr24);
-        java.lang.Object obj30 = stackAr4.pop();
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + true + "'", boolean21 == true);
-        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + true + "'", boolean22 == true);
-        org.junit.Assert.assertTrue("'" + int25 + "' != '" + 0 + "'", int25 == 0);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + false + "'", boolean28 == false);
-        org.junit.Assert.assertNotNull(obj30);
-        org.junit.Assert.assertEquals(obj30.toString(), "[0]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj30), "[0]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj30), "[0]");
-    }
-
-    @Test
-    public void test431() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test431");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
-        java.lang.String str4 = stackAr3.toString();
-        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
-        stackAr3.push((java.lang.Object) (-1));
-        boolean boolean8 = stackAr3.isFull();
-        java.lang.Object obj9 = stackAr3.top();
-        java.lang.String str10 = stackAr3.toString();
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertEquals("'" + obj9 + "' != '" + (-1) + "'", obj9, (-1));
-        org.junit.Assert.assertEquals("'" + str10 + "' != '" + "[-1]" + "'", str10, "[-1]");
-    }
-
-    @Test
-    public void test432() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test432");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) false);
-        java.lang.String str4 = stackAr0.toString();
-        int int5 = stackAr0.size();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + int5 + "' != '" + 0 + "'", int5 == 0);
-    }
-
-    @Test
-    public void test433() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test433");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) false);
-        stackAr0.push((java.lang.Object) (byte) 100);
-        java.lang.String str6 = stackAr0.toString();
-        boolean boolean8 = stackAr0.equals((java.lang.Object) (-1.0d));
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str6 + "' != '" + "[100]" + "'", str6, "[100]");
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-    }
-
-    @Test
-    public void test434() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test434");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        stackAr0.push((java.lang.Object) 0.0f);
-        int int3 = stackAr0.size();
-        java.lang.Object obj4 = stackAr0.top();
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) '4');
-        java.lang.String str9 = stackAr8.toString();
-        boolean boolean10 = stackAr6.equals((java.lang.Object) stackAr8);
-        boolean boolean11 = stackAr6.isEmpty();
-        stackAr0.push((java.lang.Object) stackAr6);
-        java.lang.String str13 = stackAr0.toString();
-        int int14 = stackAr0.size();
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 1 + "'", int3 == 1);
-        org.junit.Assert.assertEquals("'" + obj4 + "' != '" + 0.0f + "'", obj4, 0.0f);
-        org.junit.Assert.assertEquals("'" + str9 + "' != '" + "[]" + "'", str9, "[]");
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[0.0,[]]" + "'", str13, "[0.0,[]]");
-        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 2 + "'", int14 == 2);
-    }
-
-    @Test
-    public void test435() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test435");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean2 = stackAr1.isFull();
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr();
-        boolean boolean4 = stackAr3.isFull();
-        boolean boolean6 = stackAr3.equals((java.lang.Object) (byte) -1);
-        stackAr1.push((java.lang.Object) boolean6);
-        boolean boolean8 = stackAr1.isEmpty();
-        java.lang.Object obj9 = stackAr1.top();
-        java.lang.Object obj10 = stackAr1.top();
-        java.lang.String str11 = stackAr1.toString();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertEquals("'" + obj9 + "' != '" + false + "'", obj9, false);
-        org.junit.Assert.assertEquals("'" + obj10 + "' != '" + false + "'", obj10, false);
-        org.junit.Assert.assertEquals("'" + str11 + "' != '" + "[false]" + "'", str11, "[false]");
-    }
-
-    @Test
-    public void test436() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test436");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        stackAr1.push((java.lang.Object) 0);
-        java.lang.String str5 = stackAr1.toString();
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
-        java.lang.String str8 = stackAr7.toString();
-        stackAr7.push((java.lang.Object) 0);
-        java.lang.String str11 = stackAr7.toString();
-        java.lang.Object obj12 = stackAr7.top();
-        stackAr1.push(obj12);
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertEquals("'" + str5 + "' != '" + "[0]" + "'", str5, "[0]");
-        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[]" + "'", str8, "[]");
-        org.junit.Assert.assertEquals("'" + str11 + "' != '" + "[0]" + "'", str11, "[0]");
-        org.junit.Assert.assertEquals("'" + obj12 + "' != '" + 0 + "'", obj12, 0);
-    }
-
-    @Test
-    public void test437() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test437");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (byte) 0);
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) 'a');
-        boolean boolean5 = stackAr3.equals((java.lang.Object) (-1.0f));
-        boolean boolean7 = stackAr3.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr();
-        boolean boolean9 = stackAr8.isFull();
-        stackAr3.push((java.lang.Object) stackAr8);
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr14 = new org.autotest.StackAr((int) '4');
-        java.lang.String str15 = stackAr14.toString();
-        boolean boolean16 = stackAr12.equals((java.lang.Object) stackAr14);
-        org.autotest.StackAr stackAr17 = new org.autotest.StackAr();
-        boolean boolean18 = stackAr17.isFull();
-        boolean boolean20 = stackAr17.equals((java.lang.Object) (byte) -1);
-        java.lang.String str21 = stackAr17.toString();
-        boolean boolean23 = stackAr17.equals((java.lang.Object) 10L);
-        java.lang.String str24 = stackAr17.toString();
-        stackAr14.push((java.lang.Object) stackAr17);
-        stackAr3.push((java.lang.Object) stackAr17);
-        java.lang.Object obj27 = stackAr3.pop();
-        boolean boolean28 = stackAr1.equals((java.lang.Object) stackAr3);
-        java.lang.Class<?> wildcardClass29 = stackAr3.getClass();
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertEquals("'" + str15 + "' != '" + "[]" + "'", str15, "[]");
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + true + "'", boolean16 == true);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertEquals("'" + str21 + "' != '" + "[]" + "'", str21, "[]");
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
-        org.junit.Assert.assertEquals("'" + str24 + "' != '" + "[]" + "'", str24, "[]");
-        org.junit.Assert.assertNotNull(obj27);
-        org.junit.Assert.assertEquals(obj27.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj27), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj27), "[]");
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + false + "'", boolean28 == false);
-        org.junit.Assert.assertNotNull(wildcardClass29);
-    }
-
-    @Test
-    public void test438() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test438");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        stackAr0.push((java.lang.Object) 0.0f);
-        int int3 = stackAr0.size();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
-        java.lang.String str8 = stackAr7.toString();
-        boolean boolean9 = stackAr5.equals((java.lang.Object) stackAr7);
-        org.autotest.StackAr stackAr11 = new org.autotest.StackAr((int) '4');
-        stackAr11.push((java.lang.Object) (-1L));
-        java.lang.Object obj14 = stackAr11.pop();
-        stackAr5.push((java.lang.Object) stackAr11);
-        boolean boolean16 = stackAr11.isEmpty();
-        org.autotest.StackAr stackAr18 = new org.autotest.StackAr((int) '4');
-        java.lang.String str19 = stackAr18.toString();
-        java.lang.String str20 = stackAr18.toString();
-        org.autotest.StackAr stackAr21 = new org.autotest.StackAr();
-        boolean boolean22 = stackAr21.isFull();
-        boolean boolean24 = stackAr21.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) '4');
-        boolean boolean27 = stackAr21.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr29 = new org.autotest.StackAr((int) 'a');
-        boolean boolean31 = stackAr29.equals((java.lang.Object) (-1.0f));
-        boolean boolean33 = stackAr29.equals((java.lang.Object) "");
-        boolean boolean34 = stackAr21.equals((java.lang.Object) "");
-        boolean boolean35 = stackAr21.isFull();
-        boolean boolean36 = stackAr18.equals((java.lang.Object) stackAr21);
-        int int37 = stackAr21.size();
-        boolean boolean38 = stackAr21.isEmpty();
-        boolean boolean39 = stackAr21.isEmpty();
-        org.autotest.StackAr stackAr41 = new org.autotest.StackAr((int) '4');
-        int int42 = stackAr41.size();
-        stackAr41.push((java.lang.Object) 0);
-        boolean boolean45 = stackAr41.isFull();
-        stackAr21.push((java.lang.Object) stackAr41);
-        org.autotest.StackAr stackAr48 = new org.autotest.StackAr((int) '4');
-        stackAr48.push((java.lang.Object) (-1L));
-        java.lang.Object obj51 = stackAr48.pop();
-        stackAr48.push((java.lang.Object) (-1));
-        boolean boolean54 = stackAr48.isEmpty();
-        org.autotest.StackAr stackAr56 = new org.autotest.StackAr((int) 'a');
-        boolean boolean58 = stackAr56.equals((java.lang.Object) (-1.0f));
-        boolean boolean60 = stackAr56.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr61 = new org.autotest.StackAr();
-        boolean boolean62 = stackAr61.isFull();
-        stackAr56.push((java.lang.Object) stackAr61);
-        boolean boolean64 = stackAr56.isFull();
-        java.lang.Object obj65 = stackAr56.pop();
-        boolean boolean66 = stackAr48.equals(obj65);
-        stackAr21.push(obj65);
-        boolean boolean68 = stackAr11.equals(obj65);
-        stackAr0.push(obj65);
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 1 + "'", int3 == 1);
-        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[]" + "'", str8, "[]");
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
-        org.junit.Assert.assertEquals("'" + obj14 + "' != '" + (-1L) + "'", obj14, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + true + "'", boolean16 == true);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertEquals("'" + str20 + "' != '" + "[]" + "'", str20, "[]");
-        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
-        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + false + "'", boolean27 == false);
-        org.junit.Assert.assertTrue("'" + boolean31 + "' != '" + false + "'", boolean31 == false);
-        org.junit.Assert.assertTrue("'" + boolean33 + "' != '" + false + "'", boolean33 == false);
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + false + "'", boolean34 == false);
-        org.junit.Assert.assertTrue("'" + boolean35 + "' != '" + false + "'", boolean35 == false);
-        org.junit.Assert.assertTrue("'" + boolean36 + "' != '" + false + "'", boolean36 == false);
-        org.junit.Assert.assertTrue("'" + int37 + "' != '" + 0 + "'", int37 == 0);
-        org.junit.Assert.assertTrue("'" + boolean38 + "' != '" + true + "'", boolean38 == true);
-        org.junit.Assert.assertTrue("'" + boolean39 + "' != '" + true + "'", boolean39 == true);
-        org.junit.Assert.assertTrue("'" + int42 + "' != '" + 0 + "'", int42 == 0);
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + false + "'", boolean45 == false);
-        org.junit.Assert.assertEquals("'" + obj51 + "' != '" + (-1L) + "'", obj51, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean54 + "' != '" + false + "'", boolean54 == false);
-        org.junit.Assert.assertTrue("'" + boolean58 + "' != '" + false + "'", boolean58 == false);
-        org.junit.Assert.assertTrue("'" + boolean60 + "' != '" + false + "'", boolean60 == false);
-        org.junit.Assert.assertTrue("'" + boolean62 + "' != '" + false + "'", boolean62 == false);
-        org.junit.Assert.assertTrue("'" + boolean64 + "' != '" + false + "'", boolean64 == false);
-        org.junit.Assert.assertNotNull(obj65);
-        org.junit.Assert.assertEquals(obj65.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj65), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj65), "[]");
-        org.junit.Assert.assertTrue("'" + boolean66 + "' != '" + false + "'", boolean66 == false);
-        org.junit.Assert.assertTrue("'" + boolean68 + "' != '" + false + "'", boolean68 == false);
-    }
-
-    @Test
-    public void test439() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test439");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (byte) 100);
-        boolean boolean2 = stackAr1.isFull();
-        int int3 = stackAr1.size();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 0 + "'", int3 == 0);
-    }
-
-    @Test
-    public void test440() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test440");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        boolean boolean43 = stackAr15.isEmpty();
-        java.lang.Object obj44 = stackAr15.pop();
-        java.lang.String str45 = stackAr15.toString();
-        org.autotest.StackAr stackAr46 = new org.autotest.StackAr();
-        stackAr46.push((java.lang.Object) 0.0f);
-        java.lang.String str49 = stackAr46.toString();
-        boolean boolean50 = stackAr46.isEmpty();
-        org.autotest.StackAr stackAr52 = new org.autotest.StackAr((int) '#');
-        stackAr46.push((java.lang.Object) stackAr52);
-        boolean boolean54 = stackAr15.equals((java.lang.Object) stackAr46);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + false + "'", boolean43 == false);
-        org.junit.Assert.assertNotNull(obj44);
-        org.junit.Assert.assertEquals(obj44.toString(), "[[]]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj44), "[[]]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj44), "[[]]");
-        org.junit.Assert.assertEquals("'" + str45 + "' != '" + "[]" + "'", str45, "[]");
-        org.junit.Assert.assertEquals("'" + str49 + "' != '" + "[0.0]" + "'", str49, "[0.0]");
-        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + false + "'", boolean50 == false);
-        org.junit.Assert.assertTrue("'" + boolean54 + "' != '" + false + "'", boolean54 == false);
-    }
-
-    @Test
-    public void test441() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test441");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
-        java.lang.String str4 = stackAr3.toString();
-        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
-        stackAr7.push((java.lang.Object) (-1L));
-        java.lang.Object obj10 = stackAr7.pop();
-        stackAr1.push((java.lang.Object) stackAr7);
-        boolean boolean12 = stackAr1.isEmpty();
-        org.autotest.StackAr stackAr13 = new org.autotest.StackAr();
-        boolean boolean14 = stackAr13.isFull();
-        boolean boolean16 = stackAr13.equals((java.lang.Object) (byte) -1);
-        java.lang.String str17 = stackAr13.toString();
-        boolean boolean19 = stackAr13.equals((java.lang.Object) 10L);
-        java.lang.String str20 = stackAr13.toString();
-        org.autotest.StackAr stackAr22 = new org.autotest.StackAr((int) 'a');
-        boolean boolean24 = stackAr22.equals((java.lang.Object) (-1.0f));
-        boolean boolean26 = stackAr22.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr27 = new org.autotest.StackAr();
-        boolean boolean28 = stackAr27.isFull();
-        stackAr22.push((java.lang.Object) stackAr27);
-        org.autotest.StackAr stackAr31 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr33 = new org.autotest.StackAr((int) '4');
-        java.lang.String str34 = stackAr33.toString();
-        boolean boolean35 = stackAr31.equals((java.lang.Object) stackAr33);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr();
-        boolean boolean37 = stackAr36.isFull();
-        boolean boolean39 = stackAr36.equals((java.lang.Object) (byte) -1);
-        java.lang.String str40 = stackAr36.toString();
-        boolean boolean42 = stackAr36.equals((java.lang.Object) 10L);
-        java.lang.String str43 = stackAr36.toString();
-        stackAr33.push((java.lang.Object) stackAr36);
-        stackAr22.push((java.lang.Object) stackAr36);
-        boolean boolean46 = stackAr13.equals((java.lang.Object) stackAr36);
-        boolean boolean47 = stackAr1.equals((java.lang.Object) stackAr13);
-        java.lang.Class<?> wildcardClass48 = stackAr1.getClass();
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertEquals("'" + obj10 + "' != '" + (-1L) + "'", obj10, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertEquals("'" + str17 + "' != '" + "[]" + "'", str17, "[]");
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertEquals("'" + str20 + "' != '" + "[]" + "'", str20, "[]");
-        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
-        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + false + "'", boolean28 == false);
-        org.junit.Assert.assertEquals("'" + str34 + "' != '" + "[]" + "'", str34, "[]");
-        org.junit.Assert.assertTrue("'" + boolean35 + "' != '" + true + "'", boolean35 == true);
-        org.junit.Assert.assertTrue("'" + boolean37 + "' != '" + false + "'", boolean37 == false);
-        org.junit.Assert.assertTrue("'" + boolean39 + "' != '" + false + "'", boolean39 == false);
-        org.junit.Assert.assertEquals("'" + str40 + "' != '" + "[]" + "'", str40, "[]");
-        org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + false + "'", boolean42 == false);
-        org.junit.Assert.assertEquals("'" + str43 + "' != '" + "[]" + "'", str43, "[]");
-        org.junit.Assert.assertTrue("'" + boolean46 + "' != '" + true + "'", boolean46 == true);
-        org.junit.Assert.assertTrue("'" + boolean47 + "' != '" + false + "'", boolean47 == false);
-        org.junit.Assert.assertNotNull(wildcardClass48);
-    }
-
-    @Test
-    public void test442() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test442");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        int int2 = stackAr1.size();
-        stackAr1.push((java.lang.Object) 0);
-        boolean boolean5 = stackAr1.isFull();
-        boolean boolean6 = stackAr1.isFull();
-        int int7 = stackAr1.size();
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 1 + "'", int7 == 1);
-    }
-
-    @Test
-    public void test443() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test443");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) 10);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        java.lang.String str6 = stackAr5.toString();
-        java.lang.String str7 = stackAr5.toString();
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr();
-        boolean boolean9 = stackAr8.isFull();
-        boolean boolean11 = stackAr8.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr13 = new org.autotest.StackAr((int) '4');
-        boolean boolean14 = stackAr8.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr16 = new org.autotest.StackAr((int) 'a');
-        boolean boolean18 = stackAr16.equals((java.lang.Object) (-1.0f));
-        boolean boolean20 = stackAr16.equals((java.lang.Object) "");
-        boolean boolean21 = stackAr8.equals((java.lang.Object) "");
-        boolean boolean22 = stackAr8.isFull();
-        boolean boolean23 = stackAr5.equals((java.lang.Object) stackAr8);
-        java.lang.Object obj24 = null;
-        stackAr8.push(obj24);
-        java.lang.Object obj26 = stackAr8.top();
-        java.lang.String str27 = stackAr8.toString();
-        java.lang.Object obj28 = stackAr8.pop();
-        boolean boolean29 = stackAr0.equals(obj28);
-        java.lang.String str30 = stackAr0.toString();
-        org.autotest.StackAr stackAr31 = new org.autotest.StackAr();
-        stackAr31.push((java.lang.Object) 0.0f);
-        java.lang.String str34 = stackAr31.toString();
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) 'a');
-        boolean boolean38 = stackAr36.equals((java.lang.Object) (-1.0f));
-        boolean boolean40 = stackAr36.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr41 = new org.autotest.StackAr();
-        boolean boolean42 = stackAr41.isFull();
-        stackAr36.push((java.lang.Object) stackAr41);
-        boolean boolean44 = stackAr36.isFull();
-        java.lang.Object obj45 = stackAr36.pop();
-        stackAr31.push((java.lang.Object) stackAr36);
-        stackAr0.push((java.lang.Object) stackAr36);
-        org.autotest.StackAr stackAr49 = new org.autotest.StackAr((int) '4');
-        boolean boolean50 = stackAr49.isFull();
-        stackAr0.push((java.lang.Object) stackAr49);
-        java.lang.Object obj52 = stackAr0.pop();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str6 + "' != '" + "[]" + "'", str6, "[]");
-        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "[]" + "'", str7, "[]");
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
-        org.junit.Assert.assertNull(obj26);
-        org.junit.Assert.assertEquals("'" + str27 + "' != '" + "[null]" + "'", str27, "[null]");
-        org.junit.Assert.assertNull(obj28);
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertEquals("'" + str30 + "' != '" + "[]" + "'", str30, "[]");
-        org.junit.Assert.assertEquals("'" + str34 + "' != '" + "[0.0]" + "'", str34, "[0.0]");
-        org.junit.Assert.assertTrue("'" + boolean38 + "' != '" + false + "'", boolean38 == false);
-        org.junit.Assert.assertTrue("'" + boolean40 + "' != '" + false + "'", boolean40 == false);
-        org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + false + "'", boolean42 == false);
-        org.junit.Assert.assertTrue("'" + boolean44 + "' != '" + false + "'", boolean44 == false);
-        org.junit.Assert.assertNotNull(obj45);
-        org.junit.Assert.assertEquals(obj45.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj45), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj45), "[]");
-        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + false + "'", boolean50 == false);
-        org.junit.Assert.assertNotNull(obj52);
-        org.junit.Assert.assertEquals(obj52.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj52), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj52), "[]");
-    }
-
-    @Test
-    public void test444() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test444");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        java.lang.String str4 = stackAr0.toString();
-        boolean boolean6 = stackAr0.equals((java.lang.Object) 10L);
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr();
-        boolean boolean8 = stackAr7.isFull();
-        int int9 = stackAr7.size();
-        boolean boolean10 = stackAr7.isEmpty();
-        stackAr0.push((java.lang.Object) stackAr7);
-        stackAr0.push((java.lang.Object) "[100]");
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
-    }
-
-    @Test
-    public void test445() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test445");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean45 = stackAr44.isFull();
-        int int46 = stackAr44.size();
-        int int47 = stackAr44.size();
-        stackAr30.push((java.lang.Object) stackAr44);
-        org.autotest.StackAr stackAr49 = new org.autotest.StackAr();
-        boolean boolean50 = stackAr49.isEmpty();
-        boolean boolean51 = stackAr30.equals((java.lang.Object) stackAr49);
-        java.lang.Object obj52 = null;
-        boolean boolean53 = stackAr30.equals(obj52);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + true + "'", boolean45 == true);
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + 0 + "'", int46 == 0);
-        org.junit.Assert.assertTrue("'" + int47 + "' != '" + 0 + "'", int47 == 0);
-        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + true + "'", boolean50 == true);
-        org.junit.Assert.assertTrue("'" + boolean51 + "' != '" + false + "'", boolean51 == false);
-        org.junit.Assert.assertTrue("'" + boolean53 + "' != '" + false + "'", boolean53 == false);
-    }
-
-    @Test
-    public void test446() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test446");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) '4');
-        int int9 = stackAr8.size();
-        stackAr8.push((java.lang.Object) 0);
-        stackAr0.push((java.lang.Object) stackAr8);
-        boolean boolean13 = stackAr0.isFull();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-    }
-
-    @Test
-    public void test447() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test447");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        boolean boolean25 = stackAr15.isFull();
-        boolean boolean27 = stackAr15.equals((java.lang.Object) (short) 10);
-        boolean boolean28 = stackAr15.isEmpty();
-        boolean boolean29 = stackAr15.isFull();
-        org.autotest.StackAr stackAr31 = new org.autotest.StackAr((int) '4');
-        stackAr31.push((java.lang.Object) (-1L));
-        java.lang.Object obj34 = stackAr31.pop();
-        java.lang.String str35 = stackAr31.toString();
-        boolean boolean36 = stackAr31.isEmpty();
-        stackAr15.push((java.lang.Object) stackAr31);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + false + "'", boolean27 == false);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertEquals("'" + obj34 + "' != '" + (-1L) + "'", obj34, (-1L));
-        org.junit.Assert.assertEquals("'" + str35 + "' != '" + "[]" + "'", str35, "[]");
-        org.junit.Assert.assertTrue("'" + boolean36 + "' != '" + true + "'", boolean36 == true);
-    }
-
-    @Test
-    public void test448() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test448");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        int int2 = stackAr1.size();
-        java.lang.String str3 = stackAr1.toString();
-        boolean boolean4 = stackAr1.isFull();
-        boolean boolean5 = stackAr1.isFull();
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) (short) 0);
-        int int8 = stackAr7.size();
-        stackAr1.push((java.lang.Object) stackAr7);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr();
-        boolean boolean11 = stackAr10.isFull();
-        boolean boolean13 = stackAr10.equals((java.lang.Object) (byte) -1);
-        java.lang.String str14 = stackAr10.toString();
-        boolean boolean16 = stackAr10.equals((java.lang.Object) 10L);
-        java.lang.String str17 = stackAr10.toString();
-        boolean boolean19 = stackAr10.equals((java.lang.Object) (byte) 0);
-        org.autotest.StackAr stackAr21 = new org.autotest.StackAr((int) 'a');
-        boolean boolean23 = stackAr21.equals((java.lang.Object) (-1.0f));
-        boolean boolean25 = stackAr21.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr();
-        boolean boolean27 = stackAr26.isFull();
-        stackAr21.push((java.lang.Object) stackAr26);
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr35 = new org.autotest.StackAr();
-        boolean boolean36 = stackAr35.isFull();
-        boolean boolean38 = stackAr35.equals((java.lang.Object) (byte) -1);
-        java.lang.String str39 = stackAr35.toString();
-        boolean boolean41 = stackAr35.equals((java.lang.Object) 10L);
-        java.lang.String str42 = stackAr35.toString();
-        stackAr32.push((java.lang.Object) stackAr35);
-        stackAr21.push((java.lang.Object) stackAr35);
-        boolean boolean45 = stackAr21.isEmpty();
-        boolean boolean46 = stackAr10.equals((java.lang.Object) stackAr21);
-        boolean boolean47 = stackAr1.equals((java.lang.Object) stackAr10);
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 0 + "'", int8 == 0);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertEquals("'" + str14 + "' != '" + "[]" + "'", str14, "[]");
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertEquals("'" + str17 + "' != '" + "[]" + "'", str17, "[]");
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + false + "'", boolean27 == false);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertTrue("'" + boolean36 + "' != '" + false + "'", boolean36 == false);
-        org.junit.Assert.assertTrue("'" + boolean38 + "' != '" + false + "'", boolean38 == false);
-        org.junit.Assert.assertEquals("'" + str39 + "' != '" + "[]" + "'", str39, "[]");
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertEquals("'" + str42 + "' != '" + "[]" + "'", str42, "[]");
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + false + "'", boolean45 == false);
-        org.junit.Assert.assertTrue("'" + boolean46 + "' != '" + false + "'", boolean46 == false);
-        org.junit.Assert.assertTrue("'" + boolean47 + "' != '" + false + "'", boolean47 == false);
-    }
-
-    @Test
-    public void test449() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test449");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        stackAr0.push((java.lang.Object) 0.0f);
-        int int3 = stackAr0.size();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean6 = stackAr5.isEmpty();
-        boolean boolean7 = stackAr5.isEmpty();
-        boolean boolean8 = stackAr0.equals((java.lang.Object) stackAr5);
-        int int9 = stackAr0.size();
-        java.lang.Object obj10 = stackAr0.top();
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 1 + "'", int3 == 1);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 1 + "'", int9 == 1);
-        org.junit.Assert.assertEquals("'" + obj10 + "' != '" + 0.0f + "'", obj10, 0.0f);
-    }
-
-    @Test
-    public void test450() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test450");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean2 = stackAr1.isFull();
-        boolean boolean3 = stackAr1.isEmpty();
-        int int4 = stackAr1.size();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr();
-        boolean boolean6 = stackAr5.isFull();
-        boolean boolean8 = stackAr5.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        boolean boolean11 = stackAr5.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr13 = new org.autotest.StackAr((int) 'a');
-        boolean boolean15 = stackAr13.equals((java.lang.Object) (-1.0f));
-        boolean boolean17 = stackAr13.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr5.equals((java.lang.Object) "");
-        boolean boolean19 = stackAr5.isFull();
-        boolean boolean20 = stackAr5.isFull();
-        java.lang.String str21 = stackAr5.toString();
-        stackAr1.push((java.lang.Object) stackAr5);
-        boolean boolean23 = stackAr1.isFull();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertEquals("'" + str21 + "' != '" + "[]" + "'", str21, "[]");
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
-    }
-
-    @Test
-    public void test451() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test451");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean2 = stackAr1.isEmpty();
-        boolean boolean3 = stackAr1.isFull();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
-        java.lang.String str8 = stackAr7.toString();
-        boolean boolean9 = stackAr5.equals((java.lang.Object) stackAr7);
-        org.autotest.StackAr stackAr11 = new org.autotest.StackAr((int) '4');
-        stackAr11.push((java.lang.Object) (-1L));
-        java.lang.Object obj14 = stackAr11.pop();
-        stackAr5.push((java.lang.Object) stackAr11);
-        boolean boolean16 = stackAr1.equals((java.lang.Object) stackAr5);
-        java.lang.String str17 = stackAr1.toString();
-        boolean boolean18 = stackAr1.isFull();
-        java.lang.String str19 = stackAr1.toString();
-        java.lang.Object obj20 = null;
-        boolean boolean21 = stackAr1.equals(obj20);
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
-        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[]" + "'", str8, "[]");
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
-        org.junit.Assert.assertEquals("'" + obj14 + "' != '" + (-1L) + "'", obj14, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertEquals("'" + str17 + "' != '" + "[]" + "'", str17, "[]");
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-    }
-
-    @Test
-    public void test452() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test452");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
-        java.lang.String str4 = stackAr3.toString();
-        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) (byte) 0);
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) 'a');
-        boolean boolean11 = stackAr9.equals((java.lang.Object) (-1.0f));
-        boolean boolean13 = stackAr9.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr14 = new org.autotest.StackAr();
-        boolean boolean15 = stackAr14.isFull();
-        stackAr9.push((java.lang.Object) stackAr14);
-        org.autotest.StackAr stackAr18 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr20 = new org.autotest.StackAr((int) '4');
-        java.lang.String str21 = stackAr20.toString();
-        boolean boolean22 = stackAr18.equals((java.lang.Object) stackAr20);
-        org.autotest.StackAr stackAr23 = new org.autotest.StackAr();
-        boolean boolean24 = stackAr23.isFull();
-        boolean boolean26 = stackAr23.equals((java.lang.Object) (byte) -1);
-        java.lang.String str27 = stackAr23.toString();
-        boolean boolean29 = stackAr23.equals((java.lang.Object) 10L);
-        java.lang.String str30 = stackAr23.toString();
-        stackAr20.push((java.lang.Object) stackAr23);
-        stackAr9.push((java.lang.Object) stackAr23);
-        java.lang.Object obj33 = stackAr9.pop();
-        boolean boolean34 = stackAr7.equals((java.lang.Object) stackAr9);
-        stackAr1.push((java.lang.Object) stackAr9);
-        org.autotest.StackAr stackAr37 = new org.autotest.StackAr((int) 'a');
-        boolean boolean39 = stackAr37.equals((java.lang.Object) (-1.0f));
-        boolean boolean41 = stackAr37.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr42 = new org.autotest.StackAr();
-        boolean boolean43 = stackAr42.isFull();
-        stackAr37.push((java.lang.Object) stackAr42);
-        org.autotest.StackAr stackAr46 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr48 = new org.autotest.StackAr((int) '4');
-        java.lang.String str49 = stackAr48.toString();
-        boolean boolean50 = stackAr46.equals((java.lang.Object) stackAr48);
-        org.autotest.StackAr stackAr51 = new org.autotest.StackAr();
-        boolean boolean52 = stackAr51.isFull();
-        boolean boolean54 = stackAr51.equals((java.lang.Object) (byte) -1);
-        java.lang.String str55 = stackAr51.toString();
-        boolean boolean57 = stackAr51.equals((java.lang.Object) 10L);
-        java.lang.String str58 = stackAr51.toString();
-        stackAr48.push((java.lang.Object) stackAr51);
-        stackAr37.push((java.lang.Object) stackAr51);
-        org.autotest.StackAr stackAr62 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean63 = stackAr62.isEmpty();
-        boolean boolean64 = stackAr62.isFull();
-        org.autotest.StackAr stackAr66 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr68 = new org.autotest.StackAr((int) '4');
-        java.lang.String str69 = stackAr68.toString();
-        boolean boolean70 = stackAr66.equals((java.lang.Object) stackAr68);
-        org.autotest.StackAr stackAr72 = new org.autotest.StackAr((int) '4');
-        stackAr72.push((java.lang.Object) (-1L));
-        java.lang.Object obj75 = stackAr72.pop();
-        stackAr66.push((java.lang.Object) stackAr72);
-        boolean boolean77 = stackAr62.equals((java.lang.Object) stackAr66);
-        stackAr51.push((java.lang.Object) stackAr66);
-        boolean boolean79 = stackAr51.isEmpty();
-        java.lang.Object obj80 = stackAr51.pop();
-        boolean boolean81 = stackAr1.equals((java.lang.Object) stackAr51);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
-        org.junit.Assert.assertEquals("'" + str21 + "' != '" + "[]" + "'", str21, "[]");
-        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + true + "'", boolean22 == true);
-        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
-        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
-        org.junit.Assert.assertEquals("'" + str27 + "' != '" + "[]" + "'", str27, "[]");
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertEquals("'" + str30 + "' != '" + "[]" + "'", str30, "[]");
-        org.junit.Assert.assertNotNull(obj33);
-        org.junit.Assert.assertEquals(obj33.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj33), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj33), "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + false + "'", boolean34 == false);
-        org.junit.Assert.assertTrue("'" + boolean39 + "' != '" + false + "'", boolean39 == false);
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + false + "'", boolean43 == false);
-        org.junit.Assert.assertEquals("'" + str49 + "' != '" + "[]" + "'", str49, "[]");
-        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + true + "'", boolean50 == true);
-        org.junit.Assert.assertTrue("'" + boolean52 + "' != '" + false + "'", boolean52 == false);
-        org.junit.Assert.assertTrue("'" + boolean54 + "' != '" + false + "'", boolean54 == false);
-        org.junit.Assert.assertEquals("'" + str55 + "' != '" + "[]" + "'", str55, "[]");
-        org.junit.Assert.assertTrue("'" + boolean57 + "' != '" + false + "'", boolean57 == false);
-        org.junit.Assert.assertEquals("'" + str58 + "' != '" + "[]" + "'", str58, "[]");
-        org.junit.Assert.assertTrue("'" + boolean63 + "' != '" + true + "'", boolean63 == true);
-        org.junit.Assert.assertTrue("'" + boolean64 + "' != '" + true + "'", boolean64 == true);
-        org.junit.Assert.assertEquals("'" + str69 + "' != '" + "[]" + "'", str69, "[]");
-        org.junit.Assert.assertTrue("'" + boolean70 + "' != '" + true + "'", boolean70 == true);
-        org.junit.Assert.assertEquals("'" + obj75 + "' != '" + (-1L) + "'", obj75, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean77 + "' != '" + false + "'", boolean77 == false);
-        org.junit.Assert.assertTrue("'" + boolean79 + "' != '" + false + "'", boolean79 == false);
-        org.junit.Assert.assertNotNull(obj80);
-        org.junit.Assert.assertEquals(obj80.toString(), "[[]]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj80), "[[]]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj80), "[[]]");
-        org.junit.Assert.assertTrue("'" + boolean81 + "' != '" + false + "'", boolean81 == false);
-    }
-
-    @Test
-    public void test453() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test453");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        java.lang.String str9 = stackAr1.toString();
-        boolean boolean10 = stackAr1.isEmpty();
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr17 = new org.autotest.StackAr();
-        boolean boolean18 = stackAr17.isFull();
-        stackAr12.push((java.lang.Object) stackAr17);
-        org.autotest.StackAr stackAr21 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr23 = new org.autotest.StackAr((int) '4');
-        java.lang.String str24 = stackAr23.toString();
-        boolean boolean25 = stackAr21.equals((java.lang.Object) stackAr23);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr();
-        boolean boolean27 = stackAr26.isFull();
-        boolean boolean29 = stackAr26.equals((java.lang.Object) (byte) -1);
-        java.lang.String str30 = stackAr26.toString();
-        boolean boolean32 = stackAr26.equals((java.lang.Object) 10L);
-        java.lang.String str33 = stackAr26.toString();
-        stackAr23.push((java.lang.Object) stackAr26);
-        stackAr12.push((java.lang.Object) stackAr26);
-        org.autotest.StackAr stackAr37 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean38 = stackAr37.isEmpty();
-        boolean boolean39 = stackAr37.isFull();
-        org.autotest.StackAr stackAr41 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr43 = new org.autotest.StackAr((int) '4');
-        java.lang.String str44 = stackAr43.toString();
-        boolean boolean45 = stackAr41.equals((java.lang.Object) stackAr43);
-        org.autotest.StackAr stackAr47 = new org.autotest.StackAr((int) '4');
-        stackAr47.push((java.lang.Object) (-1L));
-        java.lang.Object obj50 = stackAr47.pop();
-        stackAr41.push((java.lang.Object) stackAr47);
-        boolean boolean52 = stackAr37.equals((java.lang.Object) stackAr41);
-        stackAr26.push((java.lang.Object) stackAr41);
-        boolean boolean54 = stackAr26.isEmpty();
-        java.lang.Object obj55 = stackAr26.pop();
-        java.lang.String str56 = stackAr26.toString();
-        stackAr1.push((java.lang.Object) stackAr26);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str9 + "' != '" + "[[]]" + "'", str9, "[[]]");
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str24 + "' != '" + "[]" + "'", str24, "[]");
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + true + "'", boolean25 == true);
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + false + "'", boolean27 == false);
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertEquals("'" + str30 + "' != '" + "[]" + "'", str30, "[]");
-        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean38 + "' != '" + true + "'", boolean38 == true);
-        org.junit.Assert.assertTrue("'" + boolean39 + "' != '" + true + "'", boolean39 == true);
-        org.junit.Assert.assertEquals("'" + str44 + "' != '" + "[]" + "'", str44, "[]");
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + true + "'", boolean45 == true);
-        org.junit.Assert.assertEquals("'" + obj50 + "' != '" + (-1L) + "'", obj50, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean52 + "' != '" + false + "'", boolean52 == false);
-        org.junit.Assert.assertTrue("'" + boolean54 + "' != '" + false + "'", boolean54 == false);
-        org.junit.Assert.assertNotNull(obj55);
-        org.junit.Assert.assertEquals(obj55.toString(), "[[]]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj55), "[[]]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj55), "[[]]");
-        org.junit.Assert.assertEquals("'" + str56 + "' != '" + "[]" + "'", str56, "[]");
-    }
-
-    @Test
-    public void test454() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test454");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        java.lang.String str4 = stackAr0.toString();
-        boolean boolean6 = stackAr0.equals((java.lang.Object) 10L);
-        java.lang.String str7 = stackAr0.toString();
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) 'a');
-        boolean boolean11 = stackAr9.equals((java.lang.Object) (-1.0f));
-        boolean boolean13 = stackAr9.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr14 = new org.autotest.StackAr();
-        boolean boolean15 = stackAr14.isFull();
-        stackAr9.push((java.lang.Object) stackAr14);
-        org.autotest.StackAr stackAr18 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr20 = new org.autotest.StackAr((int) '4');
-        java.lang.String str21 = stackAr20.toString();
-        boolean boolean22 = stackAr18.equals((java.lang.Object) stackAr20);
-        org.autotest.StackAr stackAr23 = new org.autotest.StackAr();
-        boolean boolean24 = stackAr23.isFull();
-        boolean boolean26 = stackAr23.equals((java.lang.Object) (byte) -1);
-        java.lang.String str27 = stackAr23.toString();
-        boolean boolean29 = stackAr23.equals((java.lang.Object) 10L);
-        java.lang.String str30 = stackAr23.toString();
-        stackAr20.push((java.lang.Object) stackAr23);
-        stackAr9.push((java.lang.Object) stackAr23);
-        boolean boolean33 = stackAr0.equals((java.lang.Object) stackAr23);
-        org.autotest.StackAr stackAr35 = new org.autotest.StackAr((int) '4');
-        int int36 = stackAr35.size();
-        boolean boolean37 = stackAr35.isFull();
-        boolean boolean38 = stackAr0.equals((java.lang.Object) boolean37);
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "[]" + "'", str7, "[]");
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
-        org.junit.Assert.assertEquals("'" + str21 + "' != '" + "[]" + "'", str21, "[]");
-        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + true + "'", boolean22 == true);
-        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
-        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
-        org.junit.Assert.assertEquals("'" + str27 + "' != '" + "[]" + "'", str27, "[]");
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertEquals("'" + str30 + "' != '" + "[]" + "'", str30, "[]");
-        org.junit.Assert.assertTrue("'" + boolean33 + "' != '" + true + "'", boolean33 == true);
-        org.junit.Assert.assertTrue("'" + int36 + "' != '" + 0 + "'", int36 == 0);
-        org.junit.Assert.assertTrue("'" + boolean37 + "' != '" + false + "'", boolean37 == false);
-        org.junit.Assert.assertTrue("'" + boolean38 + "' != '" + false + "'", boolean38 == false);
-    }
-
-    @Test
-    public void test455() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test455");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean45 = stackAr44.isFull();
-        int int46 = stackAr44.size();
-        int int47 = stackAr44.size();
-        stackAr30.push((java.lang.Object) stackAr44);
-        java.lang.Object obj49 = stackAr30.pop();
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + true + "'", boolean45 == true);
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + 0 + "'", int46 == 0);
-        org.junit.Assert.assertTrue("'" + int47 + "' != '" + 0 + "'", int47 == 0);
-        org.junit.Assert.assertNotNull(obj49);
-        org.junit.Assert.assertEquals(obj49.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj49), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj49), "[]");
-    }
-
-    @Test
-    public void test456() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test456");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        stackAr0.push((java.lang.Object) 0.0f);
-        int int3 = stackAr0.size();
-        int int4 = stackAr0.size();
-        boolean boolean5 = stackAr0.isEmpty();
-        int int6 = stackAr0.size();
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 1 + "'", int3 == 1);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 1 + "'", int4 == 1);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 1 + "'", int6 == 1);
-    }
-
-    @Test
-    public void test457() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test457");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        boolean boolean6 = stackAr0.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr8 = new org.autotest.StackAr((int) 'a');
-        boolean boolean10 = stackAr8.equals((java.lang.Object) (-1.0f));
-        boolean boolean12 = stackAr8.equals((java.lang.Object) "");
-        boolean boolean13 = stackAr0.equals((java.lang.Object) "");
-        boolean boolean14 = stackAr0.isFull();
-        java.lang.String str15 = stackAr0.toString();
-        int int16 = stackAr0.size();
-        org.autotest.StackAr stackAr18 = new org.autotest.StackAr((int) '4');
-        int int19 = stackAr18.size();
-        int int20 = stackAr18.size();
-        boolean boolean21 = stackAr18.isEmpty();
-        stackAr18.push((java.lang.Object) "[[],true]");
-        stackAr0.push((java.lang.Object) "[[],true]");
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertEquals("'" + str15 + "' != '" + "[]" + "'", str15, "[]");
-        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
-        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
-        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + true + "'", boolean21 == true);
-    }
-
-    @Test
-    public void test458() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test458");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        boolean boolean25 = stackAr15.isFull();
-        boolean boolean27 = stackAr15.equals((java.lang.Object) (short) 10);
-        org.autotest.StackAr stackAr29 = new org.autotest.StackAr((int) 'a');
-        boolean boolean30 = stackAr29.isFull();
-        boolean boolean31 = stackAr29.isEmpty();
-        org.autotest.StackAr stackAr33 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr35 = new org.autotest.StackAr((int) '4');
-        java.lang.String str36 = stackAr35.toString();
-        boolean boolean37 = stackAr33.equals((java.lang.Object) stackAr35);
-        org.autotest.StackAr stackAr39 = new org.autotest.StackAr((int) '4');
-        stackAr39.push((java.lang.Object) (-1L));
-        java.lang.Object obj42 = stackAr39.pop();
-        stackAr33.push((java.lang.Object) stackAr39);
-        boolean boolean44 = stackAr39.isEmpty();
-        boolean boolean45 = stackAr29.equals((java.lang.Object) boolean44);
-        java.lang.Class<?> wildcardClass46 = stackAr29.getClass();
-        stackAr15.push((java.lang.Object) wildcardClass46);
-        java.lang.Object obj48 = stackAr15.pop();
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + false + "'", boolean27 == false);
-        org.junit.Assert.assertTrue("'" + boolean30 + "' != '" + false + "'", boolean30 == false);
-        org.junit.Assert.assertTrue("'" + boolean31 + "' != '" + true + "'", boolean31 == true);
-        org.junit.Assert.assertEquals("'" + str36 + "' != '" + "[]" + "'", str36, "[]");
-        org.junit.Assert.assertTrue("'" + boolean37 + "' != '" + true + "'", boolean37 == true);
-        org.junit.Assert.assertEquals("'" + obj42 + "' != '" + (-1L) + "'", obj42, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean44 + "' != '" + true + "'", boolean44 == true);
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + false + "'", boolean45 == false);
-        org.junit.Assert.assertNotNull(wildcardClass46);
-        org.junit.Assert.assertNotNull(obj48);
-        org.junit.Assert.assertEquals(obj48.toString(), "class org.autotest.StackAr");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj48), "class org.autotest.StackAr");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj48), "class org.autotest.StackAr");
-    }
-
-    @Test
-    public void test459() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test459");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean2 = stackAr1.isEmpty();
-        int int3 = stackAr1.size();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) 'a');
-        boolean boolean7 = stackAr5.equals((java.lang.Object) (-1.0f));
-        int int8 = stackAr5.size();
-        boolean boolean10 = stackAr5.equals((java.lang.Object) (byte) 100);
-        boolean boolean11 = stackAr5.isFull();
-        int int12 = stackAr5.size();
-        boolean boolean13 = stackAr1.equals((java.lang.Object) stackAr5);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr17 = new org.autotest.StackAr((int) '4');
-        java.lang.String str18 = stackAr17.toString();
-        boolean boolean19 = stackAr15.equals((java.lang.Object) stackAr17);
-        stackAr5.push((java.lang.Object) boolean19);
-        boolean boolean21 = stackAr5.isEmpty();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 0 + "'", int3 == 0);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + int8 + "' != '" + 0 + "'", int8 == 0);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertEquals("'" + str18 + "' != '" + "[]" + "'", str18, "[]");
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-    }
-
-    @Test
-    public void test460() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test460");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr3 = new org.autotest.StackAr((int) '4');
-        java.lang.String str4 = stackAr3.toString();
-        boolean boolean5 = stackAr1.equals((java.lang.Object) stackAr3);
-        boolean boolean7 = stackAr3.equals((java.lang.Object) "[]");
-        boolean boolean8 = stackAr3.isFull();
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj9 = stackAr3.pop();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-    }
-
-    @Test
-    public void test461() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test461");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean2 = stackAr1.isEmpty();
-        boolean boolean3 = stackAr1.isFull();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
-        java.lang.String str8 = stackAr7.toString();
-        boolean boolean9 = stackAr5.equals((java.lang.Object) stackAr7);
-        org.autotest.StackAr stackAr11 = new org.autotest.StackAr((int) '4');
-        stackAr11.push((java.lang.Object) (-1L));
-        java.lang.Object obj14 = stackAr11.pop();
-        stackAr5.push((java.lang.Object) stackAr11);
-        boolean boolean16 = stackAr1.equals((java.lang.Object) stackAr5);
-        java.lang.Object obj17 = stackAr5.pop();
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj18 = stackAr5.pop();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
-        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[]" + "'", str8, "[]");
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
-        org.junit.Assert.assertEquals("'" + obj14 + "' != '" + (-1L) + "'", obj14, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertNotNull(obj17);
-        org.junit.Assert.assertEquals(obj17.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj17), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj17), "[]");
-    }
-
-    @Test
-    public void test462() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test462");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        boolean boolean9 = stackAr1.isFull();
-        java.lang.Object obj10 = stackAr1.pop();
-        // The following exception was thrown during execution in test generation
-        try {
-            java.lang.Object obj11 = stackAr1.top();
-            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: null");
-        } catch (java.lang.IllegalStateException e) {
-        // Expected exception.
-        }
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertNotNull(obj10);
-        org.junit.Assert.assertEquals(obj10.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj10), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj10), "[]");
-    }
-
-    @Test
-    public void test463() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test463");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        java.lang.String str4 = stackAr0.toString();
-        boolean boolean6 = stackAr0.equals((java.lang.Object) 10L);
-        java.lang.String str7 = stackAr0.toString();
-        boolean boolean9 = stackAr0.equals((java.lang.Object) (byte) 0);
-        boolean boolean10 = stackAr0.isFull();
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '#');
-        stackAr0.push((java.lang.Object) stackAr12);
-        java.lang.Object obj14 = stackAr0.top();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "[]" + "'", str7, "[]");
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertNotNull(obj14);
-        org.junit.Assert.assertEquals(obj14.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj14), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj14), "[]");
-    }
-
-    @Test
-    public void test464() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test464");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        int int2 = stackAr1.size();
-        java.lang.String str3 = stackAr1.toString();
-        boolean boolean4 = stackAr1.isFull();
-        boolean boolean5 = stackAr1.isFull();
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        boolean boolean9 = stackAr6.equals((java.lang.Object) (byte) -1);
-        java.lang.String str10 = stackAr6.toString();
-        boolean boolean12 = stackAr6.equals((java.lang.Object) 10L);
-        stackAr1.push((java.lang.Object) boolean12);
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertEquals("'" + str10 + "' != '" + "[]" + "'", str10, "[]");
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-    }
-
-    @Test
-    public void test465() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test465");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        stackAr1.push((java.lang.Object) 0);
-        java.lang.String str5 = stackAr1.toString();
-        java.lang.Object obj6 = stackAr1.top();
-        int int7 = stackAr1.size();
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertEquals("'" + str5 + "' != '" + "[0]" + "'", str5, "[0]");
-        org.junit.Assert.assertEquals("'" + obj6 + "' != '" + 0 + "'", obj6, 0);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 1 + "'", int7 == 1);
-    }
-
-    @Test
-    public void test466() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test466");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean2 = stackAr1.isFull();
-        int int3 = stackAr1.size();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        stackAr4.push((java.lang.Object) 0.0f);
-        int int7 = stackAr4.size();
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean10 = stackAr9.isEmpty();
-        boolean boolean11 = stackAr9.isEmpty();
-        boolean boolean12 = stackAr4.equals((java.lang.Object) stackAr9);
-        org.autotest.StackAr stackAr14 = new org.autotest.StackAr((int) '4');
-        java.lang.String str15 = stackAr14.toString();
-        java.lang.String str16 = stackAr14.toString();
-        org.autotest.StackAr stackAr17 = new org.autotest.StackAr();
-        boolean boolean18 = stackAr17.isFull();
-        boolean boolean20 = stackAr17.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr22 = new org.autotest.StackAr((int) '4');
-        boolean boolean23 = stackAr17.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr25 = new org.autotest.StackAr((int) 'a');
-        boolean boolean27 = stackAr25.equals((java.lang.Object) (-1.0f));
-        boolean boolean29 = stackAr25.equals((java.lang.Object) "");
-        boolean boolean30 = stackAr17.equals((java.lang.Object) "");
-        boolean boolean31 = stackAr17.isFull();
-        boolean boolean32 = stackAr14.equals((java.lang.Object) stackAr17);
-        java.lang.Object obj33 = null;
-        stackAr17.push(obj33);
-        java.lang.Object obj35 = stackAr17.top();
-        java.lang.Object obj36 = stackAr17.pop();
-        org.autotest.StackAr stackAr38 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr40 = new org.autotest.StackAr((int) '4');
-        java.lang.String str41 = stackAr40.toString();
-        boolean boolean42 = stackAr38.equals((java.lang.Object) stackAr40);
-        boolean boolean43 = stackAr38.isEmpty();
-        boolean boolean44 = stackAr17.equals((java.lang.Object) boolean43);
-        boolean boolean45 = stackAr4.equals((java.lang.Object) stackAr17);
-        stackAr1.push((java.lang.Object) stackAr17);
-        java.lang.String str47 = stackAr17.toString();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + 0 + "'", int3 == 0);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 1 + "'", int7 == 1);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
-        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
-        org.junit.Assert.assertEquals("'" + str15 + "' != '" + "[]" + "'", str15, "[]");
-        org.junit.Assert.assertEquals("'" + str16 + "' != '" + "[]" + "'", str16, "[]");
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
-        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + false + "'", boolean27 == false);
-        org.junit.Assert.assertTrue("'" + boolean29 + "' != '" + false + "'", boolean29 == false);
-        org.junit.Assert.assertTrue("'" + boolean30 + "' != '" + false + "'", boolean30 == false);
-        org.junit.Assert.assertTrue("'" + boolean31 + "' != '" + false + "'", boolean31 == false);
-        org.junit.Assert.assertTrue("'" + boolean32 + "' != '" + false + "'", boolean32 == false);
-        org.junit.Assert.assertNull(obj35);
-        org.junit.Assert.assertNull(obj36);
-        org.junit.Assert.assertEquals("'" + str41 + "' != '" + "[]" + "'", str41, "[]");
-        org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + true + "'", boolean42 == true);
-        org.junit.Assert.assertTrue("'" + boolean43 + "' != '" + true + "'", boolean43 == true);
-        org.junit.Assert.assertTrue("'" + boolean44 + "' != '" + false + "'", boolean44 == false);
-        org.junit.Assert.assertTrue("'" + boolean45 + "' != '" + false + "'", boolean45 == false);
-        org.junit.Assert.assertEquals("'" + str47 + "' != '" + "[]" + "'", str47, "[]");
-    }
-
-    @Test
-    public void test467() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test467");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        stackAr0.push((java.lang.Object) 0.0f);
-        java.lang.String str3 = stackAr0.toString();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) 'a');
-        boolean boolean7 = stackAr5.equals((java.lang.Object) (-1.0f));
-        boolean boolean9 = stackAr5.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr();
-        boolean boolean11 = stackAr10.isFull();
-        stackAr5.push((java.lang.Object) stackAr10);
-        boolean boolean13 = stackAr5.isFull();
-        java.lang.Object obj14 = stackAr5.pop();
-        stackAr0.push((java.lang.Object) stackAr5);
-        java.lang.String str16 = stackAr5.toString();
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[0.0]" + "'", str3, "[0.0]");
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
-        org.junit.Assert.assertNotNull(obj14);
-        org.junit.Assert.assertEquals(obj14.toString(), "[]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj14), "[]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj14), "[]");
-        org.junit.Assert.assertEquals("'" + str16 + "' != '" + "[]" + "'", str16, "[]");
-    }
-
-    @Test
-    public void test468() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test468");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        java.lang.String str4 = stackAr0.toString();
-        boolean boolean6 = stackAr0.equals((java.lang.Object) 10L);
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr();
-        boolean boolean8 = stackAr7.isFull();
-        int int9 = stackAr7.size();
-        boolean boolean10 = stackAr7.isEmpty();
-        stackAr0.push((java.lang.Object) stackAr7);
-        int int12 = stackAr0.size();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
-        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 1 + "'", int12 == 1);
-    }
-
-    @Test
-    public void test469() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test469");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) '4');
-        java.lang.String str2 = stackAr1.toString();
-        java.lang.String str3 = stackAr1.toString();
-        org.autotest.StackAr stackAr4 = new org.autotest.StackAr();
-        boolean boolean5 = stackAr4.isFull();
-        boolean boolean7 = stackAr4.equals((java.lang.Object) (byte) -1);
-        org.autotest.StackAr stackAr9 = new org.autotest.StackAr((int) '4');
-        boolean boolean10 = stackAr4.equals((java.lang.Object) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) 'a');
-        boolean boolean14 = stackAr12.equals((java.lang.Object) (-1.0f));
-        boolean boolean16 = stackAr12.equals((java.lang.Object) "");
-        boolean boolean17 = stackAr4.equals((java.lang.Object) "");
-        boolean boolean18 = stackAr4.isFull();
-        boolean boolean19 = stackAr1.equals((java.lang.Object) stackAr4);
-        java.lang.Object obj20 = null;
-        stackAr4.push(obj20);
-        org.autotest.StackAr stackAr23 = new org.autotest.StackAr(0);
-        boolean boolean24 = stackAr4.equals((java.lang.Object) 0);
-        boolean boolean25 = stackAr4.isEmpty();
-        boolean boolean26 = stackAr4.isEmpty();
-        org.junit.Assert.assertEquals("'" + str2 + "' != '" + "[]" + "'", str2, "[]");
-        org.junit.Assert.assertEquals("'" + str3 + "' != '" + "[]" + "'", str3, "[]");
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
-        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
-        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
-        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
-    }
-
-    @Test
-    public void test470() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test470");
-        org.autotest.StackAr stackAr0 = new org.autotest.StackAr();
-        boolean boolean1 = stackAr0.isFull();
-        boolean boolean3 = stackAr0.equals((java.lang.Object) (byte) -1);
-        java.lang.String str4 = stackAr0.toString();
-        boolean boolean6 = stackAr0.equals((java.lang.Object) 10L);
-        java.lang.String str7 = stackAr0.toString();
-        boolean boolean9 = stackAr0.equals((java.lang.Object) (byte) 0);
-        boolean boolean10 = stackAr0.isFull();
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '#');
-        stackAr0.push((java.lang.Object) stackAr12);
-        boolean boolean14 = stackAr0.isFull();
-        boolean boolean15 = stackAr0.isFull();
-        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertEquals("'" + str4 + "' != '" + "[]" + "'", str4, "[]");
-        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
-        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "[]" + "'", str7, "[]");
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
-        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
-    }
-
-    @Test
-    public void test471() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test471");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean2 = stackAr1.isFull();
-        boolean boolean3 = stackAr1.isFull();
-        org.autotest.StackAr stackAr5 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr7 = new org.autotest.StackAr((int) '4');
-        java.lang.String str8 = stackAr7.toString();
-        boolean boolean9 = stackAr5.equals((java.lang.Object) stackAr7);
-        int int10 = stackAr5.size();
-        boolean boolean11 = stackAr5.isFull();
-        org.autotest.StackAr stackAr13 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean14 = stackAr13.isEmpty();
-        boolean boolean15 = stackAr13.isEmpty();
-        stackAr5.push((java.lang.Object) stackAr13);
-        boolean boolean17 = stackAr1.equals((java.lang.Object) stackAr13);
-        boolean boolean18 = stackAr13.isEmpty();
-        boolean boolean19 = stackAr13.isEmpty();
-        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + true + "'", boolean2 == true);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
-        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "[]" + "'", str8, "[]");
-        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
-        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
-        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
-        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
-        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
-    }
-
-    @Test
-    public void test472() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test472");
-        org.autotest.StackAr stackAr1 = new org.autotest.StackAr((int) 'a');
-        boolean boolean3 = stackAr1.equals((java.lang.Object) (-1.0f));
-        boolean boolean5 = stackAr1.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr6 = new org.autotest.StackAr();
-        boolean boolean7 = stackAr6.isFull();
-        stackAr1.push((java.lang.Object) stackAr6);
-        org.autotest.StackAr stackAr10 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr12 = new org.autotest.StackAr((int) '4');
-        java.lang.String str13 = stackAr12.toString();
-        boolean boolean14 = stackAr10.equals((java.lang.Object) stackAr12);
-        org.autotest.StackAr stackAr15 = new org.autotest.StackAr();
-        boolean boolean16 = stackAr15.isFull();
-        boolean boolean18 = stackAr15.equals((java.lang.Object) (byte) -1);
-        java.lang.String str19 = stackAr15.toString();
-        boolean boolean21 = stackAr15.equals((java.lang.Object) 10L);
-        java.lang.String str22 = stackAr15.toString();
-        stackAr12.push((java.lang.Object) stackAr15);
-        stackAr1.push((java.lang.Object) stackAr15);
-        org.autotest.StackAr stackAr26 = new org.autotest.StackAr((int) (short) 0);
-        boolean boolean27 = stackAr26.isEmpty();
-        boolean boolean28 = stackAr26.isFull();
-        org.autotest.StackAr stackAr30 = new org.autotest.StackAr((int) '4');
-        org.autotest.StackAr stackAr32 = new org.autotest.StackAr((int) '4');
-        java.lang.String str33 = stackAr32.toString();
-        boolean boolean34 = stackAr30.equals((java.lang.Object) stackAr32);
-        org.autotest.StackAr stackAr36 = new org.autotest.StackAr((int) '4');
-        stackAr36.push((java.lang.Object) (-1L));
-        java.lang.Object obj39 = stackAr36.pop();
-        stackAr30.push((java.lang.Object) stackAr36);
-        boolean boolean41 = stackAr26.equals((java.lang.Object) stackAr30);
-        stackAr15.push((java.lang.Object) stackAr30);
-        org.autotest.StackAr stackAr44 = new org.autotest.StackAr((int) 'a');
-        boolean boolean46 = stackAr44.equals((java.lang.Object) (-1.0f));
-        boolean boolean48 = stackAr44.equals((java.lang.Object) "");
-        org.autotest.StackAr stackAr49 = new org.autotest.StackAr();
-        boolean boolean50 = stackAr49.isFull();
-        stackAr44.push((java.lang.Object) stackAr49);
-        java.lang.Class<?> wildcardClass52 = stackAr44.getClass();
-        stackAr15.push((java.lang.Object) wildcardClass52);
-        java.lang.Object obj54 = stackAr15.pop();
-        java.lang.Object obj55 = stackAr15.pop();
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
-        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
-        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
-        org.junit.Assert.assertEquals("'" + str13 + "' != '" + "[]" + "'", str13, "[]");
-        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
-        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
-        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
-        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "[]" + "'", str19, "[]");
-        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
-        org.junit.Assert.assertEquals("'" + str22 + "' != '" + "[]" + "'", str22, "[]");
-        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
-        org.junit.Assert.assertTrue("'" + boolean28 + "' != '" + true + "'", boolean28 == true);
-        org.junit.Assert.assertEquals("'" + str33 + "' != '" + "[]" + "'", str33, "[]");
-        org.junit.Assert.assertTrue("'" + boolean34 + "' != '" + true + "'", boolean34 == true);
-        org.junit.Assert.assertEquals("'" + obj39 + "' != '" + (-1L) + "'", obj39, (-1L));
-        org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
-        org.junit.Assert.assertTrue("'" + boolean46 + "' != '" + false + "'", boolean46 == false);
-        org.junit.Assert.assertTrue("'" + boolean48 + "' != '" + false + "'", boolean48 == false);
-        org.junit.Assert.assertTrue("'" + boolean50 + "' != '" + false + "'", boolean50 == false);
-        org.junit.Assert.assertNotNull(wildcardClass52);
-        org.junit.Assert.assertNotNull(obj54);
-        org.junit.Assert.assertEquals(obj54.toString(), "class org.autotest.StackAr");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj54), "class org.autotest.StackAr");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj54), "class org.autotest.StackAr");
-        org.junit.Assert.assertNotNull(obj55);
-        org.junit.Assert.assertEquals(obj55.toString(), "[[]]");
-        org.junit.Assert.assertEquals(java.lang.String.valueOf(obj55), "[[]]");
-        org.junit.Assert.assertEquals(java.util.Objects.toString(obj55), "[[]]");
     }
 }
 
