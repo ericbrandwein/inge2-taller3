@@ -19,7 +19,7 @@ java -ea -classpath $TEST_GENERATION_CLASSPATH randoop.main.Main gentests \
 
 ### Respuestas:
 
-# Randoop produjo 472 test cases, de los cuales ninguno falló.
+# Randoop produjo 378 test cases, de los cuales ninguno falló.
 
 ### Output de Randoop:
 
