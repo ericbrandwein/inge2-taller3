@@ -69,7 +69,6 @@
    		<version>3.0.0-M4</version>
    		<configuration>
       			<argLine>${surefireArgLine}</argLine>
-				<forkCount>0</forkCount>
 				<includes>
 				<include>**/Test*.java</include>
 				<include>**/*Test.java</include>
@@ -85,7 +84,7 @@
 	<plugin>
    		<groupId>org.jacoco</groupId>
    		<artifactId>jacoco-maven-plugin</artifactId>
-   		<version>0.7.7.201606060606</version>
+   		<version>0.8.5</version>
    		<executions>
       			<execution>
          			<id>pre-unit-test</id>
@@ -114,6 +113,9 @@
          			<goals>
             				<goal>report</goal>
          			</goals>
+					<configuration>
+						<dataFile>${project.build.directory}/coverage-reports/jacoco.exec</dataFile>
+					</configuration>
       			</execution>
    		</executions>
 	</plugin>
