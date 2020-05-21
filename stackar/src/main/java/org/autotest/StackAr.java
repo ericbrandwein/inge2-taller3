@@ -47,6 +47,7 @@ public class StackAr {
 			throw new IllegalStateException();
 		}
 		Object rv = this.top();
+		elems[readIndex] = null;
 		readIndex--;
 		return rv;
 	}
@@ -54,7 +55,8 @@ public class StackAr {
 	@CheckRep
 	public boolean repOK() {
 		return elems != null &&
-			readIndex >= -1 && readIndex < elems.length &&
+			readIndex >= -1 &&
+			readIndex < elems.length &&
 			allElementsAboveReadIndexAreNull();
 	}
 
