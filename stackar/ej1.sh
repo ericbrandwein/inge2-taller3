@@ -11,7 +11,7 @@ javac -classpath lib/randoop-all-4.2.3.jar -d $BUILD_DIR $SRC_DIR/${STACKAR_DIR}
 
 java -ea -classpath $TEST_GENERATION_CLASSPATH randoop.main.Main gentests \
     --testclass=org.autotest.StackAr --time-limit=15 --testsperfile=500 \
-    --junit-output-dir=src
+    --junit-output-dir=src/test/java
 
 ### Preguntas:
 
