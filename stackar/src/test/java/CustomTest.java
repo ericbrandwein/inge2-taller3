@@ -26,4 +26,10 @@ public class CustomTest {
         assertEquals(1921, stack.hashCode());
     }
 
+    @Test
+    public void testStackIsEqualToItself() {
+        StackAr stack = new StackAr(1);
+
+        assertEquals(stack, stack);
+    }
 }
