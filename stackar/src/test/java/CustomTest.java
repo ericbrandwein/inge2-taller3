@@ -14,4 +14,16 @@ public class CustomTest {
         assertEquals(element, stack.pop());
     }
 
+    /**
+     * Este es un mal test, no hay que fijarse que hashCode() devuelva
+     * un número en particular, sino sólo que devuelva el mismo número para
+     * objetos iguales.
+     */
+    @Test
+    public void testToKillHashCodeMutants() {
+        StackAr stack = new StackAr(1);
+
+        assertEquals(1921, stack.hashCode());
+    }
+
 }
