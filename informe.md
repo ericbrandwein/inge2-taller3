@@ -8,12 +8,17 @@ JaCoCo reportó 46 líneas cubiertas de 53, y 25 de 26 branches cubiertos. Princ
 debe cumplir que no produce un error y que dos objetos iguales deben tener el mismo `hashCode()`. Como Randoop solo hace checkeos de igualdad, permitirle utilizar `hashCode()` haría que se produjeran tests que corroboren que el resultado de `hashCode()` es un número en particular, llegando a una sobreespecificación.
 
 ## Ejercicio 3
-Se generaron 144 tests que fallan.
+
+Para implementar el `repOk` simplemente transcribí las condiciones uniéndolas con `&&`. La última condición fue la más complicada, la cual meritó un método aparte `allElementsAboveReadIndexAreNull()` que recorre todos los elementos de índice mayor que `readIndex` tratando de encontrar uno que no sea `null`.
+
+Correr Randoop por un minuto sobre la nueva clase `StackAr` generó 144 tests que fallan. Todos
+hacen que `repOk` devuelva `false`.
 
 ## Ejercicio 4
 
-Los tests del ejercicio 3 se arreglaron haciendo que `pop()`
-ponga un `null` en la posición del elemento que acaba de sacar.
+La causa de los test con fallos terminó siendo que cuando se eliminaba un elemento del stack,
+el mismo no era suplantado por un `null`, rompiendo la condición de que todos los elementos de índice mayor a `readIndex` debían ser `null`.
+Hacer que `pop()` ponga un `null` en la posición del elemento que acaba de sacar arregló los 144 tests. Corrí Randoop por un minuto de nuevo, y no encontró ningún test que falle.
 
 
 ## Ejercicio 5
