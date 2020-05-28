@@ -1,7 +1,7 @@
 # Informe Taller 3
 
 ## Ejercicio 1
-Randoop produjo 378 test cases, de los cuales ninguno falló.
+Randoop produjo 378 test cases, de los cuales ninguno falló. El código parece cumplir el contrato de equals y hashCode, y como todavía no implementamos ningún otro contrato, Randoop no encuentra ningún error.
 
 ## Ejercicio 2
 JaCoCo reportó 46 líneas cubiertas de 53, y 25 de 26 branches cubiertos.
