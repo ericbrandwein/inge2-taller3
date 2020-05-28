@@ -1,4 +1,4 @@
-entregable.zip: informe.pdf stackar/src/main/ stackar/src/test-ej-1/ stackar/src/test-ej-3/ stackar/src/test-ej-4/
+entregable.zip: informe.pdf stackar/src/main/ stackar/src/test-ej-1/ stackar/src/test-ej-3/ stackar/src/test-ej-4/ stackar/src/test-ej-5/
 	zip --recurse-paths entregable.zip $^
 
 informe.pdf: informe.md
