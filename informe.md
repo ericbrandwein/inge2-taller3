@@ -22,11 +22,21 @@ Hacer que `pop()` ponga un `null` en la posición del elemento que acaba de saca
 
 
 ## Ejercicio 5
-1. PiTest construyó 52 mutantes, y su mutation score fue de 39/52 (75%).
-2. El mejor mutation score que pude obtener fue de 46/52 (88%). Los mutantes
-que modificaban repOk no se pueden matar por el hecho de que no se puede armar
-una instancia de la clase que haga que repOk devuelva false, o sea que cualquier
-mutante que relaje la condición del repOk no podrá ser matado. Además, PiTest encontró
+### 1.
+
+PiTest construyó 52 mutantes, y su mutation score fue de 39/52 (75%). Aparecieron algunos mutantes sobrevivientes:
+
+- En el método `pop()` sobrevivió uno que cambió el valor de retorno por `null`.
+- En el método `hashCode()` sobrevivieron 5 que cambiaban las operaciones matemáticas.
+- En `equals()` sobrevivieron dos que cambiaban los valores devueltos en algunas líneas. Parece que Randoop no generó suficientes tests como para cubrirlos.
+- En `repOk()` y `allElementsAboveReadIndexAreNull()` hubieron 5 que no fueron matados, que cambian los valores de retorno y algunas operaciones, entre otras cosas.
+
+### 2.
+El mejor mutation score que pude obtener fue de 46/52 (88%), matando con 4 tests el mutante de `pop()`, los mutantes de `equals()`, y casi todos los mutantes de `hashCode()`.
+
+Los mutantes que modifican `repOk()` no se pueden matar por el hecho de que no se puede armar
+una instancia de la clase que haga que `repOk()` devuelva false, o sea que cualquier
+mutante que relaje la condición del `repOk()` no podrá ser matado. Además, PiTest encontró
 un mutante equivalente, que modificaba una multiplicación por una división
-en hashCode(). Era una multiplicación por 1, cuyo resultado será siempre igual a la
-división por 1.
+en `hashCode()`. Era una multiplicación por 1, cuyo resultado será siempre igual a la
+división por 1, y por lo tanto no se puede matar con ningún test.
