@@ -1,7 +1,7 @@
 # Informe Taller 3
 
 ## Ejercicio 1
-Randoop produjo 378 test cases, de los cuales ninguno falló. El código parece cumplir el contrato de equals y hashCode, y como todavía no implementamos ningún otro contrato, Randoop no encuentra ningún error.
+Randoop produjo 378 test cases, de los cuales ninguno falló. El código parece cumplir el contrato de `equals()` y `hashCode()`, y como todavía no implementamos ningún otro contrato, Randoop no encuentra ningún error.
 
 ## Ejercicio 2
 JaCoCo reportó 46 líneas cubiertas de 53, y 25 de 26 branches cubiertos. Principalmente las líneas no cubiertas ocurren en el método `hashCode()`. La única explicación que puedo encontrar por la que Randoop no está generando tests de ese método es que el contrato de Java de `hashCode()` no lo obliga a devolver un número en particular para una representación, sino que solamente
